@@ -165,8 +165,11 @@ if ($isAdmin) {
 // overflow-y-auto: permite el scroll vertical solo en esta sección, manteniendo el header y sidebar fijos
 // Si es admin: flex-grow-1 hace que ocupe todo el espacio restante después del sidebar, p-4 añade padding
 // Si no es admin: w-100 hace que ocupe el 100% del ancho disponible
-echo '<main class="' . ($isAdmin ? 'flex-grow-1 p-4' : 'w-100') . '" style="overflow-y: auto;">';
-
+if ($isAdmin) {
+    echo '<main class="flex-grow-1 p-4 overflow-auto">';
+} else {
+    echo '<main class="w-100">';
+}
 // Validación de seguridad: verifica que el módulo solicitado esté en la lista de módulos permitidos
 if (in_array($module, $modulosPermitidos)) {
 
