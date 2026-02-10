@@ -133,8 +133,11 @@ require_once  $headerPath;
 // Le damos una altura fija al contenedor para que el scroll funcione adentro
 // Este div principal establece la altura disponible (100% del viewport menos 80px del header)
 // y oculta cualquier overflow para controlar exactamente dónde aparece el scroll
-echo '<div class="' . ($isAdmin ? 'd-flex' : '') . '" style="height: calc(100vh - 80px); overflow: hidden;">';
-
+if ($isAdmin) {
+    echo '<div class="d-flex" style="height: calc(100vh - 80px); overflow: hidden;">';
+} else {
+    echo '<div>'; // frontend libre, sin altura fija
+}
 // SIDEBAR (Solo Admin)
 // Este bloque renderiza la barra lateral solo si el usuario es administrador
 if ($isAdmin) {
@@ -157,8 +160,11 @@ if ($isAdmin) {
 // overflow-y-auto: permite el scroll vertical solo en esta sección, manteniendo el header y sidebar fijos
 // Si es admin: flex-grow-1 hace que ocupe todo el espacio restante después del sidebar, p-4 añade padding
 // Si no es admin: w-100 hace que ocupe el 100% del ancho disponible
-echo '<main class="' . ($isAdmin ? 'flex-grow-1 p-4' : 'w-100') . '" style="overflow-y: auto;">';
-
+if ($isAdmin) {
+    echo '<main class="flex-grow-1 p-4 overflow-auto">';
+} else {
+    echo '<main class="w-100">';
+}
 // Validación de seguridad: verifica que el módulo solicitado esté en la lista de módulos permitidos
 if (in_array($module, $modulosPermitidos)) {
     // Construye la ruta del archivo de vista dinámicamente basado en el módulo y la vista solicitados
