@@ -48,7 +48,10 @@
                         <a class="nav-link" href="<?= BASE_URL ?>">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Galería</a>
+                        <a class="nav-link" href="#">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php?module=album&view=galeria">Galería</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contáctanos</a>
@@ -66,23 +69,27 @@
 
         <i class="bi bi-person-circle fs-4"></i>
 
-        <?php if (isset($_SESSION['user'])): ?>
-    <span class="ms-1"><?= htmlspecialchars($_SESSION['user']['nombre']) ?></span>
-<?php else: ?>
-    <span class="ms-1">Mi Cuenta</span>
-<?php endif; ?>
+
+        
+
+        <?php if (isset($_SESSION['user_id'])): ?>
+            <span class="ms-1"><?= htmlspecialchars($_SESSION['nombre']) ?></span>
+        <?php else: ?>
+            <span class="ms-1">Mi Cuenta</span>
+        <?php endif; ?>
 
     </a>
 
     <ul class="dropdown-menu dropdown-menu-end">
 
-        <?php if (!isset($_SESSION['user'])): ?>
+        <?php if (!isset($_SESSION['user_id'])): ?>
             <li>
                 <a class="dropdown-item" href="<?= BASE_URL ?>module=usuarios&view=login">
                     Iniciar sesión
                 </a>
             </li>
         <?php else: ?>
+            
             <li>
                 <a class="dropdown-item" href="<?= BASE_URL ?>module=usuarios&view=perfil">
                     ver mi perfil

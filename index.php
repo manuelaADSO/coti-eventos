@@ -27,7 +27,9 @@ $client->setRedirectUri($_ENV['GOOGLE_REDIRECT_URL']);
 $client->addScope("email");
 $client->addScope("profile");
 
-
+// Forzar a Google a mostrar el selector de cuentas
+// incluso si el usuario ya tiene una sesión activa
+$client->setPrompt('select_account consent');
 
 // Generamos la URL para el botón
 $url_google = $client->createAuthUrl();
@@ -79,7 +81,8 @@ $modulosPermitidos = [
     'bautizos',
     'baby_shawers',
     'graduaciones',
-    'sonido'
+    'sonido',
+    'album'
 ];
 
 // Acciones permitidas por módulo
@@ -100,7 +103,8 @@ $accionesPermitidas = [
     'bautizos' => ['asignar'],
     'baby_shawers' => ['asignar'],
     'graduaciones' => ['asignar'],
-    'sonido' => ['asignar']
+    'sonido' => ['asignar'],
+    'album' => ['asignar'],
 ];
 
 //cargamos las acciones aca para evitar que cuando vaya a una accion lleve el html del header
