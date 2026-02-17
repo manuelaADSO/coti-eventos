@@ -85,7 +85,8 @@ $modulosPermitidos = [
     'baby_showers',
     'graduaciones',
     'sonido',
-    'album'
+    'album',
+    'carrito'
 ];
 
 // Acciones permitidas por módulo
@@ -108,6 +109,7 @@ $accionesPermitidas = [
     'graduaciones' => ['asignar'],
     'sonido' => ['asignar'],
     'album' => ['asignar'],
+    'carrito' => ['crear', 'editar', 'eliminar', 'aprobar', 'rechazar', 'completar'],
 ];
 
 //cargamos las acciones aca para evitar que cuando vaya a una accion lleve el html del header

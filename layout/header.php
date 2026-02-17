@@ -69,9 +69,6 @@
 
         <i class="bi bi-person-circle fs-4"></i>
 
-
-        
-
         <?php if (isset($_SESSION['user_id'])): ?>
             <span class="ms-1"><?= htmlspecialchars($_SESSION['nombre']) ?></span>
         <?php else: ?>
@@ -108,7 +105,7 @@
     </ul>
 </div>
                     <!-- Carrito -->
-                    <a href="#" class="text-white text-decoration-none me-3 d-flex align-items-center">
+                    <a href="index.php?module=carrito&view=cotizar" class="text-white text-decoration-none me-3 d-flex align-items-center">
                         <i class="bi bi-cart fs-4"></i>
                         <span class="ms-1">0</span>
                     </a>
