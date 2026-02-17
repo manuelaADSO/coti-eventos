@@ -4,21 +4,13 @@
 
  <body class="bg-white">
 
-     <div class="container py-5">
+     <div class="container py-3">
          <div class="row g-4">
 
              <!-- GALERÍA -->
              <div class="col-lg-6">
                  <div class="card border-0">
-                     <img src="https://i.pinimg.com/736x/f1/35/46/f1354605db75c9ccdb680877f5cc857a.jpg" class="img-fluid rounded-4 mb-3" alt="Vestido principal">
-
-                     <div class="row g-4">
-                         <div class="col-6"> <img src="https://i.pinimg.com/736x/93/0e/e0/930ee0918fa9134ea3dc516546a392f5.jpg" class="img-fluid rounded-3" alt="Vestido miniatura">
-                         </div>
-                         <div class="col-6">
-                             <img src="https://i.pinimg.com/1200x/1e/48/b2/1e48b26f4ef42732ebd7b6c2a4b35263.jpg" class="img-fluid rounded-3 " alt="Vestido miniatura">
-                         </div>
-                     </div>
+                     <img id="imagen-principal" src=" https://i.pinimg.com/736x/f1/35/46/f1354605db75c9ccdb680877f5cc857a.jpg" class="img-fluid rounded-4 mb-3" alt="Vestido principal">
                  </div>
              </div>
 
@@ -28,28 +20,63 @@
                      Bodas
                  </span>
 
-                 <h1 class="display-1 display-md-3 fw-normal lh-1 mt-5">Vestido Princesa</h1>
+                 <h1 class="display-4 display-md-3 fw-normal lh-1 mt-2">Vestido Princesa</h1>
 
-                 <p class="text-muted mt-5 fs-1">
-El corte princesa crea un aire majestuoso gracias a su falda amplia y estructurada, resaltando la cintura con delicadeza.
-Perfecto para novias que sueñan con un look de cuento de hadas, lleno de romanticismo y sofisticación. Ideal para ceremonias clásicas y escenarios imponentes.
+                 <p class="text-muted mt-2 fs-3">
+                     El corte princesa crea un aire majestuoso gracias a su falda amplia y estructurada, resaltando la cintura con delicadeza.
+                     Perfecto para novias que sueñan con un look de cuento de hadas, lleno de romanticismo y sofisticación. Ideal para ceremonias clásicas y escenarios imponentes.
                  </p>
 
-                 <h2 class="display-3 fw-bold my-4 mt-4">$500.000</h2>
+                 <h2 class="fw-bold fs-2 my-3">$500.000</h2>
 
                  <!-- TALLAS -->
-                 <div class="d-flex gap-2 mt-5">
-                     <button class="btn btn-outline-secondary rounded-circle fs-2 px-4">S</button>
-                     <button class="btn btn-outline-secondary rounded-circle fs-2 px-4">M</button>
-                     <button class="btn btn-outline-secondary rounded-circle fs-2 px-4">L</button>
-                     <button class="btn btn-outline-secondary rounded-circle fs-2 px-4">XL</button>
+                 <div class="d-flex gap-2 mt-4">
+                     <button class="btn btn-outline-secondary rounded-circle px-3 py-2">S</button>
+                     <button class="btn btn-outline-secondary rounded-circle px-3 py-2">M</button>
+                     <button class="btn btn-outline-secondary rounded-circle px-3 py-2">L</button>
+                     <button class="btn btn-outline-secondary rounded-circle px-3 py-2">XL</button>
                  </div>
-                            <a href="#" class="btn btn-dark w-100 py-4 fs-2 rounded-pill mt-5">
-    Añadir al carrito
-</a>
+                 <div class="d-flex justify-content-start">
+                     <a href="index.php?module=bodas&view=principal" class="btn btn-dark px-5 py-3 rounded-pill mt-4">
+                         Añadir al carrito
+                     </a>
+                 </div>
              </div>
-
          </div>
      </div>
+     <div id="carouselDisenos" class="carousel slide" data-bs-ride="carousel">
+         <div class="carousel-inner pb-3">
 
+             <div class="carousel-item active">
+                 <div class="d-flex justify-content-center gap-3">
+                     <img src="https://i.pinimg.com/736x/93/0e/e0/930ee0918fa9134ea3dc516546a392f5.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                         onclick="cambiarImagen(this)">
+                     <img src="https://i.pinimg.com/1200x/1e/48/b2/1e48b26f4ef42732ebd7b6c2a4b35263.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                         onclick="cambiarImagen(this)">
+                     <img src="assets/img/galeria/baby-showers/galeria_baby1.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                         onclick="cambiarImagen(this)">
+                     <img src="assets/img/galeria/cumpleaños/galeria_cumple1.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                         onclick="cambiarImagen(this)">
+                 </div>
+             </div>
+
+             <div class="carousel-item">
+                 <div class="d-flex justify-content-center gap-3">
+                     <img src="assets/img/galeria/bodas/galeria_boda2.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                         onclick="cambiarImagen(this)">
+                     <img src="assets/img/galeria/bautizos/galeria_bautizos1.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                         onclick="cambiarImagen(this)">
+                     <img src="assets/img/galeria/bautizos/galeria_bautizos2.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                         onclick="cambiarImagen(this)">
+                     <img src="assets/img/galeria/cumpleaños/galeria_cumple2.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                         onclick="cambiarImagen(this)">
+                 </div>
+             </div>
+         </div>
+     </div>
+     <script>
+         function cambiarImagen(imagenPequena) {
+            document.getElementById("imagen-principal").src = imagenPequena.src;
+         }
+     </script>
  </body>

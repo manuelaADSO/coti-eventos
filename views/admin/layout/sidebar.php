@@ -5,7 +5,7 @@
 
     <!-- SIDEBAR -->
     <aside class="d-flex flex-column p-3 border-end bg-light"
-           style="width: 260px; min-height: 100vh;">
+        style="width: 260px; min-height: 100vh;">
 
         <h5 class="text-center mb-4">CotiEventos Admin</h5>
 
@@ -14,13 +14,13 @@
             <!-- DASHBOARD -->
             <li class="nav-item">
                 <a href="<?= BASE_URL ?>module=dashboard&view=ver" class="nav-link text-dark">🏠 Dashboard</a>
-</li>
-            
+            </li>
+
 
             <!-- USUARIOS -->
             <li class="nav-item">
                 <a class="nav-link text-dark d-flex justify-content-between"
-                   data-bs-toggle="collapse" data-bs-target="#menuUsuarios" href="#">
+                    data-bs-toggle="collapse" data-bs-target="#menuUsuarios" href="#">
                     <span>👥 Usuarios</span><span>▾</span>
                 </a>
                 <div class="collapse" id="menuUsuarios">
@@ -36,7 +36,7 @@
             <!-- EVENTOS -->
             <li class="nav-item">
                 <a class="nav-link text-dark d-flex justify-content-between"
-                   data-bs-toggle="collapse" data-bs-target="#menuEventos" href="#">
+                    data-bs-toggle="collapse" data-bs-target="#menuEventos" href="#">
                     <span>📅 Eventos</span><span>▾</span>
                 </a>
                 <div class="collapse" id="menuEventos">
@@ -50,7 +50,7 @@
             <!-- COTIZACIONES -->
             <li class="nav-item">
                 <a class="nav-link text-dark d-flex justify-content-between"
-                   data-bs-toggle="collapse" data-bs-target="#menuCotizaciones" href="#">
+                    data-bs-toggle="collapse" data-bs-target="#menuCotizaciones" href="#">
                     <span>🧾 Cotizaciones</span><span>▾</span>
                 </a>
                 <div class="collapse" id="menuCotizaciones">
@@ -66,7 +66,7 @@
             <!-- LUGARES -->
             <li class="nav-item">
                 <a class="nav-link text-dark d-flex justify-content-between"
-                   data-bs-toggle="collapse" data-bs-target="#menuLugares" href="#">
+                    data-bs-toggle="collapse" data-bs-target="#menuLugares" href="#">
                     <span>🏛️ Lugares</span><span>▾</span>
                 </a>
                 <div class="collapse" id="menuLugares">
@@ -81,7 +81,7 @@
             <!-- VESTUARIOS -->
             <li class="nav-item">
                 <a class="nav-link text-dark d-flex justify-content-between"
-                   data-bs-toggle="collapse" data-bs-target="#menuVestuarios" href="#">
+                    data-bs-toggle="collapse" data-bs-target="#menuVestuarios" href="#">
                     <span>👗 Vestuarios</span><span>▾</span>
                 </a>
                 <div class="collapse" id="menuVestuarios">
@@ -97,8 +97,8 @@
             <!-- PLATILLOS -->
             <li class="nav-item">
                 <a class="nav-link text-dark d-flex justify-content-between"
-                   data-bs-toggle="collapse" data-bs-target="#menuplatillos" href="#">
-                    <span>🍽️  platillos</span><span>▾</span>
+                    data-bs-toggle="collapse" data-bs-target="#menuplatillos" href="#">
+                    <span>🍽️ platillos</span><span>▾</span>
                 </a>
                 <div class="collapse" id="menuplatillos">
                     <ul class="nav flex-column ms-3">
@@ -112,7 +112,7 @@
             <!-- CÓCTELES -->
             <li class="nav-item">
                 <a class="nav-link text-dark d-flex justify-content-between"
-                   data-bs-toggle="collapse" data-bs-target="#menucocteles" href="#">
+                    data-bs-toggle="collapse" data-bs-target="#menucocteles" href="#">
                     <span>🍹cocteles</span><span>▾</span>
                 </a>
                 <div class="collapse" id="menucocteles">
@@ -126,7 +126,7 @@
             <!-- SONIDO -->
             <li class="nav-item">
                 <a class="nav-link text-dark d-flex justify-content-between"
-                   data-bs-toggle="collapse" data-bs-target="#menusonido" href="#">
+                    data-bs-toggle="collapse" data-bs-target="#menusonido" href="#">
                     <span>🔊 sonido</span><span>▾</span>
                 </a>
                 <div class="collapse" id="menusonido">
@@ -164,4 +164,3 @@
 
 <!-- BOOTSTRAP JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-

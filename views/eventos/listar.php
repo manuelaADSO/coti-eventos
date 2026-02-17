@@ -89,6 +89,7 @@ Matrimonios </a>
 </div>
 </div>
 
+
 <div class="col-lg-4 col-md-6">
 <div class="card border-0 shadow-sm rounded-0">
 <img src="https://i.pinimg.com/originals/70/38/22/703822bb947dfc5a966d0bf5b41d3028.jpg"
@@ -101,5 +102,9 @@ XV Años </a>
 </div>
 </div>
 </main>
+
+        <!-- </div>
+    </div> -->
+
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

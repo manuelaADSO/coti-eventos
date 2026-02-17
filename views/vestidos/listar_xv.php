@@ -50,13 +50,22 @@
     <!-- Vestidos femeninos -->
     <div class="col-12 col-md-6 producto" data-genero="femenino">
         <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
-            <a href="<?= BASE_URL ?>module=vestidos&view=detalle_imperio" class="text-decoration-none text-dark d-flex flex-column h-100">
                 <div class="ratio ratio-4x3">
                     <img src="https://i.pinimg.com/1200x/4d/1e/15/4d1e15e34e81cc3f0683246eb40c2ee7.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
                 </div>
                 <div class="card-body">
-                    <h6 class="fw-semibold mb-1">Vestido Imperio</h6>
-                    <p class="fw-bold mb-0">$500.000</p>
+                    <h4 class="fw-semibold mb-1">Vestido Imperio</h4>
+                    <p class="fw-bold mb-0"><h4>$500.000</h4></p>
+                    <!-- Flecha -->
+                            <div class="text-center mt-2">
+                                <a href="<?= BASE_URL ?>module=vestidos&view=detalle_imperio" class="text-decoration-none text-dark d-flex flex-column h-100">
+                                    <button class="btn btn-sm btn-outline-secondary"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#infoSirena">
+                                        Ver más
+                                    </button>
+                                </a>
+                            </div>
                 </div>
             </a>
         </div>
@@ -64,13 +73,22 @@
 
     <div class="col-12 col-md-6 producto" data-genero="femenino">
         <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
-            <a href="<?= BASE_URL ?>module=vestidos&view=detalle_asimetrico" class="text-decoration-none text-dark d-flex flex-column h-100">
                 <div class="ratio ratio-4x3">
                     <img src="https://i.pinimg.com/1200x/82/2f/fc/822ffce9c53161cfbcf6d591f171cee4.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
                 </div>
                 <div class="card-body">
-                    <h6 class="fw-semibold mb-1">Vestido Asimétrico</h6>
-                    <p class="fw-bold mb-0">$500.000</p>
+                    <h4 class="fw-semibold mb-1">Vestido Asimétrico</h4>
+                    <p class="fw-bold mb-0"><h4>$500.000</h4></p>
+                    <!-- Flecha -->
+                            <div class="text-center mt-2">
+                                <a href="<?= BASE_URL ?>module=vestidos&view=detalle_asimetrico" class="text-decoration-none text-dark d-flex flex-column h-100">
+                                    <button class="btn btn-sm btn-outline-secondary"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#infoSirena">
+                                        Ver más
+                                    </button>
+                                </a>
+                            </div>
                 </div>
             </a>
         </div>
@@ -78,13 +96,22 @@
 
     <div class="col-12 col-md-6 producto" data-genero="femenino">
         <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
-            <a href="<?= BASE_URL ?>module=vestidos&view=detalle_encaje" class="text-decoration-none text-dark d-flex flex-column h-100">
                 <div class="ratio ratio-4x3">
                     <img src="https://i.pinimg.com/1200x/c3/c2/75/c3c275600f8c0dd335f98268b83a37f8.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
                 </div>
                 <div class="card-body">
-                    <h6 class="fw-semibold mb-1">Vestido con Encaje</h6>
-                    <p class="fw-bold mb-0">$500.000</p>
+                    <h4 class="fw-semibold mb-1">Vestido con Encaje</h4>
+                    <p class="fw-bold mb-0"><h4>$500.000</h4></p>
+                    <!-- Flecha -->
+                            <div class="text-center mt-2">
+                                <a href="<?= BASE_URL ?>module=vestidos&view=detalle_encaje" class="text-decoration-none text-dark d-flex flex-column h-100">
+                                    <button class="btn btn-sm btn-outline-secondary"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#infoSirena">
+                                        Ver más
+                                    </button>
+                                </a>
+                            </div>
                 </div>
             </a>
         </div>
@@ -92,13 +119,22 @@
 
     <div class="col-12 col-md-6 producto" data-genero="femenino">
         <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
-            <a href="<?= BASE_URL ?>module=vestidos&view=detalle_brillo" class="text-decoration-none text-dark d-flex flex-column h-100">
                 <div class="ratio ratio-4x3">
                     <img src="https://i.pinimg.com/1200x/df/7a/dc/df7adc20c1d4e28be5813d827e7916bc.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
                 </div>
                 <div class="card-body">
-                    <h6 class="fw-semibold mb-1">Vestido con Brillos o Lentejuelas</h6>
-                    <p class="fw-bold mb-0">$500.000</p>
+                    <h4 class="fw-semibold mb-1">Vestido con Brillos o Lentejuelas</h4>
+                    <p class="fw-bold mb-0"><h4>$500.000</h4></p>
+                    <!-- Flecha -->
+                            <div class="text-center mt-2">
+                                <a href="<?= BASE_URL ?>module=vestidos&view=detalle_brillo" class="text-decoration-none text-dark d-flex flex-column h-100">
+                                    <button class="btn btn-sm btn-outline-secondary"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#infoSirena">
+                                        Ver más
+                                    </button>
+                                </a>
+                            </div>
                 </div>
             </a>
         </div>
@@ -107,13 +143,22 @@
     <!-- Trajes masculinos -->
     <div class="col-12 col-md-6 producto d-none" data-genero="masculino">
         <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
-            <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_clasico" class="text-decoration-none text-dark d-flex flex-column h-100">
                 <div class="ratio ratio-4x3">
                     <img src="https://i.pinimg.com/736x/ef/b2/5e/efb25e0e8909c5004163439ea4144dc9.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
                 </div>
                 <div class="card-body">
-                    <h6 class="fw-semibold mb-1">Traje clásico</h6>
-                    <p class="fw-bold mb-0">$650.000</p>
+                    <h4 class="fw-semibold mb-1">Traje clásico</h4>
+                    <p class="fw-bold mb-0"><h4>$650.000</h4></p>
+                    <!-- Flecha -->
+                            <div class="text-center mt-2">
+                                <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_clasico" class="text-decoration-none text-dark d-flex flex-column h-100">
+                                    <button class="btn btn-sm btn-outline-secondary"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#infoSirena">
+                                        Ver más
+                                    </button>
+                                </a>
+                            </div>
                 </div>
             </a>
         </div>
@@ -121,13 +166,22 @@
 
     <div class="col-12 col-md-6 producto d-none" data-genero="masculino">
         <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
-            <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_slim_fit" class="text-decoration-none text-dark d-flex flex-column h-100">
                 <div class="ratio ratio-4x3">
                     <img src="https://i.pinimg.com/736x/4f/2b/cd/4f2bcd52ad2c2b56953a4a053182167c.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
                 </div>
                 <div class="card-body">
-                    <h6 class="fw-semibold mb-1">Traje slim fit</h6>
-                    <p class="fw-bold mb-0">$700.000</p>
+                    <h4 class="fw-semibold mb-1">Traje slim fit</h4>
+                    <p class="fw-bold mb-0"><h4>$700.000</h4></p>
+                    <!-- Flecha -->
+                            <div class="text-center mt-2">
+                                <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_slim_fit" class="text-decoration-none text-dark d-flex flex-column h-100">
+                                    <button class="btn btn-sm btn-outline-secondary"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#infoSirena">
+                                        Ver más
+                                    </button>
+                                </a>
+                            </div>
                 </div>
             </a>
         </div>
@@ -135,13 +189,22 @@
 
     <div class="col-12 col-md-6 producto d-none" data-genero="masculino">
         <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
-            <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_tres_piezas" class="text-decoration-none text-dark d-flex flex-column h-100">
                 <div class="ratio ratio-4x3">
                     <img src="https://i.pinimg.com/1200x/f2/a1/ca/f2a1ca2bac18b0ff4e0e01724e56914b.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
                 </div>
                 <div class="card-body">
-                    <h6 class="fw-semibold mb-1">Traje de Tres Piezas</h6>
-                    <p class="fw-bold mb-0">$650.000</p>
+                    <h4 class="fw-semibold mb-1">Traje de Tres Piezas</h4>
+                    <p class="fw-bold mb-0"><h4>$650.000</h4></p>
+                    <!-- Flecha -->
+                            <div class="text-center mt-2">
+                                <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_tres_piezas" class="text-decoration-none text-dark d-flex flex-column h-100">
+                                    <button class="btn btn-sm btn-outline-secondary"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#infoSirena">
+                                        Ver más
+                                    </button>
+                                </a>
+                            </div>
                 </div>
             </a>
         </div>
@@ -149,13 +212,22 @@
 
     <div class="col-12 col-md-6 producto d-none" data-genero="masculino">
         <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
-            <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_smoking" class="text-decoration-none text-dark d-flex flex-column h-100">
                 <div class="ratio ratio-4x3">
                     <img src="https://i.pinimg.com/1200x/7d/06/a9/7d06a97a0e16ec7baa7c3d168f65e763.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
                 </div>
                 <div class="card-body">
-                    <h6 class="fw-semibold mb-1">Smoking</h6>
-                    <p class="fw-bold mb-0">$650.000</p>
+                    <h4 class="fw-semibold mb-1">Smoking</h4>
+                    <p class="fw-bold mb-0"><h4>$650.000</h4></p>
+                    <!-- Flecha -->
+                            <div class="text-center mt-2">
+                                <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_smoking" class="text-decoration-none text-dark d-flex flex-column h-100">
+                                    <button class="btn btn-sm btn-outline-secondary"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#infoSirena">
+                                        Ver más
+                                    </button>
+                                </a>
+                            </div>
                 </div>
             </a>
         </div>
