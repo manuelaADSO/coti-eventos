@@ -13,21 +13,21 @@
         <div class="carousel-inner rounded shadow">
 
             <div class="carousel-item active">
-                <img src="https://i.pinimg.com/736x/97/f9/33/97f933a314cc00a7d935db2ab7b5ce18.jpg"
+                <img src="./assets/img/banquete/menu/pollo_cremoso.webp"
                      class="d-block w-100"
-                     style="height:280px; object-fit:cover;">
+                     style="height:450px; object-fit:cover;">
             </div>
 
             <div class="carousel-item">
-                <img src="https://i.pinimg.com/736x/ea/5f/4d/ea5f4d03f5d3b51cc2026b30aa05cbfc.jpg"
+                <img src="./assets/img/banquete/inicio/comida_1.webp"
                      class="d-block w-100"
-                     style="height:280px; object-fit:cover;">
+                     style="height:450px; object-fit:cover;">
             </div>
 
             <div class="carousel-item">
-                <img src="https://i.pinimg.com/736x/23/75/ec/2375ec6dbe4a549dd332e7fc31fb16d6.jpg"
+                <img src="./assets/img/banquete/inicio/comida_2.webp"
                      class="d-block w-100"
-                     style="height:280px; object-fit:cover;">
+                     style="height:450px; object-fit:cover;">
             </div>
 
         </div>
@@ -48,7 +48,7 @@
 
         <!-- Imagen principal -->
         <div class="col-md-5">
-            <img src="https://i.pinimg.com/736x/f2/fc/9f/f2fc9f5de1780c3f6196c8b3a5976f88.jpg"
+            <img src="./assets/img/banquete/menu/pollo_cremoso.webp"
                  class="img-fluid rounded shadow">
         </div>
 
@@ -80,21 +80,14 @@ Una combinación cremosa y delicada, perfecta para quienes aman la pasta.
     <!-- MINIATURAS -->
     <div class="row mt-4 g-2">
         <div class="col-4">
-            <img src="https://i.pinimg.com/736x/23/75/ec/2375ec6dbe4a549dd332e7fc31fb16d6.jpg"
+            <img src="./assets/img/banquete/menu/02_menu/comida_1.jpg"
                  class="img-fluid rounded">
         </div>
 
         <div class="col-4">
-            <img src="https://i.pinimg.com/736x/ea/5f/4d/ea5f4d03f5d3b51cc2026b30aa05cbfc.jpg"
+            <img src="./assets/img/banquete/menu/02_menu/comida_2.jpg"
                  class="img-fluid rounded">
         </div>
-
-        <div class="col-4">
-            <img src="https://i.pinimg.com/736x/97/f9/33/97f933a314cc00a7d935db2ab7b5ce18.jpg"
-                 class="img-fluid rounded">
-        </div>
-    </div>
-
 </div>
 
 

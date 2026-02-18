@@ -10,7 +10,7 @@
         <!-- GALERÍA -->
         <div class="col-lg-6">
             <div class="card border-0">
-                <img src="https://i.pinimg.com/736x/37/1b/46/371b46c01ffc5c556ba9de2bae134795.jpg" class="img-fluid rounded-4 mb-3" alt="Vestido principal">
+                <img src="./assets/img/eventos/cumple/vestuarios/vestidos/vestido_corto.webp" class="img-fluid rounded-4 mb-3" alt="Vestido principal">
 
                 <div class="row g-3">
                     <div class="col-6">

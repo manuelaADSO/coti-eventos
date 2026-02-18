@@ -13,21 +13,21 @@
         <div class="carousel-inner rounded shadow">
 
             <div class="carousel-item active">
-                <img src="https://i.pinimg.com/736x/97/f9/33/97f933a314cc00a7d935db2ab7b5ce18.jpg"
+                <img src="./assets/img/banquete/menu/pollo_salsa.webp"
                      class="d-block w-100"
-                     style="height:280px; object-fit:cover;">
+                     style="height:450px; object-fit:cover;">
             </div>
 
             <div class="carousel-item">
-                <img src="https://i.pinimg.com/736x/ea/5f/4d/ea5f4d03f5d3b51cc2026b30aa05cbfc.jpg"
+                <img src="./assets/img/banquete/menu/pollo_cremoso.webp"
                      class="d-block w-100"
-                     style="height:280px; object-fit:cover;">
+                     style="height:450px; object-fit:cover;">
             </div>
 
             <div class="carousel-item">
-                <img src="https://i.pinimg.com/736x/23/75/ec/2375ec6dbe4a549dd332e7fc31fb16d6.jpg"
+                <img src="./assets/img/banquete/inicio/comida_3.webp"
                      class="d-block w-100"
-                     style="height:280px; object-fit:cover;">
+                     style="height:450px; object-fit:cover;">
             </div>
 
         </div>
@@ -48,7 +48,7 @@
 
         <!-- Imagen principal -->
         <div class="col-md-5">
-            <img src="https://i.pinimg.com/736x/18/8c/96/188c96b5412daf6a6418a238040a630b.jpg"
+            <img src="./assets/img/banquete/menu/pollo_salsa.webp"
                  class="img-fluid rounded shadow">
         </div>
 
@@ -80,21 +80,14 @@ Un plato abundante, sabroso y muy apetitoso.
     <!-- MINIATURAS -->
     <div class="row mt-4 g-2">
         <div class="col-4">
-            <img src="https://i.pinimg.com/736x/c0/28/38/c02838f2b9bfcd730d03a734d90201d4.jpg"
+            <img src="./assets/img/banquete/menu/03_menu/comida_1.jpg"
                  class="img-fluid rounded">
         </div>
 
         <div class="col-4">
-            <img src="https://i.pinimg.com/736x/d3/4c/09/d34c090eb546d0cd62981371c4e297e7.jpg"
+            <img src="./assets/img/banquete/menu/03_menu/comida_2.jpg"
                  class="img-fluid rounded">
         </div>
-
-        <div class="col-4">
-            <img src="https://i.pinimg.com/1200x/64/b9/d4/64b9d48facdc719ccb468a06ccfa98af.jpg"
-                 class="img-fluid rounded">
-        </div>
-    </div>
-
 </div>
 
 

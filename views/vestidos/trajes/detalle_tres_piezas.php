@@ -9,7 +9,7 @@
 <!-- GALERÍA -->
 <div class="col-lg-6">
 <div class="card border-0">
-<img src="https://i.pinimg.com/1200x/f2/a1/ca/f2a1ca2bac18b0ff4e0e01724e56914b.jpg" class="img-fluid rounded-4 mb-3" alt="traje principal">
+<img src="./assets/img/bodas/bodas/vestuarios/trajes/tres_piezas.webp" class="img-fluid rounded-4 mb-3" alt="traje principal">
 
 <div class="row g-4">
 <div class="col-6"> <img src="https://i.pinimg.com/1200x/6b/db/71/6bdb71ec274afa7fdc5ea439f3bff1ba.jpg" class="img-fluid rounded-3" alt="traje miniatura">

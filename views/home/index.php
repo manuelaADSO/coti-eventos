@@ -4,7 +4,7 @@
 <!-- ===================== -->
  
 <div id="carouselCoti" class="carousel slide" data-bs-ride="carousel" 
-    style="height: 300px; overflow: hidden;">
+    style="height: 450px; overflow: hidden;">
 
     <!-- Indicadores -->
     <div class="carousel-indicators">
@@ -17,23 +17,23 @@
     <div class="carousel-inner">
 
         <div class="carousel-item active">
-            <img src="https://i.pinimg.com/736x/a7/95/cc/a795cc5d46bf0c993a47130f1f7bf717.jpg"
+            <img src="./assets/img/inicio/evento.webp"
                 class="d-block w-100"
-                style="height: 300px; object-fit: cover;"
+                style="height: 500px; object-fit: cover;"
                 alt="evento 1">
         </div>
 
         <div class="carousel-item">
-            <img src="https://i.pinimg.com/736x/35/01/87/350187d309653a9aeb88bf1bf00532e4.jpg"
+            <img src="./assets/img/inicio/evento_2.webp"
                 class="d-block w-100"
-                style="height: 300px; object-fit: cover;"
+                style="height: 500px; object-fit: cover;"
                 alt="evento 2">
         </div>
 
         <div class="carousel-item">
-            <img src="https://images.unsplash.com/photo-1555244162-803834f70033?auto=format&fit=crop&w=1600&q=80"
+            <img src="./assets/img/inicio/dulces.webp"
                 class="d-block w-100"
-                style="height: 300px; object-fit: cover;"
+                style="height: 500px; object-fit: cover;"
                 alt="evento 3">
         </div>
 
@@ -52,39 +52,60 @@
 <!--  QUIÉNES SOMOS         -->
 <!-- ===================== -->
 
-<div class="container my-5">
+<div class="container mt-4 mb-5">
+    <div class="row align-items-start">
 
-    <div class="row align-items-center">
-
-        <!-- TEXTO -->
+        <!-- TEXTO + 2 IMÁGENES IZQUIERDA -->
         <div class="col-md-5">
-            <h3 class="fw-semibold">¿Quiénes Somos?</h3>
+            <h3 class="fw-semibold text-center mb-3">¿Quiénes Somos?</h3>
 
             <p>
-                Somos un equipo de logística en eventos, apasionados y experimentados   
-                en hacer realidad tus sueños.
+                En CotiEventos la logística en eventos se transforma en una experiencia 
+                llena de pasión, dedicación y experiencia para hacer realidad cada sueño.
             </p>
 
             <p>
-                Más que proveedores, somos tus aliados estratégicos, asegurando que 
-                cada detalle, desde la idea inicial hasta el último aplauso, sea perfecto.
+                Más que proveedores, somos aliados estratégicos que cuidan cada detalle, 
+                desde la idea inicial hasta el último aplauso, garantizando que todo sea perfecto y memorable.
             </p>
         </div>
 
-        <!-- IMAGEN -->
-        <div class="col-md-7 text-center">
-            <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=400&q=80" 
-                class="img-fluid rounded-circle" 
-                style="max-width: 260px;" 
-                alt="Quiénes somos">
+        <!-- 4 IMÁGENES DERECHA -->
+         <div class="col-md-7">
+            <div class="row g-3">
+
+                <div class="col-4">
+                    <img src="./assets/img/inicio/salon.webp"
+                         class="img-fluid rounded w-100"
+                         style="height: 220px; object-fit: cover;"
+                         alt="Salón">
+                </div>
+
+                <div class="col-4">
+                    <img src="./assets/img/inicio/mesa_dulce.webp"
+                         class="img-fluid rounded w-100"
+                         style="height: 220px; object-fit: cover;"
+                         alt="Comida">
+                </div>
+
+                <div class="col-4">
+                    <img src="./assets/img/inicio/boda.webp"
+                         class="img-fluid rounded w-100"
+                         style="height: 220px; object-fit: cover;"
+                         alt="Boda">
+                </div>
         </div>
+
     </div>
+
+
     <div class="text-center mt-4">
     <a href="<?= BASE_URL ?>module=eventos&view=listar"
        class="btn btn-secondary btn-lg rounded-pill px-5">
         Empezar a cotizar tu evento
     </a>
-</div>
+
 
     
+</div>
 </div>

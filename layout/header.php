@@ -22,17 +22,18 @@
         <div class="container">
 
             <!-- LOGO -->
-            <a class="navbar-brand d-flex align-items-center" href="./index.php?views/home/index.php">
-                <img src="./assets/img/logo_blanco.svg"
-                    alt="CotiEventos"
-                    class="me-2"
-                    style="height: 45px;">
+           <a class="navbar-brand text-center d-flex flex-column align-items-center"
+   href="./index.php?views/home/index.php">
 
-                <div class="d-flex flex-column lh-1">
-                    <span class="fw-bold" style="font-size: 1.2rem;"></span>
-                    <small class="text-white-50">Tu evento en un Click</small>
-                </div>
-            </a>
+    <img src="./assets/img/header/logo_blanco.svg"
+         alt="CotiEventos"
+         style="height: 90px;">
+
+    <img src="./assets/img/header/eslogan_blanco.png"
+         alt="Tu evento en un Click"
+         style="height: 50px; margin-top: -5px;">
+</a>
+
 
             <!-- BOTÓN RESPONSIVE -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
@@ -47,11 +48,14 @@
                     <li class="nav-item">
                         <a class="nav-link" href="<?= BASE_URL ?>">Inicio</a>
                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="index.php?module=eventos&view=listar">Servicios</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Galería</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contáctanos</a>
+                        <a class="nav-link" href="index.php?module=cotizaciones&view=principal">Contáctanos</a>
                     </li>
                 </ul>
 

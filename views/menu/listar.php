@@ -10,18 +10,18 @@
         <div class="carousel-inner rounded-4 overflow-hidden">
 
             <div class="carousel-item active">
-                <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1"
-                     class="d-block w-100" style="height:280px; object-fit:cover;">
+                <img src="./assets/img/banquete/inicio/comida_2.webp"
+                     class="d-block w-100" style="height:450px; object-fit:cover;">
             </div>
 
             <div class="carousel-item">
-                <img src="https://i.pinimg.com/1200x/e3/ee/ce/e3eeceddcabe048061cfe0ffd5f4feb8.jpg"
-                     class="d-block w-100" style="height:280px; object-fit:cover;">
+                <img src="./assets/img/banquete/inicio/comida_1.webp"
+                     class="d-block w-100" style="height:450px; object-fit:cover;">
             </div>
 
             <div class="carousel-item">
-                <img src="https://i.pinimg.com/736x/55/ce/7a/55ce7a2f42d659cfb737193395c9e20a.jpg"
-                     class="d-block w-100" style="height:280px; object-fit:cover;">
+                <img src="./assets/img/banquete/inicio/comida_3.webp"
+                     class="d-block w-100" style="height:450px; object-fit:cover;">
             </div>
 
         </div>
@@ -46,7 +46,7 @@
             <div class="card border-0 text-center">
                 <a href="<?= BASE_URL ?>module=menu&view=detalle_menu_01"
 class="text-decoration-none text-dark d-flex flex-column h-100">
-                <img src="https://i.pinimg.com/736x/40/ad/15/40ad15f9022141e9167ffb3b8a9f167a.jpg"
+                <img src="./assets/img/banquete/menu/pollo_papas.webp"
                      class="card-img-top rounded-3">
                 <div class="card-body p-2">
                     <p class="mb-5 fw-semibold fs-3">Pollo asado con papas doradas</p>
@@ -60,7 +60,7 @@ class="text-decoration-none text-dark d-flex flex-column h-100">
             <div class="card border-0 text-center">
                           <a href="<?= BASE_URL ?>module=menu&view=detalle_menu_02"
 class="text-decoration-none text-dark d-flex flex-column h-100">
-                <img src="https://i.pinimg.com/736x/f2/fc/9f/f2fc9f5de1780c3f6196c8b3a5976f88.jpg"
+                <img src="./assets/img/banquete/menu/pollo_cremoso.webp"
                      class="card-img-top rounded-3">
                 <div class="card-body p-2">
                     <p class="mb-5 fw-semibold fs-3">Pollo en salsa cremosa con pasta fusilli</p>
@@ -74,7 +74,7 @@ class="text-decoration-none text-dark d-flex flex-column h-100">
             <div class="card border-0 text-center">
                   <a href="<?= BASE_URL ?>module=menu&view=detalle_menu_03"
 class="text-decoration-none text-dark d-flex flex-column h-100">
-                <img src="https://i.pinimg.com/736x/18/8c/96/188c96b5412daf6a6418a238040a630b.jpg"
+                <img src="./assets/img/banquete/menu/pollo_salsa.webp"
                      class="card-img-top rounded-3">
                 <div class="card-body p-2">
                     <p class="mb-5 fw-semibold fs-3">Pollo en salsa cremosa con papas fritas</p>
@@ -88,7 +88,7 @@ class="text-decoration-none text-dark d-flex flex-column h-100">
             <div class="card border-0 text-center">
                  <a href="<?= BASE_URL ?>module=menu&view=detalle_menu_04"
 class="text-decoration-none text-dark d-flex flex-column h-100">
-                <img src="https://i.pinimg.com/736x/ab/9f/97/ab9f9710642147c95dbb24c58f85c5e1.jpg"
+                <img src="./assets/img/banquete/menu/burrito.webp"
                      class="card-img-top rounded-3">
                 <div class="card-body p-2">
                     <p class="mb-5 fw-semibold fs-3">Burrito gratinado relleno de carne y papas</p>
@@ -102,7 +102,7 @@ class="text-decoration-none text-dark d-flex flex-column h-100">
             <div class="card border-0 text-center">
                   <a href="<?= BASE_URL ?>module=menu&view=detalle_menu_05"
 class="text-decoration-none text-dark d-flex flex-column h-100">
-                <img src="https://i.pinimg.com/736x/0e/71/51/0e715160c52be9109ab681ced38607c9.jpg"
+                <img src="./assets/img/banquete/menu/lasaña.webp"
                      class="card-img-top rounded-3">
                 <div class="card-body p-2">
                     <p class="mb-5 fw-semibold fs-3">Lasaña de carne con queso gratinado</p>
@@ -116,7 +116,7 @@ class="text-decoration-none text-dark d-flex flex-column h-100">
             <div class="card border-0 text-center">
                   <a href="<?= BASE_URL ?>module=menu&view=detalle_menu_06"
 class="text-decoration-none text-dark d-flex flex-column h-100">
-                <img src="https://i.pinimg.com/1200x/78/7b/b1/787bb1c06841b39cea02f750a9ae454a.jpg"
+                <img src="./assets/img/banquete/menu/carne_pasta.webp"
                      class="card-img-top rounded-3">
                 <div class="card-body p-2">
                     <p class="mb-5 fw-semibold fs-3">Carne a la parrilla con pasta cremosa de camarones</p>

@@ -8,7 +8,7 @@
     <div class="carousel-inner rounded overflow-hidden" style="max-height: 380px;">
         <div class="carousel-item active">
             <img 
-                src="https://i.pinimg.com/1200x/30/30/c6/3030c64942a6ba7877fc507b4f2acb90.jpg" 
+                src="./assets/img/banquete/torta/torta_1.webp" 
                 class="d-block w-100 object-fit-cover"
                 style="height: 380px;"
                 alt="Banner">
@@ -44,7 +44,7 @@
             <div class="col-6 col-md-4 text-center">
                    <a href="<?= BASE_URL ?>module=tortas&view=detalle_xv"
 class="text-decoration-none text-dark d-flex flex-column h-100">
-                <img src="https://i.pinimg.com/736x/e9/b0/7f/e9b07f157499caf12e58d564860dd5f1.jpg" class="img-fluid rounded mb-2 shadow-sm" alt="Torta">
+                <img src="./assets/img/banquete/torta/torta_xv.webp" class="img-fluid rounded mb-2 shadow-sm" alt="Torta">
                 <p class="mb-5 fw-semibold fs-3">Torta XV años</p>
                 <h5 class="fw-semibold fs-4">150.000</h5>
                    </a>
@@ -53,7 +53,7 @@ class="text-decoration-none text-dark d-flex flex-column h-100">
             <div class="col-6 col-md-4 text-center">
                    <a href="<?= BASE_URL ?>module=tortas&view=detalle_boda"
 class="text-decoration-none text-dark d-flex flex-column h-100">
-                <img src="https://i.pinimg.com/736x/08/89/7a/08897a64fd30839cd3e5e02cdcad66de.jpg" class="img-fluid rounded mb-2 shadow-sm" alt="Torta">
+                <img src="./assets/img/banquete/torta/torta_boda.webp" class="img-fluid rounded mb-2 shadow-sm" alt="Torta">
                 <p class="mb-5 fw-semibold fs-3">Torta Matrimonio</p>
                 <h5 class="fw-semibold fs-4">180.000</h5>
                    </a>
@@ -62,7 +62,7 @@ class="text-decoration-none text-dark d-flex flex-column h-100">
             <div class="col-6 col-md-4 text-center">
                    <a href="<?= BASE_URL ?>module=tortas&view=detalle_bautizo"
 class="text-decoration-none text-dark d-flex flex-column h-100">
-                <img src="https://i.pinimg.com/736x/ff/54/0b/ff540b865cd3c87630a9c65b23d9300b.jpg" class="img-fluid rounded mb-2 shadow-sm" alt="Torta">
+                <img src="./assets/img/banquete/torta/torta_bautizo.webp" class="img-fluid rounded mb-2 shadow-sm" alt="Torta">
                 <p class="mb-5 fw-semibold fs-3">Torta Bautizo</p>
                 <h5 class="fw-semibold fs-4">200.000</h5>
                    </a>
@@ -71,7 +71,7 @@ class="text-decoration-none text-dark d-flex flex-column h-100">
             <div class="col-6 col-md-4 text-center">
                    <a href="<?= BASE_URL ?>module=tortas&view=detalle_cumpleaños"
 class="text-decoration-none text-dark d-flex flex-column h-100">
-                <img src="https://i.pinimg.com/1200x/35/78/c4/3578c4b6cf73e9936343b2d841e3101a.jpg" class="img-fluid rounded mb-2 shadow-sm" alt="Torta">
+                <img src="./assets/img/banquete/torta/torta_cumple.webp" class="img-fluid rounded mb-2 shadow-sm" alt="Torta">
                 <p class="mb-5 fw-semibold fs-3">Torta Cumpleaños</p>
                 <h5 class="fw-semibold fs-4">180.000</h5>
                    </a>
@@ -80,8 +80,8 @@ class="text-decoration-none text-dark d-flex flex-column h-100">
             <div class="col-6 col-md-4 text-center">
                    <a href="<?= BASE_URL ?>module=tortas&view=detalle_baby_shawer"
 class="text-decoration-none text-dark d-flex flex-column h-100">
-                <img src="https://i.pinimg.com/1200x/4d/61/70/4d61706939ed5577ce4005848133dcdd.jpg" class="img-fluid rounded mb-2 shadow-sm" alt="Torta">
-                <p class="mb-5 fw-semibold fs-3">Torta Baby Shawers</p>
+                <img src="./assets/img/banquete/torta/torta_baby_showers.webp" class="img-fluid rounded mb-2 shadow-sm" alt="Torta">
+                <p class="mb-5 fw-semibold fs-3">Torta Baby Showers</p>
                 <h5 class="fw-semibold fs-4">170.000</h5>
                    </a>
             </div>
@@ -89,7 +89,7 @@ class="text-decoration-none text-dark d-flex flex-column h-100">
             <div class="col-6 col-md-4 text-center">
                    <a href="<?= BASE_URL ?>module=tortas&view=detalle_graduacion"
 class="text-decoration-none text-dark d-flex flex-column h-100">
-                <img src="https://i.pinimg.com/1200x/c5/ed/68/c5ed68b952c21c5e10bb23b74253535f.jpg" class="img-fluid rounded mb-2 shadow-sm" alt="Torta">
+                <img src="./assets/img/banquete/torta/torta_graduacion.webp" class="img-fluid rounded mb-2 shadow-sm" alt="Torta">
                 <p class="mb-5 fw-semibold fs-3">Torta Graduación</p>
                 <h5 class="fw-semibold fs-4">145.000</h5>
                    </a>

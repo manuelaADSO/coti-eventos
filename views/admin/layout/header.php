@@ -9,7 +9,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-secondary px-4">
     <a class="navbar-brand fw-bold" href="">
-       <img src="./assets/img/logo_blanco.svg"
+       <img src="./assets/img/header/logo_blanco.svg"
                     alt="CotiEventos"
                     class="me-2"
                     style="height: 45px;">
@@ -18,8 +18,7 @@
 
     <div class="collapse navbar-collapse">
         <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-            <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Servicios</a></li>
+            <li class="nav-item"><a class="nav-link" href="<?= BASE_URL ?>module=dashboard&view=ver">Inicio</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Galería</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Contáctanos</a></li>
         </ul>

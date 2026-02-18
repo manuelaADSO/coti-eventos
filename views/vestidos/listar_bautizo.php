@@ -13,25 +13,26 @@
 <div class="container py-4">
 
 <!-- Header -->
-<div class="row align-items-center mb-4">
-    <!-- Título -->
-    <div class="col-12 col-md-6 mb-3 mb-md-0">
-        <h1 class="fw-semibold">Elige Tu Vestido y Traje Ideal</h1>
-    </div>
+<div class="container my-4">
+    <div class="row align-items-start">
 
-  <!-- Selector de evento -->
-        <div class="col-6 col-md-5 text-md-end">
-            <label class="form-label fw-semibold fs-5">Seleccionar evento</label>
-            <select class="form-select rounded-end" id="evento">
-                <option value="bodas" selected>Bodas</option>
-                <option value="xv">XV años</option>
-                <option value="cumple">Cumpleaños</option>
-                <option value="bautizo">Bautizos</option>
-                <option value="baby">Baby Shower</option>
-                    <option value="graduacion">graduacion</option>
-            </select>
+        <!-- TÍTULO -->
+        <div class="col-md-8">
+            <h1 class="fw-semibold text-dark">
+                Elige Tu Vestido y Traje Ideal
+            </h1>
         </div>
+
+        <!-- BOTÓN ARRIBA A LA DERECHA -->
+        <div class="col-md-4 text-md-end mt-3 mt-md-0">
+            <a href="#"
+               class="btn bg-secondary-subtle text-dark fw-semibold fs-4 px-4 py-2 rounded-4">
+        Bautizo
+            </a>
+        </div>
+
     </div>
+</div>
 
 <!-- Selector de género -->
 <div class="row mb-4">
@@ -52,7 +53,7 @@
         <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
             <a href="<?= BASE_URL ?>module=vestidos&view=detalle_blanco" class="text-decoration-none text-dark d-flex flex-column h-100">
                 <div class="ratio ratio-4x3">
-                    <img src="https://i.pinimg.com/736x/fd/92/c4/fd92c46a05e32daa42fe69ea1281f926.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
+                    <img src="./assets/img/eventos/bautizos/vestuarios/vestidos/vestido_clasico.webp" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
                 </div>
                 <div class="card-body">
                     <h6 class="fw-semibold mb-1">Vestido Blanco Clásico</h6>
@@ -66,7 +67,7 @@
         <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
             <a href="<?= BASE_URL ?>module=vestidos&view=detalle_lazo" class="text-decoration-none text-dark d-flex flex-column h-100">
                 <div class="ratio ratio-4x3">
-                    <img src="https://i.pinimg.com/1200x/b4/c1/b0/b4c1b0fa7476c00d36750fdb5bad9e50.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
+                    <img src="./assets/img/eventos/bautizos/vestuarios/vestidos/vestido_encaje.webp" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
                 </div>
                 <div class="card-body">
                     <h6 class="fw-semibold mb-1">Vestido con Encaje y Lazos</h6>
@@ -80,7 +81,7 @@
         <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
             <a href="<?= BASE_URL ?>module=vestidos&view=detalle_sutil" class="text-decoration-none text-dark d-flex flex-column h-100">
                 <div class="ratio ratio-4x3">
-                    <img src="https://i.pinimg.com/736x/15/f2/d3/15f2d32c1c1369f8a7b3a19c06a142fa.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
+                    <img src="./assets/img/eventos/bautizos/vestuarios/vestidos/vestido_sutil.webp" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
                 </div>
                 <div class="card-body">
                     <h6 class="fw-semibold mb-1">Vestido con Encaje y Detalles Sutiles</h6>
@@ -94,7 +95,7 @@
         <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
             <a href="<?= BASE_URL ?>module=vestidos&view=detalle_fluido" class="text-decoration-none text-dark d-flex flex-column h-100">
                 <div class="ratio ratio-4x3">
-                    <img src="https://i.pinimg.com/736x/7f/c4/02/7fc40233fe8f205a5abf2846674b451b.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
+                    <img src="./assets/img/eventos/bautizos/vestuarios/vestidos/vestido_fluido.webp" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
                 </div>
                 <div class="card-body">
                     <h6 class="fw-semibold mb-1">Vestido Fluido de Tela Ligera</h6>
@@ -109,7 +110,7 @@
         <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
             <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_bautismal" class="text-decoration-none text-dark d-flex flex-column h-100">
                 <div class="ratio ratio-4x3">
-                    <img src="https://i.pinimg.com/1200x/2f/ab/b2/2fabb201137bf39492bf7cb17c35dd29.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
+                    <img src="./assets/img/eventos/bautizos/vestuarios/trajes/conjunto_bautismal.webp" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
                 </div>
                 <div class="card-body">
                     <h6 class="fw-semibold mb-1">Conjunto Bautismal Clásico</h6>
@@ -123,7 +124,7 @@
         <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
             <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_elegante" class="text-decoration-none text-dark d-flex flex-column h-100">
                 <div class="ratio ratio-4x3">
-                    <img src="https://i.pinimg.com/736x/83/87/19/8387193c52891693e8758dace1769a70.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
+                    <img src="./assets/img/eventos/bautizos/vestuarios/trajes/enterizo_elegante.webp" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
                 </div>
                 <div class="card-body">
                     <h6 class="fw-semibold mb-1">Enterizo Bautismal Elegante</h6>
@@ -137,7 +138,7 @@
         <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
             <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_formal" class="text-decoration-none text-dark d-flex flex-column h-100">
                 <div class="ratio ratio-4x3">
-                    <img src="https://i.pinimg.com/736x/d0/73/2c/d0732c0d31f68b13eb7cb81c4f68518e.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
+                    <img src="./assets/img/eventos/bautizos/vestuarios/trajes/traje_formal.webp" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
                 </div>
                 <div class="card-body">
                     <h6 class="fw-semibold mb-1">Traje Formal Clásico</h6>
@@ -151,7 +152,7 @@
         <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
             <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_semi_formal" class="text-decoration-none text-dark d-flex flex-column h-100">
                 <div class="ratio ratio-4x3">
-                    <img src="https://i.pinimg.com/736x/03/b3/19/03b319a5a022315cef04f777d456aaf3.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
+                    <img src="./assets/img/eventos/bautizos/vestuarios/trajes/traje_semi_formal.webp" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
                 </div>
                 <div class="card-body">
                     <h6 class="fw-semibold mb-1">Traje Semi-Formal con Chaleco</h6>

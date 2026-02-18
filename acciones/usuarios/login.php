@@ -43,7 +43,7 @@ $_SESSION['rol']     = $user['rol_nombre']; // Guardamos "Administrador" o "Clie
 if ($user['rol_nombre'] === 'Administrador') {
 
 // Redirigir al panel de administración
-header('Location:' .BASE_URL.'module=admin&view=dashboard');
+header('Location:' .BASE_URL.'module=dashboard&view=ver');
 } else {
 // Redirigir a la vista de cliente
 header('Location:' .BASE_URL.'module=home&view=index');

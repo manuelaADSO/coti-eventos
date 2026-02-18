@@ -13,21 +13,21 @@
         <div class="carousel-inner rounded shadow">
 
             <div class="carousel-item active">
-                <img src="https://i.pinimg.com/736x/97/f9/33/97f933a314cc00a7d935db2ab7b5ce18.jpg"
+                <img src="./assets/img/banquete/menu/lasaña.webp"
                      class="d-block w-100"
-                     style="height:280px; object-fit:cover;">
+                     style="height:450px; object-fit:cover;">
             </div>
 
             <div class="carousel-item">
-                <img src="https://i.pinimg.com/736x/ea/5f/4d/ea5f4d03f5d3b51cc2026b30aa05cbfc.jpg"
+                <img src="./assets/img/banquete/inicio/comida_1.webp"
                      class="d-block w-100"
-                     style="height:280px; object-fit:cover;">
+                     style="height:450px; object-fit:cover;">
             </div>
 
             <div class="carousel-item">
-                <img src="https://i.pinimg.com/736x/23/75/ec/2375ec6dbe4a549dd332e7fc31fb16d6.jpg"
+                <img src="h./assets/img/banquete/inicio/comida_3.webp"
                      class="d-block w-100"
-                     style="height:280px; object-fit:cover;">
+                     style="height:450px; object-fit:cover;">
             </div>
 
         </div>
@@ -48,7 +48,7 @@
 
         <!-- Imagen principal -->
         <div class="col-md-5">
-            <img src="https://i.pinimg.com/736x/0e/71/51/0e715160c52be9109ab681ced38607c9.jpg"
+            <img src="./assets/img/banquete/menu/lasaña.webp"
                  class="img-fluid rounded shadow">
         </div>
 
@@ -80,17 +80,12 @@ Clásica, cremosa y perfecta para compartir.
     <!-- MINIATURAS -->
     <div class="row mt-4 g-2">
         <div class="col-4">
-            <img src="https://i.pinimg.com/1200x/00/c8/a9/00c8a9ed39118068621788d25481d98f.jpg"
+            <img src="./assets/img/banquete/menu/05_menu/comida_1.jpg"
                  class="img-fluid rounded">
         </div>
 
         <div class="col-4">
-            <img src="https://i.pinimg.com/736x/1f/93/ce/1f93cedb5f4c072249bc896d35785c67.jpg"
-                 class="img-fluid rounded">
-        </div>
-
-        <div class="col-4">
-            <img src="https://i.pinimg.com/736x/1f/3d/b4/1f3db4b76e218c2ee60458cdb7a86878.jpg"
+            <img src="./assets/img/banquete/menu/05_menu/comida_2.jpg"
                  class="img-fluid rounded">
         </div>
     </div>

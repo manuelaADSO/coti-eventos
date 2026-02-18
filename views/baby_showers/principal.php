@@ -3,10 +3,10 @@
     <div id="weddingCarousel" class="carousel slide mb-5 shadow" data-bs-ride="carousel">
         <div class="carousel-inner rounded-4">
             <div class="carousel-item active">
-                <img src="https://i.pinimg.com/736x/f2/fe/87/f2fe875cebe2910dd3015e7114090ee4.jpg" class="d-block w-100 object-fit-cover" style="max-height: 450px;" alt="Boda 1">
+                <img src="./assets/img/eventos/baby_showers/inicio/evento_1.webp" class="d-block w-100 object-fit-cover" style="max-height: 450px;" alt="Boda 1">
             </div>
             <div class="carousel-item">
-                <img src="https://i.pinimg.com/736x/8a/9c/b8/8a9cb8ea4be31f3cac5aeeed9efc4a76.jpg" class="d-block w-100 object-fit-cover" style="max-height: 450px;" alt="Boda 2">
+                <img src="./assets/img/eventos/baby_showers/inicio/evento_2.webp" class="d-block w-100 object-fit-cover" style="max-height: 450px;" alt="Boda 2">
             </div>
               </div>
        
@@ -22,7 +22,7 @@
         
         <div class="col-lg-5 text-center">
             <div class="ratio ratio-1x1 mx-auto shadow-lg rounded-circle overflow-hidden" style="max-width: 400px;">
-                <img src="https://i.pinimg.com/1200x/65/bf/dc/65bfdc637bcdda5355261f2061092e12.jpg" 
+                <img src="./assets/img/eventos/baby_showers/inicio/evento_4.webp" 
                      class="object-fit-cover" 
                      alt="Pareja">
             </div>
@@ -35,33 +35,75 @@ Nos alejamos de lo convencional para crear una atmósfera dulce y única, donde 
 capturando sonrisas, abrazos y momentos que transforman este encuentro especial en el comienzo más hermoso de su historia en familia.</p>
             <p class="text-muted mb-5 fs-4">Diseñamos experiencias únicas y cuidamos cada detalle.</p>
 
-            <div class="list-group list-group-flush">
-                
-                <a href="<?= BASE_URL ?>module=vestidos&view=listar_baby_showers" class="list-group-item list-group-item-action border-0 bg-transparent px-0 py-3 d-flex align-items-center">
-                    <i class="bi bi-star-fill me-3 text-secondary p-2 bg-light rounded-circle shadow-sm"></i>
-                    <span class="fs-5 fw-normal text-dark">vestuarios</span>
-                    <i class="bi bi-chevron-right ms-auto text-muted small"></i>
-                </a>
+<div class="list-group list-group-flush">
 
-                <a href="<?= BASE_URL ?>module=platillos&view=principal" class="list-group-item list-group-item-action border-0 bg-transparent px-0 py-3 d-flex align-items-center">
-                    <i class="bi bi-cup-hot-fill me-3 text-secondary p-2 bg-light rounded-circle shadow-sm"></i>
-                    <span class="fs-5 fw-normal text-dark">Banquete personalizado</span>
-                    <i class="bi bi-chevron-right ms-auto text-muted small"></i>
-                </a>
+    <a href="<?= BASE_URL ?>module=vestidos&view=listar_baby_showers"
+       class="list-group-item list-group-item-action rounded-3 mb-2 py-4 px-3 bg-info-subtle">
+        <div class="d-flex align-items-start">
+            <i class="bi bi-star-fill me-3 text-info fs-3"></i>
 
-                <a href="<?= BASE_URL ?>module=sonido&view=principal" class="list-group-item list-group-item-action border-0 bg-transparent px-0 py-3 d-flex align-items-center">
-                    <i class="bi bi-music-note-beamed me-3 text-secondary p-2 bg-light rounded-circle shadow-sm"></i>
-                    <span class="fs-5 fw-normal text-dark">Música en vivo - D.j</span>
-                    <i class="bi bi-chevron-right ms-auto text-muted small"></i>
-                </a>
+            <div class="flex-grow-1">
+                <div class="fs-4 fw-semibold text-dark">Vestuarios</div>
+                <small class="text-muted">
+                    Vestidos y trajes especiales para la mamá y el papá.
+                </small>
+            </div>
 
-                <a href="<?= BASE_URL ?>module=fotografia&view=principal" class="list-group-item list-group-item-action border-0 bg-transparent px-0 py-3 d-flex align-items-center">
-                    <i class="bi bi-camera-video-fill me-3 text-secondary p-2 bg-light rounded-circle shadow-sm"></i>
-                    <span class="fs-5 fw-normal text-dark">Fotografía y video</span>
-                    <i class="bi bi-chevron-right ms-auto text-muted small"></i>
-</a>
+            <i class="bi bi-chevron-right ms-2 text-muted"></i>
+        </div>
+    </a>
 
-</div> 
+    <a href="<?= BASE_URL ?>module=platillos&view=principal"
+       class="list-group-item list-group-item-action rounded-3 mb-2 py-4 px-3 bg-danger-subtle">
+        <div class="d-flex align-items-start">
+            <i class="bi bi-cup-hot-fill me-3 text-danger fs-3"></i>
+
+            <div class="flex-grow-1">
+                <div class="fs-4 fw-semibold text-dark">Banquete personalizado</div>
+                <small class="text-muted">
+                    Combinaciones de sabores pensadas para momentos inolvidables.
+                </small>
+            </div>
+
+            <i class="bi bi-chevron-right ms-2 text-muted"></i>
+        </div>
+    </a>
+
+    <a href="<?= BASE_URL ?>module=sonido&view=principal"
+       class="list-group-item list-group-item-action rounded-3 mb-2 py-4 px-3 bg-primary-subtle">
+        <div class="d-flex align-items-start">
+            <i class="bi bi-music-note-beamed me-3 text-primary fs-3"></i>
+
+            <div class="flex-grow-1">
+                <div class="fs-4 fw-semibold text-dark">Música en vivo - D.J</div>
+                <small class="text-muted">
+                    Ambiente musical profesional para animar tu evento.
+                </small>
+            </div>
+
+            <i class="bi bi-chevron-right ms-2 text-muted"></i>
+        </div>
+    </a>
+
+    <a href="<?= BASE_URL ?>module=fotografia&view=principal"
+       class="list-group-item list-group-item-action rounded-3 mb-2 py-4 px-3 bg-success-subtle">
+        <div class="d-flex align-items-start">
+            <i class="bi bi-camera-video-fill me-3 text-success fs-3"></i>
+
+            <div class="flex-grow-1">
+                <div class="fs-4 fw-semibold text-dark">Fotografía y video</div>
+                <small class="text-muted">
+                    Capturamos los momentos más especiales de tu celebración.
+                </small>
+            </div>
+
+            <i class="bi bi-chevron-right ms-2 text-muted"></i>
+        </div>
+    </a>
+
+</div>
+
+
 </div>
 </div>
 </main>

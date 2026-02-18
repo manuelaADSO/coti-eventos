@@ -22,7 +22,7 @@
                     <a href="#" class="text-white fs-4"><i class="bi bi-whatsapp"></i></a>
                     <a href="#" class="text-white fs-4"><i class="bi bi-instagram"></i></a>
                     <a href="#" class="text-white fs-4"><i class="bi bi-facebook"></i></a>
-                    <img src="assets/img/logotipo_blanco.svg" alt="logo" style="height: 40px;">
+                    <img src="./assets/img/header/logotipo_blanco.svg" alt="logo" style="height: 40px;">
                 </div>
 
             </div>

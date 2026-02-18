@@ -3,10 +3,10 @@
     <div id="weddingCarousel" class="carousel slide mb-5 shadow" data-bs-ride="carousel">
         <div class="carousel-inner rounded-4">
             <div class="carousel-item active">
-                <img src="https://i.pinimg.com/1200x/ec/f7/ef/ecf7ef8d4d1694790ebde9ff80652fa4.jpg" class="d-block w-100 object-fit-cover" style="max-height: 450px;" alt="Boda 1">
+                <img src="./assets/img/eventos/cumple/inicio/evento_1.webp" class="d-block w-100 object-fit-cover" style="max-height: 450px;" alt="Boda 1">
             </div>
             <div class="carousel-item">
-                <img src="https://i.pinimg.com/736x/4e/92/e6/4e92e67b3e0451730891d433c990214b.jpg" class="d-block w-100 object-fit-cover" style="max-height: 450px;" alt="Boda 2">
+                <img src="./assets/img/eventos/cumple/inicio/evento_2.webp" class="d-block w-100 object-fit-cover" style="max-height: 450px;" alt="Boda 2">
             </div>
               </div>
        
@@ -22,7 +22,7 @@
         
         <div class="col-lg-5 text-center">
             <div class="ratio ratio-1x1 mx-auto shadow-lg rounded-circle overflow-hidden" style="max-width: 400px;">
-                <img src="https://i.pinimg.com/1200x/3d/49/bf/3d49bf94bdbc2058b77628c2d7679207.jpg" 
+                <img src="./assets/img/eventos/cumple/inicio/evento_3.webp" 
                      class="object-fit-cover" 
                      alt="Pareja">
             </div>
@@ -35,32 +35,68 @@ Diseñamos una atmósfera única donde cada detalle celebra la vida, reuniendo s
             <p class="text-muted mb-5 fs-4">Diseñamos experiencias únicas y cuidamos cada detalle.</p>
 
             <div class="list-group list-group-flush">
-                
-                <a href="<?= BASE_URL ?>module=vestidos&view=listar_cumple" class="list-group-item list-group-item-action border-0 bg-transparent px-0 py-3 d-flex align-items-center">
-                    <i class="bi bi-star-fill me-3 text-secondary p-2 bg-light rounded-circle shadow-sm"></i>
-                    <span class="fs-5 fw-normal text-dark">vestuarios</span>
-                    <i class="bi bi-chevron-right ms-auto text-muted small"></i>
-                </a>
 
-                <a href="<?= BASE_URL ?>module=platillos&view=principal" class="list-group-item list-group-item-action border-0 bg-transparent px-0 py-3 d-flex align-items-center">
-                    <i class="bi bi-cup-hot-fill me-3 text-secondary p-2 bg-light rounded-circle shadow-sm"></i>
-                    <span class="fs-5 fw-normal text-dark">Banquete personalizado</span>
-                    <i class="bi bi-chevron-right ms-auto text-muted small"></i>
-                </a>
+    <a href="<?= BASE_URL ?>module=vestidos&view=listar_cumple"
+    
+       class="list-group-item list-group-item-action rounded-3 mb-2 py-4 px-3 bg-danger-subtle">
 
-                <a href="<?= BASE_URL ?>module=sonido&view=principal" class="list-group-item list-group-item-action border-0 bg-transparent px-0 py-3 d-flex align-items-center">
-                    <i class="bi bi-music-note-beamed me-3 text-secondary p-2 bg-light rounded-circle shadow-sm"></i>
-                    <span class="fs-5 fw-normal text-dark">Música en vivo - D.j</span>
-                    <i class="bi bi-chevron-right ms-auto text-muted small"></i>
-                </a>
+        <div class="d-flex align-items-start">
+            <i class="bi bi-stars me-3 text-danger fs-3"></i>
+            <div class="flex-grow-1">
+                <div class="fs-4 fw-semibold text-dark">Vestuarios</div>
+                <small class="text-muted">
+                    Atuendos divertidos y coloridos adultos que quieren brillar en su día especial.
+                </small>
+            </div>
+            <i class="bi bi-chevron-right ms-2 text-dark"></i>
+        </div>
+    </a>
 
-                <a href="<?= BASE_URL ?>module=fotografia&view=principal" class="list-group-item list-group-item-action border-0 bg-transparent px-0 py-3 d-flex align-items-center">
-                    <i class="bi bi-camera-video-fill me-3 text-secondary p-2 bg-light rounded-circle shadow-sm"></i>
-                    <span class="fs-5 fw-normal text-dark">Fotografía y video</span>
-                    <i class="bi bi-chevron-right ms-auto text-muted small"></i>
-</a>
+    <a href="<?= BASE_URL ?>module=platillos&view=principal"
+       class="list-group-item list-group-item-action rounded-3 mb-2 py-4 px-3 bg-info-subtle">
+        <div class="d-flex align-items-start">
+            <i class="bi bi-cup-hot-fill me-3 text-info fs-3"></i>
+            <div class="flex-grow-1">
+                <div class="fs-4 fw-semibold text-dark">Banquete Personalizado</div>
+                <small class="text-muted">
+                    Deliciosos bocadillos y dulces para celebrar con alegría cada año de vida.
+                </small>
+            </div>
+            <i class="bi bi-chevron-right ms-2 text-dark"></i>
+        </div>
+    </a>
 
-</div> 
+    <a href="<?= BASE_URL ?>module=sonido&view=principal"
+       class="list-group-item list-group-item-action rounded-3 mb-2 py-4 px-3 bg-warning-subtle">
+        <div class="d-flex align-items-start">
+            <i class="bi bi-music-note-beamed me-3 text-warning fs-3"></i>
+            <div class="flex-grow-1">
+                <div class="fs-4 fw-semibold text-dark">Música y diversión</div>
+                <small class="text-muted">
+                    Canciones y ritmos animados que harán que todos bailen y disfruten la fiesta.
+                </small>
+            </div>
+            <i class="bi bi-chevron-right ms-2 text-dark"></i>
+        </div>
+    </a>
+
+    <a href="<?= BASE_URL ?>module=fotografia&view=principal"
+       class="list-group-item list-group-item-action rounded-3 mb-2 py-4 px-3 bg-success-subtle">
+        <div class="d-flex align-items-start">
+            <i class="bi bi-camera-video-fill me-3 text-success fs-3"></i>
+            <div class="flex-grow-1">
+                <div class="fs-4 fw-semibold text-dark">Fotografía y recuerdos</div>
+                <small class="text-muted">
+                    Captura los momentos más felices y espontáneos de la celebración.
+                </small>
+            </div>
+            <i class="bi bi-chevron-right ms-2 text-dark"></i>
+        </div>
+    </a>
+
+</div>
+
+
 </div>
 </div>
 </main>
