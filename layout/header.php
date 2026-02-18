@@ -52,7 +52,7 @@
                         <a class="nav-link" href="index.php?module=eventos&view=listar">Servicios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Galería</a>
+                        <a class="nav-link" href="index.php?module=album&view=galeria">Galería</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="index.php?module=cotizaciones&view=principal">Contáctanos</a>
@@ -70,23 +70,24 @@
 
         <i class="bi bi-person-circle fs-4"></i>
 
-        <?php if (isset($_SESSION['user'])): ?>
-    <span class="ms-1"><?= htmlspecialchars($_SESSION['user']['nombre']) ?></span>
-<?php else: ?>
-    <span class="ms-1">Mi Cuenta</span>
-<?php endif; ?>
+        <?php if (isset($_SESSION['user_id'])): ?>
+            <span class="ms-1"><?= htmlspecialchars($_SESSION['nombre']) ?></span>
+        <?php else: ?>
+            <span class="ms-1">Mi Cuenta</span>
+        <?php endif; ?>
 
     </a>
 
     <ul class="dropdown-menu dropdown-menu-end">
 
-        <?php if (!isset($_SESSION['user'])): ?>
+        <?php if (!isset($_SESSION['user_id'])): ?>
             <li>
                 <a class="dropdown-item" href="<?= BASE_URL ?>module=usuarios&view=login">
                     Iniciar sesión
                 </a>
             </li>
         <?php else: ?>
+            
             <li>
                 <a class="dropdown-item" href="<?= BASE_URL ?>module=usuarios&view=perfil">
                     ver mi perfil
@@ -105,7 +106,7 @@
     </ul>
 </div>
                     <!-- Carrito -->
-                    <a href="#" class="text-white text-decoration-none me-3 d-flex align-items-center">
+                    <a href="index.php?module=carrito&view=cotizar" class="text-white text-decoration-none me-3 d-flex align-items-center">
                         <i class="bi bi-cart fs-4"></i>
                         <span class="ms-1">0</span>
                     </a>

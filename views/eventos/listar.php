@@ -89,6 +89,7 @@ Matrimonios </a>
 </div>
 </div>
 
+
 <div class="col-lg-4 col-md-6">
 <div class="card border-0 shadow-sm rounded-0">
 <img src="./assets/img/eventos/inicio/xv.webp"
@@ -101,5 +102,9 @@ XV Años </a>
 </div>
 </div>
 </main>
+
+        <!-- </div>
+    </div> -->
+
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
