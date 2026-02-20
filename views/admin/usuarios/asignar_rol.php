@@ -14,15 +14,22 @@
 
                 <div class="row g-3">
 
-                    <!-- USUARIO -->
+                    <!-- NOMBRE -->
                     <div class="col-md-6">
-                        <label class="form-label fw-semibold">Usuario</label>
-                        <select class="form-select" name="usuario_id" required>
-                            <option value="">Seleccione un usuario</option>
-                            <option value="1">María Gómez</option>
-                            <option value="2">Juan Pérez</option>
-                            <option value="3">Carlos López</option>
-                        </select>
+                        <label class="form-label fw-semibold">Nombre</label>
+                        <input type="text" class="form-control" name="nombre" placeholder="Ingresa el nombre" required>
+                    </div>
+
+                    <!-- APELLIDO -->
+                    <div class="col-md-6">
+                        <label class="form-label fw-semibold">Apellido</label>
+                        <input type="text" class="form-control" name="apellido" placeholder="Ingresa el apellido" required>
+                    </div>
+
+                    <!-- CORREO -->
+                    <div class="col-md-6">
+                        <label class="form-label fw-semibold">Correo electrónico</label>
+                        <input type="email" class="form-control" name="correo" placeholder="ejemplo@correo.com" required>
                     </div>
 
                     <!-- ROL -->

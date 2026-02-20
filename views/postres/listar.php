@@ -11,17 +11,17 @@
 
             <div class="carousel-item active">
                 <img src="./assets/img/banquete/postre/postre_1.webp"
-                     class="d-block w-100" style="height:280px; object-fit:cover;">
+                     class="d-block w-100" style="height:450px; object-fit:cover;">
             </div>
 
             <div class="carousel-item">
                 <img src="./assets/img/banquete/postre/postre_2.webp"
-                     class="d-block w-100" style="height:280px; object-fit:cover;">
+                     class="d-block w-100" style="height:450px; object-fit:cover;">
             </div>
 
             <div class="carousel-item">
                 <img src="./assets/img/banquete/postre/postre_3.webp"
-                     class="d-block w-100" style="height:280px; object-fit:cover;">
+                     class="d-block w-100" style="height:450px; object-fit:cover;">
             </div>
 
         </div>
@@ -44,71 +44,111 @@
         <!-- Card -->
         <div class="col-6 col-md-4">
             <div class="card border-0 text-center">
-                 <a href="<?= BASE_URL ?>module=postres&view=detalle_postre_01"
-class="text-decoration-none text-dark d-flex flex-column h-100">
                 <img src="./assets/img/banquete/postre/postre_fresa.webp"
                      class="card-img-top rounded-3">
-                <div class="card-body p-2">
-                    <p class="mb-5 fw-semibold fs-3">Cheesecake de fresa</p>
-                    <span class="fw-semibold fs-4">380.000</span>
+                <div class="card-body">
+                    <h4 class="fw-semibold mb-1">Cheesecake de fresa</h4>
+                            <p class="fw-bold mb-0"><h4>$650.000</h4></p>
+                    <!-- Flecha -->
+                            <div class="text-center mt-2">
+                               <a href="<?= BASE_URL ?>module=postres&view=detalle_postre_01"
+class="text-decoration-none text-dark d-flex flex-column h-100">
+                                    <button class="btn btn-sm btn-outline-secondary"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#infoSirena">
+                                      <h4>Ver más</h4>
+                                    </button>
+                                </a>
+                            </div>
                 </div>
-                 </a>
             </div>
         </div>
 
         <div class="col-6 col-md-4">
             <div class="card border-0 text-center">
-                   <a href="<?= BASE_URL ?>module=postres&view=detalle_postre_02"
-class="text-decoration-none text-dark d-flex flex-column h-100">
                 <img src="./assets/img/banquete/postre/tiramisu.webp"
                      class="card-img-top rounded-3">
-                <div class="card-body p-2">
-                    <p class="mb-5 fw-semibold fs-3">Tiramisú con frutos rojos</p>
-                    <span class="fw-semibold fs-4">350.000</span>
-                </div>
-                   </a>
+               <div class="card-body">
+                    <h4 class="fw-semibold mb-1">Tiramisú con frutos rojos</h4>
+                            <p class="fw-bold mb-0"><h4>$650.000</h4></p>
+                    <!-- Flecha -->
+                            <div class="text-center mt-2">
+                               <a href="<?= BASE_URL ?>module=postres&view=detalle_postre_02"
+class="text-decoration-none text-dark d-flex flex-column h-100">
+                                    <button class="btn btn-sm btn-outline-secondary"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#infoSirena">
+                                      <h4>Ver más</h4>
+                                    </button>
+                                </a>
+                            </div>
+               </div>
             </div>
         </div>
 
         <div class="col-6 col-md-4">
             <div class="card border-0 text-center">
-                   <a href="<?= BASE_URL ?>module=postres&view=detalle_postre_03"
-class="text-decoration-none text-dark d-flex flex-column h-100">
                 <img src="./assets/img/banquete/postre/cupcake.webp"
                      class="card-img-top rounded-3">
-                <div class="card-body p-2">
-                    <p class="mb-5 fw-semibold fs-3">Cupcakes de chocolate y vainilla con corazones</p>
-                    <span class="fw-semibold fs-4">380.000</span>
-                </div>
-                   </a>
-            </div>
-        </div>
+               <div class="card-body">
+                    <h4 class="fw-semibold mb-1">Cupcakes de chocolate y vainilla con corazones</h4>
+                            <p class="fw-bold mb-0"><h4>$650.000</h4></p>
+                    <!-- Flecha -->
+                            <div class="text-center mt-2">
+                               <a href="<?= BASE_URL ?>module=postres&view=detalle_postre_03"
+class="text-decoration-none text-dark d-flex flex-column h-100">
+                                    <button class="btn btn-sm btn-outline-secondary"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#infoSirena">
+                                       <h4>Ver más</h4>
+                                    </button>
+                                </a>
+                            </div>
+                   </div>
+               </div>
+               </div>
 
         <div class="col-6 col-md-4">
-            <div class="card border-0 text-center">
-                   <a href="<?= BASE_URL ?>module=postres&view=detalle_postre_04"
-class="text-decoration-none text-dark d-flex flex-column h-100">
+            <div class="card border-0 text-center"> 
                 <img src="./assets/img/banquete/postre/cereza_chocolate.webp"
                      class="card-img-top rounded-3">
-                <div class="card-body p-2">
-                    <p class="mb-5 fw-semibold fs-3">Cheesecake de cereza y chocolate</p>
-                    <span class="fw-semibold fs-4">380.000</span>
-                </div>
-                   </a>
-            </div>
-        </div>
+               <div class="card-body">
+                    <h4 class="fw-semibold mb-1">Cheesecake de cereza y chocolate</h4>
+                            <p class="fw-bold mb-0"><h4>$650.000</h4></p>
+                    <!-- Flecha -->
+                            <div class="text-center mt-2">
+                              <a href="<?= BASE_URL ?>module=postres&view=detalle_postre_04"
+class="text-decoration-none text-dark d-flex flex-column h-100">
+                                    <button class="btn btn-sm btn-outline-secondary"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#infoSirena">
+                                       <h4>Ver más</h4>
+                                    </button>
+                                </a>
+                            </div>
+                   </div>
+               </div>
+               </div>
 
         <div class="col-6 col-md-4">
             <div class="card border-0 text-center">
-                   <a href="<?= BASE_URL ?>module=postres&view=detalle_postre_05"
-class="text-decoration-none text-dark d-flex flex-column h-100">
                 <img src="./assets/img/banquete/postre/flan.webp"
                      class="card-img-top rounded-3">
-                <div class="card-body p-2">
-                    <p class="mb-5 fw-semibold fs-3">Flan de caramelo</p>
-                    <span class="fw-semibold fs-4">400.000</span>
-                </div>
-                   </a>
+               <div class="card-body">
+                    <h4 class="fw-semibold mb-1">Flan de caramelo</h4>
+                            <p class="fw-bold mb-0"><h4>$650.000</h4></p>
+                    <!-- Flecha -->
+                            <div class="text-center mt-2">
+                                 <a href="<?= BASE_URL ?>module=postres&view=detalle_postre_05"
+class="text-decoration-none text-dark d-flex flex-column h-100">
+                                    <button class="btn btn-sm btn-outline-secondary"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#infoSirena">
+                                       <h4>Ver más</h4>
+                                    </button>
+                                </a>
+                            </div>
+               </div>
             </div>
         </div>
 
@@ -118,16 +158,23 @@ class="text-decoration-none text-dark d-flex flex-column h-100">
 class="text-decoration-none text-dark d-flex flex-column h-100">
                 <img src="./assets/img/banquete/postre/mousse.webp"
                      class="card-img-top rounded-3">
-                <div class="card-body p-2">
-                    <p class="mb-5 fw-semibold fs-3">Copas de mousse de chocolate y vainilla con fresa</p>
-                    <span class="fw-semibold fs-4">300.000</span>
-                </div>
-                   </a>
-            </div>
-        </div>
-
-    </div>
-</div>
+               <div class="card-body">
+                    <h4 class="fw-semibold mb-1">Copas de mousse de chocolate y vainilla con fresa</h4>
+                            <p class="fw-bold mb-0"><h4>$650.000</h4></p>
+                    <!-- Flecha -->
+                            <div class="text-center mt-2">
+                                 <a href="<?= BASE_URL ?>module=postres&view=detalle_postre_05"
+class="text-decoration-none text-dark d-flex flex-column h-100">
+                                    <button class="btn btn-sm btn-outline-secondary"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#infoSirena">
+                                        <h4>Ver más</h4>
+                                    </button>
+                                </a>
+                            </div>
+                            </div>
+                   </div>
+               </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>

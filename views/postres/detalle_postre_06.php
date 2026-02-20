@@ -1,15 +1,9 @@
-<!-- Bootstrap -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-<title>Detalle de Plato</title>
-</head>
-
 <body class="bg-light">
 
 <div class="container py-4">
 
-    <!-- CARRUSEL -->
-    <div id="carouselBuffet" class="carousel slide mb-4" data-bs-ride="carousel" >
+    <!-- CARRUSEL SUPERIOR -->
+    <div id="carouselBuffet" class="carousel slide mb-5" data-bs-ride="carousel">
         <div class="carousel-inner rounded shadow">
 
             <div class="carousel-item active">
@@ -32,7 +26,6 @@
 
         </div>
 
-        <!-- Controles -->
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselBuffet" data-bs-slide="prev">
             <span class="carousel-control-prev-icon bg-dark rounded-circle p-3"></span>
         </button>
@@ -43,60 +36,78 @@
     </div>
 
 
-    <!-- CONTENIDO -->
-    <div class="row g-4">
+    <!-- CONTENIDO PRINCIPAL -->
+    <div class="row g-4 align-items-center mb-5">
 
         <!-- Imagen principal -->
         <div class="col-md-5">
-            <img src="https://i.pinimg.com/1200x/75/2d/d0/752dd003966e759728bb23f903af2110.jpg"
-                 class="img-fluid rounded shadow">
+            <img id="imagen-principal"  src="https://i.pinimg.com/1200x/75/2d/d0/752dd003966e759728bb23f903af2110.jpg"
+                 class="img-fluid rounded-4 mb-3">
         </div>
 
         <!-- Texto y precio -->
-        <div class="col-md-7 d-flex flex-column justify-content-between">
+         <div class="col-md-7 d-flex flex-column">
 
-            <div>
-                <h5 class="display-1 display-md-3 fw-normal lh-1 mt-5">Copas de mousse de chocolate y vainilla con fresa</h5>
+            <h2 class="fw-semibold mb-4">
+                Copas de mousse de chocolate y vainilla con fresa
+            </h2>
 
-                <p class="text-muted mt-5 fs-1">
-         Capas de mousse ligera servidas en copas, decoradas con crema y fresas frescas.
-Un postre elegante, cremoso y perfecto para ocasiones especiales.
-                </p>
+            <p class="text-muted mb-4">
+                Capas de mousse ligera servidas en copas, decoradas con crema y fresas frescas.
+                Un postre elegante, cremoso y perfecto para ocasiones especiales.
+            </p>
 
-                <!-- Input -->
-                <label class="fw-semibol text-muted  fs-1">cantidad de porciones</label>
-                <input type="text" class="form-control mb-3" placeholder="Value">
-            </div>
+            <label class="fw-semibold text-muted">Cantidad de porciones</label>
+            <input type="number" class="form-control mb-4" placeholder="Ej: 50">
 
-            <!-- Precio y botón -->
-            <div>
-                <h2 class="fw-semibold fs-1">$380.000</h2>
+            <h3 class="fw-bold">$380.000</h3>
 
-            </div>
+            <!-- botón de carrito -->
+             <div class="d-flex justify-content-start">
+                     <a href="<?= BASE_URL ?>module=platillos&view=principal" class="btn btn-dark px-5 py-3 rounded-pill mt-4">
+                         Añadir al carrito
+                     </a>
+                 </div>
         </div>
     </div>
 
 
-    <!-- MINIATURAS -->
-    <div class="row mt-4 g-2">
-        <div class="col-4">
-            <img src="https://i.pinimg.com/736x/06/1a/d2/061ad239b467d81aca5134ba13a148dd.jpg"
-                 class="img-fluid rounded">
-        </div>
+   <div id="carouselDisenos" class="carousel slide" data-bs-ride="carousel">
+         <div class="carousel-inner pb-3">
 
-        <div class="col-4">
-            <img src="https://i.pinimg.com/736x/e3/5e/f0/e35ef09eb45feb61aac71edd15d98883.jpg"
-                 class="img-fluid rounded">
-        </div>
+             <div class="carousel-item active">
+                 <div class="d-flex justify-content-center gap-3">
+                     <img src="./assets/img/banquete/menu/02_menu/comida_1.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                         onclick="cambiarImagen(this)">
+                     <img src="./assets/img/banquete/menu/02_menu/comida_2.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                         onclick="cambiarImagen(this)">
+                     <img src="assets/img/galeria/baby-showers/galeria_baby1.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                         onclick="cambiarImagen(this)">
+                     <img src="assets/img/galeria/cumpleaños/galeria_cumple1.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                         onclick="cambiarImagen(this)">
+                 </div>
+             </div>
 
-        <div class="col-4">
-            <img src="https://i.pinimg.com/736x/c2/34/e2/c234e2d5b4d628b30b74fe4e206f038e.jpg"
-                 class="img-fluid rounded">
-        </div>
-    </div>
+             <div class="carousel-item">
+                 <div class="d-flex justify-content-center gap-3">
+                     <img src="assets/img/galeria/bodas/galeria_boda2.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                         onclick="cambiarImagen(this)">
+                     <img src="assets/img/galeria/bautizos/galeria_bautizos1.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                         onclick="cambiarImagen(this)">
+                     <img src="assets/img/galeria/bautizos/galeria_bautizos2.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                         onclick="cambiarImagen(this)">
+                     <img src="assets/img/galeria/cumpleaños/galeria_cumple2.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                         onclick="cambiarImagen(this)">
+                 </div>
+             </div>
+         </div>
+     </div>
+     <script>
+         function cambiarImagen(imagenPequena) {
+            document.getElementById("imagen-principal").src = imagenPequena.src;
+         }
+     </script>
 
-</div>
-
-<!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>

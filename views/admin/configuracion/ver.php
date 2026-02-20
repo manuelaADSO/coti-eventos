@@ -88,14 +88,12 @@
                     <table class="table table-hover align-middle">
                         <thead class="table-light">
                             <tr>
-                                <th>#</th>
                                 <th>Nombre del Rol</th>
                                 <th class="text-end">Acciones</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>1</td>
                                 <td>Administrador</td>
                                 <td class="text-end">
                                     <a href="#" class="btn btn-sm btn-outline-warning">Editar</a>
@@ -103,7 +101,6 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>2</td>
                                 <td>Usuario</td>
                                 <td class="text-end">
                                     <a href="#" class="btn btn-sm btn-outline-warning">Editar</a>

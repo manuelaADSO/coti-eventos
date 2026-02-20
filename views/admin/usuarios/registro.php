@@ -25,9 +25,9 @@
                 <table class="table table-hover align-middle">
                     <thead class="table-light">
                         <tr>
-                            <th>#</th>
                             <th>Nombre</th>
-                            <th>Email</th>
+                            <th>Apellido</th>
+                            <th>Correo Electrónico</th>
                             <th>Rol</th>
                             <th>Estado</th>
                             <th class="text-end">Acciones</th>
@@ -37,8 +37,8 @@
 
                         <!-- FILA DE EJEMPLO -->
                         <tr>
-                            <td>1</td>
-                            <td>María Gómez</td>
+                            <td>María</td>
+                            <td>Gómez</td>
                             <td>maria@gmail.com</td>
                             <td><span class="badge bg-primary">Administrador</span></td>
                             <td><span class="badge bg-success">Activo</span></td>
@@ -50,8 +50,8 @@
                         </tr>
 
                         <tr>
-                            <td>2</td>
-                            <td>Juan Pérez</td>
+                            <td>Juan</td>
+                            <td>Pérez</td>
                             <td>juan@gmail.com</td>
                             <td><span class="badge bg-secondary">Cliente</span></td>
                             <td><span class="badge bg-danger">Inactivo</span></td>

@@ -19,7 +19,7 @@
             <!-- FILTROS -->
             <div class="row g-3 mb-3">
                 <div class="col-md-4">
-                    <input type="text" class="form-control" placeholder="Buscar cliente o evento...">
+                    <input type="text" class="form-control" placeholder="Buscar nombre, apellido o evento...">
                 </div>
 
                 <div class="col-md-3">
@@ -30,7 +30,7 @@
                     <select class="form-select">
                         <option value="">Tipo de evento</option>
                         <option>Boda</option>
-                        <option>15 años</option>
+                        <option>XV</option>
                         <option>Cumpleaños</option>
                         <option>Evento corporativo</option>
                     </select>
@@ -38,12 +38,13 @@
             </div>
 
             <!-- TABLA -->
-            <div class="table-responsive">
-                <table class="table table-hover align-middle">
+            <div class="table-responsive" style="min-width:1100px;">
+                <table class="table table-hover align-middle w-100">
                     <thead class="table-light">
                         <tr>
-                            <th>#</th>
-                            <th>Cliente</th>
+                            <th>Nombre</th>
+                            <th>Apellido</th>
+                            <th>Correo Electrónico</th>
                             <th>Evento</th>
                             <th>Fecha Aprobación</th>
                             <th>Monto Aprobado</th>
@@ -55,8 +56,9 @@
 
                         <!-- COTIZACIÓN APROBADA 1 -->
                         <tr>
-                            <td>1</td>
-                            <td>Ana Martínez</td>
+                            <td>Ana</td>
+                            <td>Martínez</td>
+                            <td>ana@email.com</td>
                             <td>Boda</td>
                             <td>10/03/2026</td>
                             <td>$3.500.000</td>
@@ -72,9 +74,10 @@
 
                         <!-- COTIZACIÓN APROBADA 2 -->
                         <tr>
-                            <td>2</td>
-                            <td>Laura Gómez</td>
-                            <td>Fiesta de 15 años</td>
+                            <td>Laura</td>
+                            <td>Gómez</td>
+                            <td>laura@email.com</td>
+                            <td>XV</td>
                             <td>12/03/2026</td>
                             <td>$2.200.000</td>
                             <td>

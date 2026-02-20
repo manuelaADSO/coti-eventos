@@ -19,7 +19,6 @@
                 <table class="table table-hover align-middle">
                     <thead class="table-light">
                         <tr>
-                            <th>#</th>
                             <th>Nombre del Tipo</th>
                             <th class="text-end">Acciones</th>
                         </tr>
@@ -28,7 +27,6 @@
 
                         <!-- TIPO 1 -->
                         <tr>
-                            <td>1</td>
                             <td>Parlante</td>
                             <td class="text-end">
                                 <a href="#" class="btn btn-sm btn-outline-warning" data-bs-toggle="modal" data-bs-target="#modalEditarTipo">Editar</a>
@@ -38,7 +36,6 @@
 
                         <!-- TIPO 2 -->
                         <tr>
-                            <td>2</td>
                             <td>Micrófono</td>
                             <td class="text-end">
                                 <a href="#" class="btn btn-sm btn-outline-warning" data-bs-toggle="modal" data-bs-target="#modalEditarTipo">Editar</a>
@@ -48,7 +45,6 @@
 
                         <!-- TIPO 3 -->
                         <tr>
-                            <td>3</td>
                             <td>Consola</td>
                             <td class="text-end">
                                 <a href="#" class="btn btn-sm btn-outline-warning" data-bs-toggle="modal" data-bs-target="#modalEditarTipo">Editar</a>
@@ -58,7 +54,6 @@
 
                         <!-- TIPO 4 -->
                         <tr>
-                            <td>4</td>
                             <td>Luces</td>
                             <td class="text-end">
                                 <a href="#" class="btn btn-sm btn-outline-warning" data-bs-toggle="modal" data-bs-target="#modalEditarTipo">Editar</a>

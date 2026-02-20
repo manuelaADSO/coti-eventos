@@ -41,8 +41,9 @@
                 <table class="table table-hover align-middle">
                     <thead class="table-light">
                         <tr>
-                            <th>#</th>
-                            <th>Cliente</th>
+                            <th>Nombre</th>
+                            <th>Apellido</th>
+                            <th>Correo Electrónico</th>
                             <th>Evento</th>
                             <th>Fecha Solicitud</th>
                             <th>Presupuesto Estimado</th>
@@ -54,8 +55,9 @@
 
                         <!-- COTIZACIÓN 1 -->
                         <tr>
-                            <td>1</td>
-                            <td>Ana Martínez</td>
+                            <td>Ana</td>
+                            <td>Martínez</td>
+                            <td class="text-nowrap">ana@email.com</td>
                             <td>Boda</td>
                             <td>05/03/2026</td>
                             <td>$3.500.000</td>
@@ -63,25 +65,26 @@
                                 <span class="badge bg-danger">Alta</span>
                             </td>
                             <td class="text-end">
-                                <a href="#" class="btn btn-sm btn-outline-primary">Ver</a>
-                                <a href="#" class="btn btn-sm btn-outline-success">Responder</a>
+                                <a href="#" class="btn btn-sm btn-outline-primary mb-1">Ver</a>
+                                <a href="#" class="btn btn-sm btn-outline-success mb-1">Responder</a>
                                 <a href="#" class="btn btn-sm btn-outline-secondary">Archivar</a>
                             </td>
                         </tr>
 
                         <!-- COTIZACIÓN 2 -->
                         <tr>
-                            <td>2</td>
-                            <td>Laura Gómez</td>
-                            <td>Fiesta de 15 años</td>
+                            <td>Laura</td>
+                            <td>Gómez</td>
+                            <td class="text-nowrap">laura@email.com</td>
+                            <td>XV</td>
                             <td>07/03/2026</td>
                             <td>$2.200.000</td>
                             <td>
                                 <span class="badge bg-warning text-dark">Media</span>
                             </td>
                             <td class="text-end">
-                                <a href="#" class="btn btn-sm btn-outline-primary">Ver</a>
-                                <a href="#" class="btn btn-sm btn-outline-success">Responder</a>
+                                <a href="#" class="btn btn-sm btn-outline-primary mb-1">Ver</a>
+                                <a href="#" class="btn btn-sm btn-outline-success mb-1">Responder</a>
                                 <a href="#" class="btn btn-sm btn-outline-secondary">Archivar</a>
                             </td>
                         </tr>

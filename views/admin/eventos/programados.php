@@ -42,10 +42,12 @@
                 <table class="table table-hover align-middle">
                     <thead class="table-light">
                         <tr>
-                            <th>#</th>
-                            <th>Evento</th>
-                            <th>Cliente</th>
-                            <th>Fecha</th>
+                            <th>Tipo Evento</th>
+                            <th>Nombre</th>
+                            <th>Apellido</th>
+                            <th>Correo Electrónico</th>
+                            <th>Fecha Inicio</th>
+                            <th>Fecha Fin</th>
                             <th>Hora</th>
                             <th>Estado</th>
                             <th class="text-end">Acciones</th>
@@ -55,10 +57,12 @@
 
                         <!-- EVENTO 1 -->
                         <tr>
-                            <td>1</td>
-                            <td>Boda de Ana y Luis</td>
-                            <td>Ana Martínez</td>
+                            <td>Boda</td>
+                            <td>Ana</td>
+                            <td>Martínez</td>
+                            <td>ana@email.com</td>
                             <td>15/03/2026</td>
+                            <td>16/03/2026</td>
                             <td>6:00 PM</td>
                             <td>
                                 <span class="badge bg-primary">Programado</span>
@@ -72,10 +76,12 @@
 
                         <!-- EVENTO 2 -->
                         <tr>
-                            <td>2</td>
-                            <td>Fiesta de 15 años</td>
-                            <td>Laura Gómez</td>
+                            <td>XV</td>
+                            <td>Laura</td>
+                            <td>Gómez</td>
+                            <td>laura@email.com</td>
                             <td>22/03/2026</td>
+                            <td>23/03/2026</td>
                             <td>7:30 PM</td>
                             <td>
                                 <span class="badge bg-success">En proceso</span>

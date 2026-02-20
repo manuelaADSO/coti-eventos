@@ -3,34 +3,19 @@
 // 1. OBTENCIÓN DE DATOS DE LA BASE DE DATOS
 // ==========================================================
 
-// ⚠️ NOTA IMPORTANTE: Asegúrate de que la clase Database (en tu archivo de conexión)
-// use el nombre de la base de datos 'coti_eventos' en lugar de 'escuela' 
-// para que las consultas funcionen correctamente.
-
-// Requerir el archivo de la clase Database (ajusta la ruta si es necesario)
 // require_once './includes/Database.php'; 
 
 try {
-    // 1. Obtener la instancia única de la conexión PDO
     $db = Database::getInstance()->getConnection(); 
 
-    // 2. Obtener Tipos de Documento
+    // Obtener Tipos de Documento
     $query_doc = "SELECT id_tipo_documento, nombre FROM tipo_documento ORDER BY nombre ASC";
     $stmt_doc = $db->prepare($query_doc);
     $stmt_doc->execute();
     $tipos_documento = $stmt_doc->fetchAll(PDO::FETCH_ASSOC);
 
-     // 3. Obtener Roles disponibles
-    $query_rol = "SELECT id_rol, nombre FROM roles ORDER BY nombre ASC";
-    $stmt_rol = $db->prepare($query_rol);
-    $stmt_rol->execute();
-    $roles_disponibles = $stmt_rol->fetchAll(PDO::FETCH_ASSOC);
-     
-
 } catch (PDOException $e) {
-    // Si la conexión falla, inicializamos los arrays vacíos para evitar errores en el foreach
     $tipos_documento = []; 
-    $roles_disponibles = [];
     error_log("Error al cargar datos del formulario: " . $e->getMessage());
 }
 
@@ -39,7 +24,6 @@ $base_url = "index.php";
 $exitoso = $_SESSION['success'] ?? null;
 unset($_SESSION['success']);
 
-$base_url = "index.php"; 
 $error = $_SESSION['error'] ?? null;
 unset($_SESSION['error']);
 ?>
@@ -54,7 +38,7 @@ unset($_SESSION['error']);
                 </div>
             <?php endif; ?>
 
-               <?php if ($exitoso): ?>
+            <?php if ($exitoso): ?>
                 <div class="alert alert-success text-center mb-4 rounded" role="alert">
                     <?= htmlspecialchars($exitoso) ?>
                 </div>
@@ -64,84 +48,106 @@ unset($_SESSION['error']);
                 
                 <form action="<?= BASE_URL ?>module=usuarios&action=crear" method="POST">
 
-                    <input type="text"
-                        name="nombre"
-                        class="form-control mb-3 text-center rounded"
-                        placeholder="Nombre completo"
-                        required>
+                    <div class="row">
 
-                    <input type="email"
-                        name="email"
-                        class="form-control mb-3 text-center rounded"
-                        placeholder="Correo electrónico"
-                        required>
+                        <!-- Nombre -->
+                        <div class="col-md-6 mb-3">
+                            <input type="text"
+                                name="nombre"
+                                class="form-control text-center rounded"
+                                placeholder="Nombre"
+                                required>
+                        </div>
 
-                    <input type="password"
-                        name="password"
-                        class="form-control mb-4 text-center rounded"
-                        placeholder="Contraseña"
-                        required>
+                            <!-- Apellido-->
+                        <div class="col-md-6 mb-3">
+                            <input type="text"
+                                name="apellidos"
+                                class="form-control text-center rounded"
+                                placeholder="apellido"
+                                required>
+                        </div>
 
-                    <div class="row mb-3">
-                        <div class="col-5">
+                         <!-- Tipo documento -->
+                        <div class="col-md-6 mb-3">
                             <select name="id_tipo_documento" class="form-select text-center rounded" required>
                                 <option value="" disabled selected>Tipo Doc.</option>
-                                
                                 <?php foreach ($tipos_documento as $tipo): ?>
-                                    <option value="<?= $tipo['id_tipo_documento'] ?>"><?= htmlspecialchars($tipo['nombre']) ?></option>
+                                    <option value="<?= $tipo['id_tipo_documento'] ?>">
+                                        <?= htmlspecialchars($tipo['nombre']) ?>
+                                    </option>
                                 <?php endforeach; ?>
                             </select>
                         </div>
-                        <div class="col-7">
+
+                        <!-- Número documento -->
+                        <div class="col-md-6 mb-3">
                             <input type="text"
                                 name="documento"
                                 class="form-control text-center rounded"
                                 placeholder="Número de Documento"
                                 required>
                         </div>
+
+                        <!-- Dirección -->
+                        <div class="col-md-6 mb-4">
+                            <input type="text"
+                                name="direccion"
+                                class="form-control text-center rounded"
+                                placeholder="Dirección completa"
+                                required>
+                        </div>
+
+                       <!-- Teléfono móvil -->
+                        <div class="col-md-6 mb-3">
+                            <input type="tel"
+                                name="telefono_movil"
+                                class="form-control text-center rounded"
+                                placeholder="Teléfono Móvil"
+                                required>
+                        </div>
+
+                        <!-- Teléfono fijo -->
+                        <div class="col-md-6 mb-3">
+                            <input type="tel"
+                                name="telefono_fijo"
+                                class="form-control text-center rounded"
+                                placeholder="Teléfono Fijo (Opcional)">
+                        </div>
+
+                        <!-- Correo -->
+                        <div class="col-md-6 mb-3">
+                            <input type="email"
+                                name="email"
+                                class="form-control text-center rounded"
+                                placeholder="Correo electrónico"
+                                required>
+                        </div>
+
+                        <!-- Contraseña -->
+                        <div class="col-12 mb-3">
+                            <input type="password"
+                                name="password"
+                                class="form-control text-center rounded"
+                                placeholder="Contraseña"
+                                required>
+                                </div>
                     </div>
 
-                    <input type="tel"
-                        name="telefono_movil"
-                        class="form-control mb-3 text-center rounded"
-                        placeholder="Teléfono Móvil"
-                        required>
-                        
-                    <input type="tel"
-                        name="telefono_fijo"
-                        class="form-control mb-3 text-center rounded"
-                        placeholder="Teléfono Fijo (Opcional)">
-
-                    <input type="text"
-                        name="direccion"
-                        class="form-control mb-3 text-center rounded"
-                        placeholder="Dirección completa"
-                        required>
-
-                    <select name="id_rol" class="form-select mb-4 text-center rounded" required>
-                        <option value="" disabled selected>Seleccione el Rol</option>
-                        
-                        <?php foreach ($roles_disponibles as $rol): ?>
-                            <option value="<?= $rol['id_rol'] ?>"><?= htmlspecialchars($rol['nombre']) ?></option>
-                        <?php endforeach; ?>
-
-                    </select>
-
-                    <div class="d-flex justify-content-center">
+                    <!-- Botones -->
+                    <div class="d-flex justify-content-center gap-3">
                         <button type="submit" class="btn btn-light px-4 border rounded-pill">
                             Registrar Usuario
                         </button>
-                    </div>
-                    <div class="d-flex justify-content-center mt-3">
-    <a href="<?= BASE_URL ?>module=usuarios&view=login"
-       class="btn btn-light border rounded-pill px-4">
-        Volver a iniciar sesión
-    </a>
-</div>
 
+                        <a href="<?= BASE_URL ?>module=usuarios&view=login"
+                           class="btn btn-light border rounded-pill px-4">
+                            Volver a iniciar sesión
+                        </a>
+                    </div>
 
                 </form>
-                </div>
+            </div>
 
         </div>
     </div>

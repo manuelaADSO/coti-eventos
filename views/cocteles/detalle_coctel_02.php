@@ -15,19 +15,19 @@
              <div class="carousel-item active">
                 <img src="https://i.pinimg.com/736x/98/52/1b/98521b4960b5c1ee4ec9b3989e568fdc.jpg"
                      class="d-block w-100"
-                     style="height:280px; object-fit:cover;">
+                     style="height:450px; object-fit:cover;">
             </div>
 
             <div class="carousel-item">
                 <img src="https://i.pinimg.com/1200x/fe/23/10/fe2310779ef7d4a278520c613baac4dd.jpg"
                      class="d-block w-100"
-                     style="height:280px; object-fit:cover;">
+                     style="height:450px; object-fit:cover;">
             </div>
 
             <div class="carousel-item">
                 <img src="https://i.pinimg.com/736x/3c/6e/28/3c6e28290a173e572f0a1e61203dd4b7.jpg"
                      class="d-block w-100"
-                     style="height:280px; object-fit:cover;">
+                     style="height:450px; object-fit:cover;">
             </div>
 
         </div>
@@ -48,55 +48,76 @@
 
         <!-- Imagen principal -->
         <div class="col-md-5">
-            <img src="https://i.pinimg.com/1200x/83/ae/e0/83aee08548adfb3a563d51f3d1b68bdd.jpg"
-                 class="img-fluid rounded shadow">
+            <img id="imagen-principal" src="https://i.pinimg.com/1200x/83/ae/e0/83aee08548adfb3a563d51f3d1b68bdd.jpg"
+                 class="img-fluid rounded-4 mb-3">
         </div>
 
         <!-- Texto y precio -->
-        <div class="col-md-7 d-flex flex-column justify-content-between">
+         <div class="col-md-7 d-flex flex-column">
 
             <div>
-                <h5 class="display-1 display-md-3 fw-normal lh-1 mt-5">Limonada rosada con menta</h5>
+                <h5 class="display-1 display-md-3 fw-normal lh-1 mt-2">Limonada rosada con menta</h5>
 
-                <p class="text-muted mt-5 fs-1">
+                <p class="text-muted mt-2 fs-3">
                  Mezcla cítrica y ligeramente dulce con notas de limón, frutos rojos y hojas de menta fresca.
 Refrescante, aromática y muy ligera.
                 </p>
 
                 <!-- Input -->
-                <label class="fw-semibol text-muted  fs-1">cantidad de porciones</label>
+                <label class="fw-semibol text-muted  fs-3">cantidad de porciones</label>
                 <input type="text" class="form-control mb-3" placeholder="Value">
             </div>
 
             <!-- Precio y botón -->
             <div>
-                <h2 class="fw-semibold fs-1">$380.000</h2>
-
+                <h2 class="fw-semibold fs-3">$380.000</h2>
             </div>
+
+             <!-- botón de carrito -->
+             <div class="d-flex justify-content-start">
+                     <a href="<?= BASE_URL ?>module=platillos&view=principal" class="btn btn-dark px-5 py-3 rounded-pill mt-4">
+                         Añadir al carrito
+                     </a>
+                 </div>
         </div>
     </div>
 
 
-    <!-- MINIATURAS -->
-    <div class="row mt-4 g-2">
-        <div class="col-4">
-            <img src="https://i.pinimg.com/736x/60/ef/b3/60efb3f1bb53b1b0c394174ed74f669c.jpg"
-                 class="img-fluid rounded">
-        </div>
+    <div id="carouselDisenos" class="carousel slide" data-bs-ride="carousel">
+         <div class="carousel-inner pb-3">
 
-        <div class="col-4">
-            <img src="https://i.pinimg.com/736x/43/22/2c/43222c921b1a74fadc52821bf33fd897.jpg"
-                 class="img-fluid rounded">
-        </div>
+             <div class="carousel-item active">
+                 <div class="d-flex justify-content-center gap-3">
+                     <img src="./assets/img/banquete/menu/02_menu/comida_1.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                         onclick="cambiarImagen(this)">
+                     <img src="./assets/img/banquete/menu/02_menu/comida_2.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                         onclick="cambiarImagen(this)">
+                     <img src="assets/img/galeria/baby-showers/galeria_baby1.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                         onclick="cambiarImagen(this)">
+                     <img src="assets/img/galeria/cumpleaños/galeria_cumple1.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                         onclick="cambiarImagen(this)">
+                 </div>
+             </div>
 
-        <div class="col-4">
-            <img src="https://i.pinimg.com/736x/74/01/7c/74017c51f16c86cea5457dc91de83b77.jpg"
-                 class="img-fluid rounded">
-        </div>
-    </div>
-
-</div>
-
+             <div class="carousel-item">
+                 <div class="d-flex justify-content-center gap-3">
+                     <img src="assets/img/galeria/bodas/galeria_boda2.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                         onclick="cambiarImagen(this)">
+                     <img src="assets/img/galeria/bautizos/galeria_bautizos1.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                         onclick="cambiarImagen(this)">
+                     <img src="assets/img/galeria/bautizos/galeria_bautizos2.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                         onclick="cambiarImagen(this)">
+                     <img src="assets/img/galeria/cumpleaños/galeria_cumple2.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                         onclick="cambiarImagen(this)">
+                 </div>
+             </div>
+         </div>
+     </div>
+     <script>
+         function cambiarImagen(imagenPequena) {
+            document.getElementById("imagen-principal").src = imagenPequena.src;
+         }
+     </script>
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>

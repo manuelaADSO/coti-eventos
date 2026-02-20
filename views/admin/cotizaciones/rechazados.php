@@ -42,8 +42,9 @@
                 <table class="table table-hover align-middle">
                     <thead class="table-light">
                         <tr>
-                            <th>#</th>
-                            <th>Cliente</th>
+                            <th>Nombre</th>
+                            <th>Apellido</th>
+                            <th>Correo Electrónico</th>
                             <th>Evento</th>
                             <th>Fecha Rechazo</th>
                             <th>Monto Ofertado</th>
@@ -55,8 +56,9 @@
 
                         <!-- RECHAZADA 1 -->
                         <tr>
-                            <td>1</td>
-                            <td>Carolina Ruiz</td>
+                            <td>Carolina</td>
+                            <td>Ruiz</td>
+                            <td class="text-nowrap">carolina@email.com</td>
                             <td>Boda</td>
                             <td>18/03/2026</td>
                             <td>$4.000.000</td>
@@ -64,16 +66,17 @@
                                 <span class="badge bg-danger">Precio alto</span>
                             </td>
                             <td class="text-end">
-                                <a href="#" class="btn btn-sm btn-outline-primary">Ver</a>
-                                <a href="#" class="btn btn-sm btn-outline-warning">Editar</a>
+                                <a href="#" class="btn btn-sm btn-outline-primary mb-1">Ver</a>
+                                <a href="#" class="btn btn-sm btn-outline-warning mb-1">Editar</a>
                                 <a href="#" class="btn btn-sm btn-outline-success">Reenviar</a>
                             </td>
                         </tr>
 
                         <!-- RECHAZADA 2 -->
                         <tr>
-                            <td>2</td>
-                            <td>Daniel Torres</td>
+                            <td>Daniel</td>
+                            <td>Torres</td>
+                            <td class="text-nowrap">daniel@email.com</td>
                             <td>Evento corporativo</td>
                             <td>20/03/2026</td>
                             <td>$2.800.000</td>
@@ -81,8 +84,8 @@
                                 <span class="badge bg-secondary">Fecha no disponible</span>
                             </td>
                             <td class="text-end">
-                                <a href="#" class="btn btn-sm btn-outline-primary">Ver</a>
-                                <a href="#" class="btn btn-sm btn-outline-warning">Editar</a>
+                                <a href="#" class="btn btn-sm btn-outline-primary mb-1">Ver</a>
+                                <a href="#" class="btn btn-sm btn-outline-warning mb-1">Editar</a>
                                 <a href="#" class="btn btn-sm btn-outline-success">Reenviar</a>
                             </td>
                         </tr>

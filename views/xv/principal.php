@@ -1,4 +1,12 @@
-<main class="container-fluid my-5 flex-grow-1">
+<!-- BOTÓN ARRIBA A LA DERECHA -->
+<div class="col-md-6 text-md-end mt-3 mt-md-3 px-2">
+    <a href="#"
+        class="btn bg-secondary-subtle text-dark fw-semibold fs-4 px-4 py-2 rounded-4">
+          Explora ideas y detalles especiales para unos XV años llenos de elegancia.
+    </a>
+</div>
+
+<main class="container-fluid my-3 flex-grow-1">
 
     <div id="weddingCarousel" class="carousel slide mb-5 shadow" data-bs-ride="carousel">
         <div class="carousel-inner rounded-4">

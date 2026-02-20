@@ -11,17 +11,17 @@
 
             <div class="carousel-item active">
                 <img src="./assets/img/banquete/coctel/coctel_1.webp"
-                     class="d-block w-100" style="height:280px; object-fit:cover;">
+                     class="d-block w-100" style="height:450px; object-fit:cover;">
             </div>
 
             <div class="carousel-item">
                 <img src="./assets/img/banquete/coctel/coctel_2.webp"
-                     class="d-block w-100" style="height:280px; object-fit:cover;">
+                     class="d-block w-100" style="height:450px; object-fit:cover;">
             </div>
 
             <div class="carousel-item">
                 <img src="./assets/img/banquete/coctel/coctel_3.webp"
-                     class="d-block w-100" style="height:280px; object-fit:cover;">
+                     class="d-block w-100" style="height:450px; object-fit:cover;">
             </div>
 
         </div>
@@ -44,88 +44,137 @@
         <!-- Card -->
         <div class="col-6 col-md-4">
             <div class="card border-0 text-center">
-                <a href="<?= BASE_URL ?>module=cocteles&view=detalle_coctel_01"
-class="text-decoration-none text-dark d-flex flex-column h-100">
                 <img src="./assets/img/banquete/coctel/tropical_durazno.webp"
                      class="card-img-top rounded-3">
-                <div class="card-body p-2">
-                    <p class="mb-5 fw-semibold fs-3">Cóctel tropical de durazno</p>
-                    <span class="fw-semibold fs-4">380.000</span>
-                </div>
-                </a>
+               <div class="card-body">
+                    <h4 class="fw-semibold mb-1">Cóctel tropical de durazno</h4>
+                            <p class="fw-bold mb-0"><h4>$650.000</h4></p>
+                    <!-- Flecha -->
+                            <div class="text-center mt-2">
+                                  <a href="<?= BASE_URL ?>module=cocteles&view=detalle_coctel_01"
+class="text-decoration-none text-dark d-flex flex-column h-100">
+                                    <button class="btn btn-sm btn-outline-secondary"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#infoSirena">
+                                      <h4>Ver más</h4>
+                                    </button>
+                                </a>
+                            </div>
+               </div>
             </div>
         </div>
 
         <div class="col-6 col-md-4">
             <div class="card border-0 text-center">
-                             <a href="<?= BASE_URL ?>module=cocteles&view=detalle_coctel_02"
-class="text-decoration-none text-dark d-flex flex-column h-100">
                 <img src="./assets/img/banquete/coctel/limonada_rosa.webp"
                      class="card-img-top rounded-3">
-                <div class="card-body p-2">
-                    <p class="mb-5 fw-semibold fs-3">Limonada rosada con menta</p>
-                    <span class="fw-semibold fs-4">350.000</span>
+                <div class="card-body">
+                    <h4 class="fw-semibold mb-1">Limonada rosada con menta</h4>
+                            <p class="fw-bold mb-0"><h4>$650.000</h4></p>
+                    <!-- Flecha -->
+                            <div class="text-center mt-2">
+                                <a href="<?= BASE_URL ?>module=cocteles&view=detalle_coctel_02"
+class="text-decoration-none text-dark d-flex flex-column h-100">
+                                    <button class="btn btn-sm btn-outline-secondary"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#infoSirena">
+                                   <h4>Ver más</h4>
+                                    </button>
+                                </a>
+                            </div>
                 </div>
-                             </a>
-            </div>
+</div>
         </div>
+
 
         <div class="col-6 col-md-4">
             <div class="card border-0 text-center">
-                             <a href="<?= BASE_URL ?>module=cocteles&view=detalle_coctel_03"
-class="text-decoration-none text-dark d-flex flex-column h-100">
                 <img src="./assets/img/banquete/coctel/sunrise_tropical.webp"
                      class="card-img-top rounded-3">
-                <div class="card-body p-2">
-                    <p class="mb-5 fw-semibold fs-3">Sunrise tropical</p>
-                    <span class="fw-semibold fs-4">380.000</span>
+                <div class="card-body">
+                    <h4 class="fw-semibold mb-1">Sunrise tropical</h4>
+                            <p class="fw-bold mb-0"><h4>$650.000</h4></p>
+                    <!-- Flecha -->
+                            <div class="text-center mt-2">
+                                 <a href="<?= BASE_URL ?>module=cocteles&view=detalle_coctel_03"
+class="text-decoration-none text-dark d-flex flex-column h-100">
+                                    <button class="btn btn-sm btn-outline-secondary"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#infoSirena">
+                                      <h4>Ver más</h4>
+                                    </button>
+                                </a>
+                            </div>
                 </div>
-                             </a>
             </div>
         </div>
 
         <div class="col-6 col-md-4">
             <div class="card border-0 text-center">
-                             <a href="<?= BASE_URL ?>module=cocteles&view=detalle_coctel_04"
-class="text-decoration-none text-dark d-flex flex-column h-100">
                 <img src="./assets/img/banquete/coctel/coctel_colada.webp"
                      class="card-img-top rounded-3">
-                <div class="card-body p-2">
-                    <p class="mb-5 fw-semibold fs-3">Piña colada clásica</p>
-                    <span class="fw-semibold fs-4">380.000</span>
-                </div>
-                             </a>
+               <div class="card-body">
+                    <h4 class="fw-semibold mb-1"> Piña colada clásica</h4>
+                            <p class="fw-bold mb-0"><h4>$650.000</h4></p>
+                    <!-- Flecha -->
+                            <div class="text-center mt-2">
+                                 <a href="<?= BASE_URL ?>module=cocteles&view=detalle_coctel_04"
+class="text-decoration-none text-dark d-flex flex-column h-100">
+                                    <button class="btn btn-sm btn-outline-secondary"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#infoSirena">
+                                       <h4>Ver más</h4>
+                                    </button>
+                                </a>
+                            </div>
+               </div>
             </div>
         </div>
 
         <div class="col-6 col-md-4">
             <div class="card border-0 text-center">
-                             <a href="<?= BASE_URL ?>module=cocteles&view=detalle_coctel_05"
-class="text-decoration-none text-dark d-flex flex-column h-100">
                 <img src="./assets/img/banquete/coctel/atardecer.webp"
                      class="card-img-top rounded-3">
-                <div class="card-body p-2">
-                    <p class="mb-5 fw-semibold fs-3">Cóctel atardecer de frutos rojos</p>
-                    <span class="fw-semibold fs-4">400.000</span>
+                <div class="card-body">
+                    <h4 class="fw-semibold mb-1">Cóctel atardecer de frutos rojosl</h4>
+                            <p class="fw-bold mb-0"><h4>$650.000</h4></p>
+                    <!-- Flecha -->
+                            <div class="text-center mt-2">
+                                 <a href="<?= BASE_URL ?>module=cocteles&view=detalle_coctel_05"
+class="text-decoration-none text-dark d-flex flex-column h-100">
+                                    <button class="btn btn-sm btn-outline-secondary"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#infoSirena">
+                                       <h4>Ver más</h4>
+                                    </button>
+                                </a>
+                            </div>
                 </div>
-                             </a>
             </div>
         </div>
 
         <div class="col-6 col-md-4">
             <div class="card border-0 text-center">
-                             <a href="<?= BASE_URL ?>module=cocteles&view=detalle_coctel_06"
-class="text-decoration-none text-dark d-flex flex-column h-100">
                 <img src="./assets/img/banquete/coctel/margarita_limon.webp"
                      class="card-img-top rounded-3">
-                <div class="card-body p-2">
-                    <p class="mb-5 fw-semibold fs-3">Margarita de limón</p>
-                    <span class="fw-semibold fs-4">300.000</span>
-                </div>
-                             </a>
+               <div class="card-body">
+                    <h4 class="fw-semibold mb-1">Margarita de limón</h4>
+                            <p class="fw-bold mb-0"><h4>$650.000</h4></p>
+                    <!-- Flecha -->
+                            <div class="text-center mt-2">
+                                      <a href="<?= BASE_URL ?>module=cocteles&view=detalle_coctel_06"
+class="text-decoration-none text-dark d-flex flex-column h-100">
+                                    <button class="btn btn-sm btn-outline-secondary"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#infoSirena">
+                                       <h4>Ver más</h4>
+                                    </button>
+                                </a>
+                            </div>
+               </div>
+               </div>
             </div>
         </div>
-
     </div>
 </div>
 

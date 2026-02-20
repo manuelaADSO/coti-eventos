@@ -42,60 +42,108 @@
         <div class="row g-4 px-3">
             
             <div class="col-6 col-md-4 text-center">
-                   <a href="<?= BASE_URL ?>module=tortas&view=detalle_xv"
-class="text-decoration-none text-dark d-flex flex-column h-100">
-                <img src="./assets/img/banquete/torta/torta_xv.webp" class="img-fluid rounded mb-2 shadow-sm" alt="Torta">
-                <p class="mb-5 fw-semibold fs-3">Torta XV años</p>
-                <h5 class="fw-semibold fs-4">150.000</h5>
-                   </a>
-            </div>
+        <img src="./assets/img/banquete/torta/torta_xv.webp"
+             class="img-fluid rounded mb-2 shadow-sm" alt="Torta">
+        <p class="mb-1 fw-semibold fs-3">Torta XV años</p>
+        <h5 class="fw-semibold fs-4 mb-1">$150.000</h5>
+        <!-- Flecha -->
+                            <div class="text-center mt-2">
+                                    <a href="<?= BASE_URL ?>module=tortas&view=detalle_xv"
+       class="text-decoration-none text-dark d-flex flex-column h-100 align-items-center">
+                                    <button class="btn btn-sm btn-outline-secondary"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#infoSirena">
+                                      <h4>Ver más</h4>
+                                    </button>
+                                </a>
+                            </div>
+</div>
+
 
             <div class="col-6 col-md-4 text-center">
-                   <a href="<?= BASE_URL ?>module=tortas&view=detalle_boda"
-class="text-decoration-none text-dark d-flex flex-column h-100">
                 <img src="./assets/img/banquete/torta/torta_boda.webp" class="img-fluid rounded mb-2 shadow-sm" alt="Torta">
-                <p class="mb-5 fw-semibold fs-3">Torta Matrimonio</p>
-                <h5 class="fw-semibold fs-4">180.000</h5>
-                   </a>
-            </div>
+        <p class="mb-1 fw-semibold fs-3">Torta Matrimonio</p>
+        <h5 class="fw-semibold fs-4 mb-1">$150.000</h5>
+       <!-- Flecha -->
+                            <div class="text-center mt-2">
+  <a href="<?= BASE_URL ?>module=tortas&view=detalle_boda"
+class="text-decoration-none text-dark d-flex flex-column h-100 align-items-center">
+                                    <button class="btn btn-sm btn-outline-secondary"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#infoSirena">
+                                      <h4>Ver más</h4>
+                                    </button>
+                                </a>
+                            </div>
+</div>
 
             <div class="col-6 col-md-4 text-center">
-                   <a href="<?= BASE_URL ?>module=tortas&view=detalle_bautizo"
-class="text-decoration-none text-dark d-flex flex-column h-100">
                 <img src="./assets/img/banquete/torta/torta_bautizo.webp" class="img-fluid rounded mb-2 shadow-sm" alt="Torta">
-                <p class="mb-5 fw-semibold fs-3">Torta Bautizo</p>
-                <h5 class="fw-semibold fs-4">200.000</h5>
-                   </a>
-            </div>
+                <p class="mb-1 fw-semibold fs-3">Torta Bautizo</p>
+        <h5 class="fw-semibold fs-4 mb-1">$150.000</h5>
+        <!-- Flecha -->
+                            <div class="text-center mt-2">
+    <a href="<?= BASE_URL ?>module=tortas&view=detalle_bautizo"
+class="text-decoration-none text-dark d-flex flex-column h-100 align-items-center">
+                                    <button class="btn btn-sm btn-outline-secondary"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#infoSirena">
+                                      <h4>Ver más</h4>
+                                    </button>
+                                </a>
+                            </div>
+</div>
+
 
             <div class="col-6 col-md-4 text-center">
-                   <a href="<?= BASE_URL ?>module=tortas&view=detalle_cumpleaños"
-class="text-decoration-none text-dark d-flex flex-column h-100">
                 <img src="./assets/img/banquete/torta/torta_cumple.webp" class="img-fluid rounded mb-2 shadow-sm" alt="Torta">
-                <p class="mb-5 fw-semibold fs-3">Torta Cumpleaños</p>
-                <h5 class="fw-semibold fs-4">180.000</h5>
-                   </a>
-            </div>
+                <p class="mb-1 fw-semibold fs-3">Torta Cumpleaños</p>
+        <h5 class="fw-semibold fs-4 mb-1">$150.000</h5>
+        <!-- Flecha -->
+                            <div class="text-center mt-2">
+    <a href="<?= BASE_URL ?>module=tortas&view=detalle_cumpleaños"
+class="text-decoration-none text-dark d-flex flex-column h-100 align-items-center">
+                                    <button class="btn btn-sm btn-outline-secondary"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#infoSirena">
+                                      <h4>Ver más</h4>
+                                    </button>
+                                </a>
+                            </div>
+</div>
 
             <div class="col-6 col-md-4 text-center">
-                   <a href="<?= BASE_URL ?>module=tortas&view=detalle_baby_shawer"
-class="text-decoration-none text-dark d-flex flex-column h-100">
                 <img src="./assets/img/banquete/torta/torta_baby_showers.webp" class="img-fluid rounded mb-2 shadow-sm" alt="Torta">
-                <p class="mb-5 fw-semibold fs-3">Torta Baby Showers</p>
-                <h5 class="fw-semibold fs-4">170.000</h5>
-                   </a>
-            </div>
+                <p class="mb-1 fw-semibold fs-3">Torta Baby Showers</p>
+        <h5 class="fw-semibold fs-4 mb-1">$150.000</h5>
+         <!-- Flecha -->
+                            <div class="text-center mt-2">
+        <a href="<?= BASE_URL ?>module=tortas&view=detalle_baby_shawer"
+class="text-decoration-none text-dark d-flex flex-column h-100 align-items-center">
+                                    <button class="btn btn-sm btn-outline-secondary"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#infoSirena">
+                                      <h4>Ver más</h4>
+                                    </button>
+                                </a>
+                            </div>
+</div>
 
             <div class="col-6 col-md-4 text-center">
-                   <a href="<?= BASE_URL ?>module=tortas&view=detalle_graduacion"
-class="text-decoration-none text-dark d-flex flex-column h-100">
                 <img src="./assets/img/banquete/torta/torta_graduacion.webp" class="img-fluid rounded mb-2 shadow-sm" alt="Torta">
-                <p class="mb-5 fw-semibold fs-3">Torta Graduación</p>
-                <h5 class="fw-semibold fs-4">145.000</h5>
-                   </a>
-            </div>
-        </div>
-    </div>
-
+                <p class="mb-1 fw-semibold fs-3">Torta Graduación</p>
+        <h5 class="fw-semibold fs-4 mb-1">$150.000</h5>
+         <!-- Flecha -->
+                            <div class="text-center mt-2">
+          <a href="<?= BASE_URL ?>module=tortas&view=detalle_graduacion"
+class="text-decoration-none text-dark d-flex flex-column h-100 align-items-center">
+                                    <button class="btn btn-sm btn-outline-secondary"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#infoSirena">
+                                      <h4>Ver más</h4>
+                                    </button>
+                                </a>
+</div>
+</div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
