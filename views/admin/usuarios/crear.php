@@ -9,9 +9,14 @@
 <input type="text" class="form-control">
 </div>
 
+<div class="col-md-6">
+<label class="form-label">Apellido</label>
+<input type="text" class="form-control">
+</div>
+
 
 <div class="col-md-6">
-<label class="form-label">Email</label>
+<label class="form-label">Correo Electrónico</label>
 <input type="email" class="form-control">
 </div>
 

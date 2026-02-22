@@ -19,11 +19,13 @@
                 <div class="card-body text-center p-5">
 
                     <!-- Imagen de perfil -->
-                    <img src="https://via.placeholder.com/150" alt="Foto de perfil" class="rounded-circle mb-4" width="150" height="150">
+                    <img src="./assets/img/foto_perfil.webp" alt="Foto de perfil" class="rounded-circle mb-4" width="150" height="150">
 
                     <!-- Nombre -->
-                    <h3 class="card-title mb-3">Manuela Zuluaga</h3>
+                    <h3 class="card-title mb-3">Manuela</h3>
 
+                       <!-- Apellido -->
+                    <h3 class="card-title mb-3">Zuluaga</h3>
                     <!-- Rol -->
                     <p class="text-muted mb-4">Cliente</p>
 

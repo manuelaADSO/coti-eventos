@@ -7,17 +7,17 @@
 <table class="table table-hover mb-0">
 <thead class="table-light">
 <tr>
-<th>ID</th>
 <th>Nombre</th>
-<th>Email</th>
+<th>Apellido</th>
+<th>Correo Electrónico</th>
 <th>Rol</th>
 <th>Acciones</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>1</td>
-<td>Manuela Zuluaga</td>
+<td>Manuela</td>
+<td>Zuluaga</td>
 <td>manuela@email.com</td>
 <td>Admin</td>
 <td>

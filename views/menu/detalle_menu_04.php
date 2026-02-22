@@ -13,21 +13,21 @@
         <div class="carousel-inner rounded shadow">
 
             <div class="carousel-item active">
-                <img src="https://i.pinimg.com/736x/97/f9/33/97f933a314cc00a7d935db2ab7b5ce18.jpg"
+                <img src="./assets/img/banquete/menu/burrito.webp"
                      class="d-block w-100"
-                     style="height:280px; object-fit:cover;">
+                     style="height:450px; object-fit:cover;">
             </div>
 
             <div class="carousel-item">
-                <img src="https://i.pinimg.com/736x/ea/5f/4d/ea5f4d03f5d3b51cc2026b30aa05cbfc.jpg"
+                <img src="./assets/img/banquete/inicio/comida_1.webp"
                      class="d-block w-100"
-                     style="height:280px; object-fit:cover;">
+                     style="height:450px; object-fit:cover;">
             </div>
 
             <div class="carousel-item">
-                <img src="https://i.pinimg.com/736x/23/75/ec/2375ec6dbe4a549dd332e7fc31fb16d6.jpg"
+                <img src="./assets/img/banquete/inicio/comida_3.webp"
                      class="d-block w-100"
-                     style="height:280px; object-fit:cover;">
+                     style="height:450px; object-fit:cover;">
             </div>
 
         </div>
@@ -48,54 +48,76 @@
 
         <!-- Imagen principal -->
         <div class="col-md-5">
-            <img src="https://i.pinimg.com/736x/ab/9f/97/ab9f9710642147c95dbb24c58f85c5e1.jpg"
-                 class="img-fluid rounded shadow">
+             <img id="imagen-principal" src="./assets/img/banquete/menu/burrito.webp"
+                 class="img-fluid rounded-4 mb-3">
         </div>
 
         <!-- Texto y precio -->
-        <div class="col-md-7 d-flex flex-column justify-content-between">
+    <div class="col-md-7 d-flex flex-column">
 
             <div>
-                <h1 class="display-1 display-md-3 fw-normal lh-1 mt-5">Burrito gratinado relleno de carne y papas</h1>
+                <h1 class="display-1 display-md-3 fw-normal lh-1 mt-2">Burrito gratinado relleno de carne y papas</h1>
 
-                <p class="text-muted mt-5 fs-1">
+                <p class="text-muted mt-2 fs-3">
                 Tortilla dorada rellena de carne sazonada, papas y queso fundido, gratinada hasta quedar crujiente.
 Ideal para quienes buscan un sabor intenso y abundante.
 
                 <!-- Input -->
-                <label class="fw-semibol text-muted fs-1">cantidad de porciones</label>
+                <label class="fw-semibol text-muted fs-3">cantidad de porciones</label>
                 <input type="text" class="form-control mb-3" placeholder="Value">
             </div>
 
             <!-- Precio y botón -->
             <div>
-                <h3 class="fw-semibold fs-1">$380.000</h3>
-
+                <h3 class="fw-semibold fs-3">$380.000</h3>
             </div>
+
+            <!-- botón de carrito -->
+             <div class="d-flex justify-content-start">
+                     <a href="<?= BASE_URL ?>module=platillos&view=principal" class="btn btn-dark px-5 py-3 rounded-pill mt-4">
+                         Añadir al carrito
+                     </a>
+                 </div>
         </div>
     </div>
 
 
-    <!-- MINIATURAS -->
-    <div class="row mt-4 g-2">
-        <div class="col-4">
-            <img src="https://i.pinimg.com/736x/1b/39/0d/1b390d1d7db9e76a8cab18bcadca8f28.jpg"
-                 class="img-fluid rounded">
-        </div>
+    <div id="carouselDisenos" class="carousel slide" data-bs-ride="carousel">
+         <div class="carousel-inner pb-3">
 
-        <div class="col-4">
-            <img src="https://i.pinimg.com/736x/de/8d/69/de8d69ba7b51508214c6efa0b4997560.jpg"
-                 class="img-fluid rounded">
-        </div>
+             <div class="carousel-item active">
+                 <div class="d-flex justify-content-center gap-3">
+                     <img src="./assets/img/banquete/menu/04_menu/comida_1.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                         onclick="cambiarImagen(this)">
+                     <img src="./assets/img/banquete/menu/04_menu/comida_2.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                         onclick="cambiarImagen(this)">
+                     <img src="assets/img/galeria/baby-showers/galeria_baby1.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                         onclick="cambiarImagen(this)">
+                     <img src="assets/img/galeria/cumpleaños/galeria_cumple1.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                         onclick="cambiarImagen(this)">
+                 </div>
+             </div>
 
-        <div class="col-4">
-            <img src="https://i.pinimg.com/1200x/bd/b3/fc/bdb3fc627242ce854da9fed5b2c07ece.jpg"
-                 class="img-fluid rounded">
-        </div>
-    </div>
-
-</div>
-
+             <div class="carousel-item">
+                 <div class="d-flex justify-content-center gap-3">
+                     <img src="assets/img/galeria/bodas/galeria_boda2.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                         onclick="cambiarImagen(this)">
+                     <img src="assets/img/galeria/bautizos/galeria_bautizos1.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                         onclick="cambiarImagen(this)">
+                     <img src="assets/img/galeria/bautizos/galeria_bautizos2.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                         onclick="cambiarImagen(this)">
+                     <img src="assets/img/galeria/cumpleaños/galeria_cumple2.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                         onclick="cambiarImagen(this)">
+                 </div>
+             </div>
+         </div>
+     </div>
+     <script>
+         function cambiarImagen(imagenPequena) {
+            document.getElementById("imagen-principal").src = imagenPequena.src;
+         }
+     </script>
+ </body>
 
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

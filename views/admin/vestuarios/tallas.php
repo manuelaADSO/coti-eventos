@@ -39,7 +39,6 @@
                 <table class="table table-hover align-middle">
                     <thead class="table-light">
                         <tr>
-                            <th>#</th>
                             <th>Talla</th>
                             <th>Género</th>
                             <th>Descripción</th>
@@ -50,7 +49,6 @@
 
                         <!-- TALLA 1 -->
                         <tr>
-                            <td>1</td>
                             <td>S</td>
                             <td>Dama</td>
                             <td>Pequeña, ideal para mujeres jóvenes o adolescentes.</td>
@@ -62,7 +60,6 @@
 
                         <!-- TALLA 2 -->
                         <tr>
-                            <td>2</td>
                             <td>M</td>
                             <td>Dama</td>
                             <td>Mediana, estándar para la mayoría de mujeres adultas.</td>
@@ -74,7 +71,6 @@
 
                         <!-- TALLA 3 -->
                         <tr>
-                            <td>3</td>
                             <td>L</td>
                             <td>Caballero</td>
                             <td>Grande, adecuada para hombres adultos.</td>

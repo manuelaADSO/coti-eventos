@@ -10,18 +10,18 @@
 <div class="carousel-inner">
 
 <div class="carousel-item active">
-<img src="https://littlemoments.es/wp-content/uploads/2018/09/littlemomentsalgetealta27.jpg"
+<img src="./assets/img/eventos/inicio/evento_1.webp"
 class="d-block w-100"
 style="height:300px; object-fit:cover;">
 </div>
 
 <div class="carousel-item">
-<img src="https://png.pngtree.com/thumb_back/fh260/background/20250121/pngtree-elegant-champagne-color-scheme-with-glittering-wall-for-event-setup-image_16886273.jpg"
+<img src="./assets/img/eventos/inicio/evento_2.webp"
 class="d-block w-100" style="height:300px; object-fit:cover;">
 </div>
 
 <div class="carousel-item">
-<img src="https://ingenieriademenu.com/wp-content/uploads/2025/05/Como-hacer-un-negocio-de-organizacion-de-eventos.jpg"
+<img src="./assets/img/eventos/inicio/evento_3.webp"
 class="d-block w-100" style="height:300px; object-fit:cover;">
 </div>
 </div>
@@ -46,7 +46,7 @@ class="d-block w-100" style="height:300px; object-fit:cover;">
 
 <div class="col-lg-4 col-md-6">
 <div class="card border-0 shadow-sm rounded-0">
-<img src="https://i.pinimg.com/1200x/d8/02/e7/d802e78fbde3db5cb12620ec5feb825a.jpg"
+<img src="./assets/img/eventos/inicio/graduacion.webp"
 class="card-img-top rounded-0" style="height:250px; object-fit:cover;">
 <a href="<?= BASE_URL ?>module=graduaciones&view=principal" class="btn btn-secondary w-100 fw-bold py-3 text-uppercase rounded-0 border-0 text-decoration-none text-center">
 Graduaciones </a>
@@ -55,7 +55,7 @@ Graduaciones </a>
 
 <div class="col-lg-4 col-md-6">
 <div class="card border-0 shadow-sm rounded-0">
-<img src="https://shower.center/en/tips/baby-shower/quick-and-easy-baby-shower-decorating/carousel-1/3-blue-Elephant-baby-shower-decoration.webp"
+<img src="./assets/img/eventos/inicio/baby_showers.webp"
 class="card-img-top rounded-0" style="height:250px; object-fit:cover;">
 <a href="<?= BASE_URL ?>module=baby_showers&view=principal" class="btn btn-secondary w-100 fw-bold py-3 text-uppercase rounded-0 border-0 text-decoration-none text-center">
 Baby Showers </a>
@@ -64,7 +64,7 @@ Baby Showers </a>
 
 <div class="col-lg-4 col-md-6">
 <div class="card border-0 shadow-sm rounded-0">
-<img src="https://www.evento.love/blog/wp-content/uploads/2021/11/eventolove-wedding-bodas-tartaspersonalizadas-babyshower-cumplean%CC%83os-primercumplean%CC%83os-comunion-bautizo-scaled.jpg"
+<img src="./assets/img/eventos/inicio/bautizo.webp"
 class="card-img-top rounded-0" style="height:250px; object-fit:cover;">
 <a href="<?= BASE_URL ?>module=bautizos&view=principal" class="btn btn-secondary w-100 fw-bold py-3 text-uppercase rounded-0 border-0 text-decoration-none text-center">
 Bautizos </a>
@@ -73,7 +73,7 @@ Bautizos </a>
 
 <div class="col-lg-4 col-md-6">
 <div class="card border-0 shadow-sm rounded-0">
-<img src="https://mamasviajeras.com/wp-content/uploads/2020/07/celavi.2.jpg"
+<img src="./assets/img/eventos/inicio/cumple.webp"
 class="card-img-top rounded-0" style="height:250px; object-fit:cover;">
 <a href="<?= BASE_URL ?>module=cumple&view=principal" class="btn btn-secondary w-100 fw-bold py-3 text-uppercase rounded-0 border-0 text-decoration-none text-center">
 Cumpleaños </a>
@@ -82,7 +82,7 @@ Cumpleaños </a>
 
 <div class="col-lg-4 col-md-6">
 <div class="card border-0 shadow-sm rounded-0">
-<img src="https://cdn0.bodas.net/article-vendor/45446/3_2/960/jpg/ec-228_1_45446-168966401847248.jpeg"
+<img src="./assets/img/eventos/inicio/bodas.webp"
 class="card-img-top rounded-0" style="height:250px; object-fit:cover;">
 <a href="<?= BASE_URL ?>module=bodas&view=principal" class="btn btn-secondary w-100 fw-bold py-3 text-uppercase rounded-0 border-0 text-decoration-none text-center">
 Matrimonios </a>
@@ -92,7 +92,7 @@ Matrimonios </a>
 
 <div class="col-lg-4 col-md-6">
 <div class="card border-0 shadow-sm rounded-0">
-<img src="https://i.pinimg.com/originals/70/38/22/703822bb947dfc5a966d0bf5b41d3028.jpg"
+<img src="./assets/img/eventos/inicio/xv.webp"
 class="card-img-top rounded-0" style="height:250px; object-fit:cover;">
 <a href="<?= BASE_URL ?>module=xv&view=principal" class="btn btn-secondary w-100 fw-bold py-3 text-uppercase rounded-0 border-0 text-decoration-none text-center">
 XV Años </a>

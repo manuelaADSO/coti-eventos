@@ -50,7 +50,6 @@
                 <table class="table table-hover align-middle">
                     <thead class="table-light">
                         <tr>
-                            <th>#</th>
                             <th>Vestuarios</th>
                             <th>Tipo</th>
                             <th>Talla</th>
@@ -64,7 +63,6 @@
 
                         <!-- VESTUARIO 1 -->
                         <tr>
-                            <td>1</td>
                             <td>Vestido Gala - Dama</td>
                             <td>Dama</td>
                             <td>M</td>
@@ -80,7 +78,6 @@
 
                         <!-- VESTUARIO 2 -->
                         <tr>
-                            <td>2</td>
                             <td>Traje Formal - Caballero</td>
                             <td>Caballero</td>
                             <td>L</td>

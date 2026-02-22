@@ -13,11 +13,18 @@
                 </div>
             </div>
 
+<<<<<<< HEAD
+<!-- GALERÍA -->
+<div class="col-lg-6">
+<div class="card border-0">
+<img src="./assets/img/bodas/bodas/vestuarios/trajes/tres_piezas.webp" class="img-fluid rounded-4 mb-3" alt="traje principal">
+=======
              <!-- INFORMACIÓN -->
              <div class="col-lg-6">
                  <span class="badge bg-light text-dark px-4 py-2 rounded-pill mb-3 fs-1">
                      Bodas
                  </span>
+>>>>>>> 685aa399b8615bc4bf1eafc38c7284378ea7aa98
 
                  <h1 class="display-4 display-md-3 fw-normal lh-1 mt-2">Traje de Tres Piezas</h1>
 

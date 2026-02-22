@@ -46,7 +46,6 @@
                 <table class="table table-hover align-middle">
                     <thead class="table-light">
                         <tr>
-                            <th>#</th>
                             <th>Nombre</th>
                             <th>Tipo</th>
                             <th>Capacidad / Potencia</th>
@@ -59,7 +58,6 @@
 
                         <!-- EQUIPO 1 -->
                         <tr>
-                            <td>1</td>
                             <td>Parlante JBL 1000W</td>
                             <td>Parlante</td>
                             <td>1000W RMS</td>
@@ -73,7 +71,6 @@
 
                         <!-- EQUIPO 2 -->
                         <tr>
-                            <td>2</td>
                             <td>Consola Behringer X32</td>
                             <td>Consola</td>
                             <td>32 canales</td>
@@ -87,7 +84,6 @@
 
                         <!-- EQUIPO 3 -->
                         <tr>
-                            <td>3</td>
                             <td>Micrófono Shure SM58</td>
                             <td>Micrófono</td>
                             <td>N/A</td>

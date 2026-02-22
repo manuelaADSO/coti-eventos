@@ -30,7 +30,6 @@
                 <table class="table table-hover align-middle">
                     <thead class="table-light">
                         <tr>
-                            <th>#</th>
                             <th>Género</th>
                             <th>Descripción</th>
                             <th class="text-end">Acciones</th>
@@ -40,7 +39,6 @@
 
                         <!-- GÉNERO 1 -->
                         <tr>
-                            <td>1</td>
                             <td>Dama</td>
                             <td>Vestuario femenino para eventos y ceremonias.</td>
                             <td class="text-end">
@@ -51,7 +49,6 @@
 
                         <!-- GÉNERO 2 -->
                         <tr>
-                            <td>2</td>
                             <td>Caballero</td>
                             <td>Vestuario masculino para bodas, fiestas y eventos corporativos.</td>
                             <td class="text-end">
@@ -62,7 +59,6 @@
 
                         <!-- GÉNERO 3 -->
                         <tr>
-                            <td>3</td>
                             <td>Niños</td>
                             <td>Vestuario infantil para eventos familiares y temáticos.</td>
                             <td class="text-end">

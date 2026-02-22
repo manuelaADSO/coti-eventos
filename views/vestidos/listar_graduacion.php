@@ -21,18 +21,12 @@
                 <h1 class="fw-semibold">Elige Tu Vestido y Traje Ideal</h1>
             </div>
 
-            <!-- Selector de evento -->
-            <div class="col-6 col-md-5 text-md-end">
-                <label class="form-label fw-semibold fs-5">Seleccionar evento</label>
-                <select class="form-select rounded-end" id="evento">
-                    <option value="bodas" selected>Bodas</option>
-                    <option value="xv">XV años</option>
-                    <option value="cumple">Cumpleaños</option>
-                    <option value="bautizo">Bautizos</option>
-                    <option value="baby">Baby Shower</option>
-                    <option value="graduacion">graduacion</option>
-                </select>
-            </div>
+            <!-- BOTÓN ARRIBA A LA DERECHA -->
+        <div class="col-md-4 text-md-end mt-3 mt-md-0">
+            <a href="#"
+               class="btn bg-secondary-subtle text-dark fw-semibold fs-4 px-4 py-2 rounded-4">
+                Graduaciones
+            </a>
         </div>
 
         <!-- Selector de género -->
@@ -236,7 +230,6 @@
             </div>
 
         </div>
-    </div>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

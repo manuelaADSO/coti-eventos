@@ -31,7 +31,7 @@
                     <a href="https://wa.me/573225461697" target="_blank" class="text-white fs-4"><i class="bi bi-whatsapp"></i></a>
                     <a href="https://instagram.com/CotiEventos_San_Luis" target="_blank" class="text-white fs-4"><i class="bi bi-instagram"></i></a>
                     <a href="#" class="text-white fs-4"><i class="bi bi-facebook"></i></a>
-                    <a href="<?= BASE_URL ?>"><img src="assets/img/logotipo_blanco.svg" alt="logo" style="height: 90px;"></a>
+                    <a href="<?= BASE_URL ?>"><img src="assets/img/header/logotipo_blanco.svg" alt="logo" style="height: 90px;"></a>
                 </div>
 
             </div>

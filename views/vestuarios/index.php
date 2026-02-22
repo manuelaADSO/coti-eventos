@@ -23,234 +23,233 @@
     <div class="container py-4">
 
         <!-- Header -->
-        <div class="row align-items-center mb-4">
-            <!-- Título -->
-            <div class="col-12 col-md-6 mb-3 mb-md-0">
-                <h1 class="fw-semibold">Elige Tu Vestido y Traje Ideal</h1>
-            </div>
-
-            <!-- Selector de evento -->
-            <div class="col-6 col-md-5 text-md-end">
-                <label class="form-label fw-semibold fs-5">Seleccionar evento</label>
-                <select class="form-select rounded-end" id="evento">
-                    <option value="bodas" selected>Bodas</option>
-                    <option value="xv">XV años</option>
-                    <option value="cumple">Cumpleaños</option>
-                    <option value="bautizo">Bautizos</option>
-                    <option value="baby">Baby Shower</option>
-                </select>
-            </div>
-        </div>
-
-        <!-- Selector de género -->
-        <div class="row mb-4">
-            <div class="col-md-6">
-                <label class="form-label fw-semibold fs-5">Seleccionar género</label>
-                <select class="form-select rounded-3" id="genero">
-                    <option value="femenino" selected>Femenino</option>
-                    <option value="masculino">Masculino</option>
-                </select>
-            </div>
-        </div>
-
-        <!-- Grid de productos -->
-        <div class="row g-4 text-center">
-
-            <!-- Vestidos femeninos -->
-            <div class="col-12 col-md-6 producto" data-genero="femenino">
-                <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
-                    <div class="ratio ratio-4x3">
-                        <img src="https://i.pinimg.com/736x/75/5c/3d/755c3df8affb13b002219a25024139b7.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
-                    </div>
-                    <div class="card-body">
-                        <h4 class="fw-semibold mb-1">Vestido sirena</h4>
-                        <p class="fw-bold mb-0">
-                        <h4>$500.000</h4>
-                        </p>
-                        <!-- Flecha -->
-                        <div class="text-center mt-2">
-                            <a href="<?= BASE_URL ?>module=vestidos&view=detalle_sirena" class="text-decoration-none text-dark d-flex flex-column h-100">
-                                <button class="btn btn-sm btn-outline-secondary"
-                                    data-bs-toggle="collapse"
-                                    data-bs-target="#infoSirena">
-                                    Ver más
-                                </button>
-                            </a>
-                        </div>
-                    </div>
+            <div class="row align-items-center mb-4">
+                <!-- Título -->
+                <div class="col-12 col-md-6 mb-3 mb-md-0">
+                    <h1 class="fw-semibold">Elige Tu Vestido y Traje Ideal</h1>
                 </div>
-            </div>
-            <div class="col-12 col-md-6 producto" data-genero="femenino">
-                <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
-                    <div class="ratio ratio-4x3">
-                        <img src="https://i.pinimg.com/736x/f1/35/46/f1354605db75c9ccdb680877f5cc857a.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
-                    </div>
-                    <div class="card-body">
-                        <h4 class="fw-semibold mb-1">Vestido princesa</h4>
-                        <p class="fw-bold mb-0">
-                        <h4>$500.000</h4>
-                        </p>
-                        <!-- Flecha -->
-                        <div class="text-center mt-2">
-                            <a href="<?= BASE_URL ?>module=vestidos&view=detalle_princesa" class="text-decoration-none text-dark d-flex flex-column h-100">
-                                <button class="btn btn-sm btn-outline-secondary"
-                                    data-bs-toggle="collapse"
-                                    data-bs-target="#infoSirena">
-                                    Ver más
-                                </button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-            <div class="col-12 col-md-6 producto" data-genero="femenino">
-                <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
-                    <div class="ratio ratio-4x3">
-                        <img src="https://i.pinimg.com/736x/58/38/b1/5838b1a9a8a6ef3306c226e52d3bac41.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
-                    </div>
-                    <div class="card-body">
-                        <h4 class="fw-semibold mb-1">Vestido recto</h4>
-                        <p class="fw-bold mb-0">
-                        <h4>$500.000</h4>
-                        </p>
-                        <!-- Flecha -->
-                        <div class="text-center mt-2">
-                            <a href="<?= BASE_URL ?>module=vestidos&view=detalle_recto" class="text-decoration-none text-dark d-flex flex-column h-100">
-                                <button class="btn btn-sm btn-outline-secondary"
-                                    data-bs-toggle="collapse"
-                                    data-bs-target="#infoSirena">
-                                    Ver más
-                                </button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-6 producto" data-genero="femenino">
-                <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
-                    <div class="ratio ratio-4x3">
-                        <img src="https://i.pinimg.com/1200x/35/9a/65/359a6535d23c31d7d3cd52527c836717.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
-                    </div>
-                    <div class="card-body">
-                        <h4 class="fw-semibold mb-1">Vestido en A</h4>
-                        <p class="fw-bold mb-0">
-                        <h4>$500.000</h4>
-                        </p>
-                        <!-- Flecha -->
-                        <div class="text-center mt-2">
-                            <a href="<?= BASE_URL ?>module=vestidos&view=detalle_a" class="text-decoration-none text-dark d-flex flex-column h-100">
-                                <button class="btn btn-sm btn-outline-secondary"
-                                    data-bs-toggle="collapse"
-                                    data-bs-target="#infoSirena">
-                                    Ver más
-                                </button>
-                            </a>
-                        </div>
-                    </div>
+                <!-- BOTÓN ARRIBA A LA DERECHA -->
+                <div class="col-md-4 text-md-end mt-3 mt-md-0">
+                    <a href="#"
+                        class="btn bg-secondary-subtle text-dark fw-semibold fs-4 px-4 py-2 rounded-4">
+                        Bodas
                     </a>
                 </div>
-            </div>
 
-            <!-- Trajes masculinos -->
-            <div class="col-12 col-md-6 producto d-none" data-genero="masculino">
-                <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
-                    <div class="ratio ratio-4x3">
-                        <img src="https://i.pinimg.com/736x/ef/b2/5e/efb25e0e8909c5004163439ea4144dc9.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
+                <!-- Selector de género -->
+                <div class="row mb-4">
+                    <div class="col-md-6">
+                        <label class="form-label fw-semibold fs-5">Seleccionar género</label>
+                        <select class="form-select rounded-3" id="genero">
+                            <option value="femenino" selected>Femenino</option>
+                            <option value="masculino">Masculino</option>
+                        </select>
                     </div>
-                    <div class="card-body">
-                        <h4 class="fw-semibold mb-1">Traje clásico</h4>
-                        <p class="fw-bold mb-0">
-                        <h4>$650.000</h4>
-                        </p>
-                        <!-- Flecha -->
-                        <div class="text-center mt-2">
-                            <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_clasico" class="text-decoration-none text-dark d-flex flex-column h-100">
-                                <button class="btn btn-sm btn-outline-secondary"
-                                    data-bs-toggle="collapse"
-                                    data-bs-target="#infoSirena">
-                                    Ver más
-                                </button>
-                            </a>
-                        </div>
-                    </div>
-                    </a>
                 </div>
-            </div>
 
-            <div class="col-12 col-md-6 producto d-none" data-genero="masculino">
-                <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
-                    <div class="ratio ratio-4x3">
-                        <img src="https://i.pinimg.com/736x/4f/2b/cd/4f2bcd52ad2c2b56953a4a053182167c.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
-                    </div>
-                    <div class="card-body">
-                        <h4 class="fw-semibold mb-1">Traje slim fit</h4>
-                        <p class="fw-bold mb-0">
-                        <h4>$700.000</h4>
-                        </p>
-                        <!-- Flecha -->
-                        <div class="text-center mt-2">
-                            <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_slim_fit" class="text-decoration-none text-dark d-flex flex-column h-100">
-                                <button class="btn btn-sm btn-outline-secondary"
-                                    data-bs-toggle="collapse"
-                                    data-bs-target="#infoSirena">
-                                    Ver más
-                                </button>
-                            </a>
-                        </div>
-                    </div>
-                    </a>
-                </div>
-            </div>
+                <!-- Grid de productos -->
+                <div class="row g-4 text-center">
 
-            <div class="col-12 col-md-6 producto d-none" data-genero="masculino">
-                <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
-                    <div class="ratio ratio-4x3">
-                        <img src="https://i.pinimg.com/1200x/f2/a1/ca/f2a1ca2bac18b0ff4e0e01724e56914b.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
-                    </div>
-                    <div class="card-body">
-                        <h4 class="fw-semibold mb-1">Traje de Tres Piezas</h4>
-                        <p class="fw-bold mb-0"><h4>$650.000</h4></p>
-                        <!-- Flecha -->
-                        <div class="text-center mt-2">
-                            <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_tres_piezas" class="text-decoration-none text-dark d-flex flex-column h-100">
-                                <button class="btn btn-sm btn-outline-secondary"
-                                    data-bs-toggle="collapse"
-                                    data-bs-target="#infoSirena">
-                                    Ver más
-                                </button>
-                            </a>
-                        </div>
-                    </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-6 producto d-none" data-genero="masculino">
-                <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
-                        <div class="ratio ratio-4x3">
-                            <img src="https://i.pinimg.com/1200x/7d/06/a9/7d06a97a0e16ec7baa7c3d168f65e763.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
-                        </div>
-                        <div class="card-body">
-                            <h4 class="fw-semibold mb-1">Smoking</h4>
-                            <p class="fw-bold mb-0"><h4>$650.000</h4></p>
-                            <!-- Flecha -->
-                            <div class="text-center mt-2">
-                                <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_smoking" class="text-decoration-none text-dark d-flex flex-column h-100">
-                                    <button class="btn btn-sm btn-outline-secondary"
-                                        data-bs-toggle="collapse"
-                                        data-bs-target="#infoSirena">
-                                        Ver más
-                                    </button>
-                                </a>
+                    <!-- Vestidos femeninos -->
+                    <div class="col-12 col-md-6 producto" data-genero="femenino">
+                        <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+                            <div class="ratio ratio-4x3">
+                                <img src="https://i.pinimg.com/736x/75/5c/3d/755c3df8affb13b002219a25024139b7.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
+                            </div>
+                            <div class="card-body">
+                                <h4 class="fw-semibold mb-1">Vestido sirena</h4>
+                                <p class="fw-bold mb-0">
+                                <h4>$500.000</h4>
+                                </p>
+                                <!-- Flecha -->
+                                <div class="text-center mt-2">
+                                    <a href="<?= BASE_URL ?>module=vestidos&view=detalle_sirena" class="text-decoration-none text-dark d-flex flex-column h-100">
+                                        <button class="btn btn-sm btn-outline-secondary"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#infoSirena">
+                                            Ver más
+                                        </button>
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                    </a>
+                    </div>
+                    <div class="col-12 col-md-6 producto" data-genero="femenino">
+                        <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+                            <div class="ratio ratio-4x3">
+                                <img src="https://i.pinimg.com/736x/f1/35/46/f1354605db75c9ccdb680877f5cc857a.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
+                            </div>
+                            <div class="card-body">
+                                <h4 class="fw-semibold mb-1">Vestido princesa</h4>
+                                <p class="fw-bold mb-0">
+                                <h4>$500.000</h4>
+                                </p>
+                                <!-- Flecha -->
+                                <div class="text-center mt-2">
+                                    <a href="<?= BASE_URL ?>module=vestidos&view=detalle_princesa" class="text-decoration-none text-dark d-flex flex-column h-100">
+                                        <button class="btn btn-sm btn-outline-secondary"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#infoSirena">
+                                            Ver más
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 producto" data-genero="femenino">
+                        <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+                            <div class="ratio ratio-4x3">
+                                <img src="https://i.pinimg.com/736x/58/38/b1/5838b1a9a8a6ef3306c226e52d3bac41.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
+                            </div>
+                            <div class="card-body">
+                                <h4 class="fw-semibold mb-1">Vestido recto</h4>
+                                <p class="fw-bold mb-0">
+                                <h4>$500.000</h4>
+                                </p>
+                                <!-- Flecha -->
+                                <div class="text-center mt-2">
+                                    <a href="<?= BASE_URL ?>module=vestidos&view=detalle_recto" class="text-decoration-none text-dark d-flex flex-column h-100">
+                                        <button class="btn btn-sm btn-outline-secondary"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#infoSirena">
+                                            Ver más
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 producto" data-genero="femenino">
+                        <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+                            <div class="ratio ratio-4x3">
+                                <img src="https://i.pinimg.com/1200x/35/9a/65/359a6535d23c31d7d3cd52527c836717.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
+                            </div>
+                            <div class="card-body">
+                                <h4 class="fw-semibold mb-1">Vestido en A</h4>
+                                <p class="fw-bold mb-0">
+                                <h4>$500.000</h4>
+                                </p>
+                                <!-- Flecha -->
+                                <div class="text-center mt-2">
+                                    <a href="<?= BASE_URL ?>module=vestidos&view=detalle_a" class="text-decoration-none text-dark d-flex flex-column h-100">
+                                        <button class="btn btn-sm btn-outline-secondary"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#infoSirena">
+                                            Ver más
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Trajes masculinos -->
+                    <div class="col-12 col-md-6 producto d-none" data-genero="masculino">
+                        <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+                            <div class="ratio ratio-4x3">
+                                <img src="https://i.pinimg.com/736x/ef/b2/5e/efb25e0e8909c5004163439ea4144dc9.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
+                            </div>
+                            <div class="card-body">
+                                <h4 class="fw-semibold mb-1">Traje clásico</h4>
+                                <p class="fw-bold mb-0">
+                                <h4>$650.000</h4>
+                                </p>
+                                <!-- Flecha -->
+                                <div class="text-center mt-2">
+                                    <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_clasico" class="text-decoration-none text-dark d-flex flex-column h-100">
+                                        <button class="btn btn-sm btn-outline-secondary"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#infoSirena">
+                                            Ver más
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 producto d-none" data-genero="masculino">
+                        <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+                            <div class="ratio ratio-4x3">
+                                <img src="https://i.pinimg.com/736x/4f/2b/cd/4f2bcd52ad2c2b56953a4a053182167c.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
+                            </div>
+                            <div class="card-body">
+                                <h4 class="fw-semibold mb-1">Traje slim fit</h4>
+                                <p class="fw-bold mb-0">
+                                <h4>$700.000</h4>
+                                </p>
+                                <!-- Flecha -->
+                                <div class="text-center mt-2">
+                                    <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_slim_fit" class="text-decoration-none text-dark d-flex flex-column h-100">
+                                        <button class="btn btn-sm btn-outline-secondary"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#infoSirena">
+                                            Ver más
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 producto d-none" data-genero="masculino">
+                        <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+                            <div class="ratio ratio-4x3">
+                                <img src="https://i.pinimg.com/1200x/f2/a1/ca/f2a1ca2bac18b0ff4e0e01724e56914b.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
+                            </div>
+                            <div class="card-body">
+                                <h4 class="fw-semibold mb-1">Traje de Tres Piezas</h4>
+                                <p class="fw-bold mb-0">
+                                <h4>$650.000</h4>
+                                </p>
+                                <!-- Flecha -->
+                                <div class="text-center mt-2">
+                                    <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_tres_piezas" class="text-decoration-none text-dark d-flex flex-column h-100">
+                                        <button class="btn btn-sm btn-outline-secondary"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#infoSirena">
+                                            Ver más
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 producto d-none" data-genero="masculino">
+                        <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+                            <div class="ratio ratio-4x3">
+                                <img src="https://i.pinimg.com/1200x/7d/06/a9/7d06a97a0e16ec7baa7c3d168f65e763.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
+                            </div>
+                            <div class="card-body">
+                                <h4 class="fw-semibold mb-1">Smoking</h4>
+                                <p class="fw-bold mb-0">
+                                <h4>$650.000</h4>
+                                </p>
+                                <!-- Flecha -->
+                                <div class="text-center mt-2">
+                                    <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_smoking" class="text-decoration-none text-dark d-flex flex-column h-100">
+                                        <button class="btn btn-sm btn-outline-secondary"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#infoSirena">
+                                            Ver más
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-        </div>
     </div>
 
     <!-- Bootstrap JS -->
@@ -264,6 +263,7 @@
             generoSelect.addEventListener('change', function() {
                 const generoSeleccionado = this.value;
                 const productos = document.querySelectorAll('.producto');
+
 
                 productos.forEach(producto => {
                     if (producto.dataset.genero === generoSeleccionado) {
