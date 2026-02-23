@@ -7,20 +7,12 @@
 <div class="row g-4">
 
 <!-- GALERÍA -->
+<!-- GALERÍA -->
 <div class="col-lg-6">
-<div class="card border-0">
-<img src="./assets/img/eventos/graduacion/vestuarios/trajes/traje_negro.webp" class="img-fluid rounded-4 mb-3" alt="traje principal">
-
-<div class="row g-4">
-<div class="col-6"> <img src="https://i.pinimg.com/736x/5e/29/e0/5e29e0e1b35e6d5928d6db13b80b4eff.jpg" class="img-fluid rounded-3" alt="traje miniatura">
-</div>
-
-<div class="col-6">
-<img src="https://i.pinimg.com/1200x/45/b5/0d/45b50d3c2024ed321dcd190f97bdea30.jpg" class="img-fluid rounded-3 " alt="traje miniatura">
-</div>
-</div>
-</div>
-</div>
+                 <div class="card border-0">
+                     <img id="imagen-principal" src="./assets/img/eventos/graduacion/vestuarios/trajes/traje_negro.webp" class="img-fluid rounded-4 mb-3" alt="Vestido principal">
+                 </div>
+             </div>
 
 <!-- INFORMACIÓN -->
 <div class="col-lg-6">
@@ -28,26 +20,67 @@
 Graduación
 </span>
 
-<h1 class="display-1 display-md-3 fw-normal lh-1 mt-5">Traje clásico negro</h1>
+<h1 class="display-1 display-md-3 fw-normal lh-1 mt-2">Traje clásico negro</h1>
 
-<p class="text-muted mt-5 fs-1">
+<p class="text-muted mt-2 fs-3">
 Conjunto de saco y pantalón en color negro, acompañado de camisa blanca y corbata sobria.
 Es la opción más elegante y segura para ceremonias formales y fotografías de graduación.
 
-<h2 class="display-3 fw-bold my-4 mt-4">$650.000</h2>
+<h2 class="display-3 fw-bold my-4 mt-2">$650.000</h2>
 
 <!-- TALLAS -->
-<div class="d-flex gap-2 mt-5">
+<div class="d-flex gap-2 mt-2">
 <button class="btn btn-outline-secondary rounded-circle fs-2 px-4">S</button>
 <button class="btn btn-outline-secondary rounded-circle fs-2 px-4">M</button>
 <button class="btn btn-outline-secondary rounded-circle fs-2 px-4">L</button>
 <button class="btn btn-outline-secondary rounded-circle fs-2 px-4">XL</button>
 </div>
-                   <a href="#" class="btn btn-dark w-100 py-4 fs-2 rounded-pill mt-5">
+                   <a href="#" class="btn btn-dark px-5 py-3 rounded-pill mt-4">
     Añadir al carrito
 </a>
 </div>
+<div id="carouselDisenos" class="carousel slide" data-bs-ride="carousel">
+         <div class="carousel-inner pb-3">
 
+             <div class="carousel-item active">
+                 <div class="d-flex justify-content-center gap-3">
+                     <img src="./assets/img/eventos/graduacion/vestuarios/trajes/miniaturas/negro/01_negro.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                         onclick="cambiarImagen(this)">
+                     <img src="./assets/img/eventos/graduacion/vestuarios/trajes/miniaturas/negro/02_negro.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                         onclick="cambiarImagen(this)">
+                     <img src="./assets/img/eventos/graduacion/vestuarios/trajes/miniaturas/negro/03_negro.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                         onclick="cambiarImagen(this)">
+                     <img src="./assets/img/eventos/graduacion/vestuarios/trajes/miniaturas/negro/04_negro.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                         onclick="cambiarImagen(this)">
+                 </div>
+             </div>
+
+             <div class="carousel-item">
+                 <div class="d-flex justify-content-center gap-3">
+                     <img src="./assets/img/eventos/graduacion/vestuarios/trajes/miniaturas/negro/05_negro.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                         onclick="cambiarImagen(this)">
+                     <img src="./assets/img/eventos/graduacion/vestuarios/trajes/miniaturas/negro/06_negro.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                         onclick="cambiarImagen(this)">
+                     <img src="./assets/img/eventos/graduacion/vestuarios/trajes/miniaturas/negro/07_negro.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                         onclick="cambiarImagen(this)">
+                     <img src="./assets/img/eventos/graduacion/vestuarios/trajes/miniaturas/negro/08_negro.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                         onclick="cambiarImagen(this)">
+                 </div>
+             </div>
+         </div>
+     </div>
+     <script>
+         function cambiarImagen(imagenPequena) {
+             document.getElementById("imagen-principal").src = imagenPequena.src;
+         }
+     </script>
+
+
+</div>
+</div>
+
+</div>
+</div>
 </div>
 </div>
 </body>

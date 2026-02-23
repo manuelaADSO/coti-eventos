@@ -10,13 +10,13 @@
              <!-- GALERÍA -->
              <div class="col-lg-6">
                  <div class="card border-0">
-                     <img id="imagen-principal" src="https://i.pinimg.com/736x/75/5c/3d/755c3df8affb13b002219a25024139b7.jpg" class="img-fluid rounded-4 mb-3" alt="Vestido principal">
+                     <img id="imagen-principal" src="./assets/img/eventos/bodas/vestuarios/vestidos/vestido_sirena.webp" class="img-fluid rounded-4 mb-3" alt="Vestido principal">
                  </div>
              </div>
 
              <!-- INFORMACIÓN -->
              <div class="col-lg-6">
-                 <span class="badge bg-light text-dark px-4 py-2 rounded-pill mb-3 fs-1 ">
+                 <span class="badge bg-light text-dark px-4 py-2 rounded-pill mb-3 fs-3 ">
                      Bodas
                  </span>
 
@@ -29,17 +29,17 @@
                      inolvidables.
                  </p>
 
-                 <h2 class="fw-bold fs-2 my-3">$500.000</h2>
+                 <h2 class="fw-bold fs-3 my-3">$500.000</h2>
 
                  <!-- TALLAS -->
-                 <div class="d-flex gap-2 mt-4">
+                 <div class="d-flex gap-2 mt-2">
                      <button class="btn btn-outline-secondary rounded-circle px-3 py-2">S</button>
                      <button class="btn btn-outline-secondary rounded-circle px-3 py-2">M</button>
                      <button class="btn btn-outline-secondary rounded-circle px-3 py-2">L</button>
                      <button class="btn btn-outline-secondary rounded-circle px-3 py-2">XL</button>
                  </div>
                  <div class="d-flex justify-content-start">
-                     <a href="index.php?module=bodas&view=principal" class="btn btn-dark px-5 py-3 rounded-pill mt-4">
+                     <a href="index.php?module=bodas&view=principal" class="btn btn-dark px-5 py-3 rounded-pill mt-2">
                          Añadir al carrito
                      </a>
                  </div>
@@ -51,26 +51,26 @@
 
              <div class="carousel-item active">
                  <div class="d-flex justify-content-center gap-3">
-                     <img src="assets/img/galeria/xv-años/galeria_xv1.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/bodas/vestuarios/vestidos/miniaturas/sirena/01_sirena.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
-                     <img src="assets/img/galeria/xv-años/galeria_xv2.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/bodas/vestuarios/vestidos/miniaturas/sirena/02_sirena.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
-                     <img src="assets/img/galeria/baby-showers/galeria_baby1.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/bodas/vestuarios/vestidos/miniaturas/sirena/03_sirena.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
-                     <img src="assets/img/galeria/cumpleaños/galeria_cumple1.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/bodas/vestuarios/vestidos/miniaturas/sirena/04_sirena.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
                  </div>
              </div>
 
              <div class="carousel-item">
                  <div class="d-flex justify-content-center gap-3">
-                     <img src="assets/img/galeria/bodas/galeria_boda2.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/bodas/vestuarios/vestidos/miniaturas/sirena/05_sirena.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
-                     <img src="assets/img/galeria/bautizos/galeria_bautizos1.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/bodas/vestuarios/vestidos/miniaturas/sirena/06_sirena.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
-                     <img src="assets/img/galeria/bautizos/galeria_bautizos2.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/bodas/vestuarios/vestidos/miniaturas/sirena/07_sirena.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
-                     <img src="assets/img/galeria/cumpleaños/galeria_cumple2.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/bodas/vestuarios/vestidos/miniaturas/sirena/08_sirena.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
                  </div>
              </div>

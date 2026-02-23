@@ -9,7 +9,7 @@
              <!-- GALERÍA -->
              <div class="col-lg-6">
                 <div class="card border-0">
-                    <img id="imagen-principal" src="https://i.pinimg.com/1200x/7d/06/a9/7d06a97a0e16ec7baa7c3d168f65e763.jpg" class="img-fluid rounded-4 mb-3" alt="Vestido principal">
+                    <img id="imagen-principal" src="./assets/img/eventos/bodas/vestuarios/trajes/smoking.webp" class="img-fluid rounded-4 mb-3" alt="Vestido principal">
                 </div>
             </div>
 
@@ -47,26 +47,26 @@
 
              <div class="carousel-item active">
                  <div class="d-flex justify-content-center gap-3">
-                     <img src="https://i.pinimg.com/1200x/ff/ab/35/ffab355bec9c47388b51891bffdf669b.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/bodas/vestuarios/trajes/miniaturas/smoking/01_smoking.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
-                     <img src="https://i.pinimg.com/736x/af/e8/e2/afe8e212c3798a9f4598a9d64c0cbb50.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/bodas/vestuarios/trajes/miniaturas/smoking/02_smoking.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
-                     <img src="assets/img/galeria/baby-showers/galeria_baby1.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/bodas/vestuarios/trajes/miniaturas/smoking/03_smoking.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
-                     <img src="assets/img/galeria/cumpleaños/galeria_cumple1.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/bodas/vestuarios/trajes/miniaturas/smoking/04_smoking.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
                  </div>
              </div>
 
              <div class="carousel-item">
                  <div class="d-flex justify-content-center gap-3">
-                     <img src="assets/img/galeria/bodas/galeria_boda2.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/bodas/vestuarios/trajes/miniaturas/smoking/05_smoking.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
-                     <img src="assets/img/galeria/bautizos/galeria_bautizos1.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/bodas/vestuarios/trajes/miniaturas/smoking/06_smoking.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
-                     <img src="assets/img/galeria/bautizos/galeria_bautizos2.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/bodas/vestuarios/trajes/miniaturas/smoking/07_smoking.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
-                     <img src="assets/img/galeria/cumpleaños/galeria_cumple2.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/bodas/vestuarios/trajes/miniaturas/smoking/08_smoking.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
                  </div>
              </div>

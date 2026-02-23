@@ -55,7 +55,7 @@
                     <div class="col-12 col-md-6 producto" data-genero="femenino">
                         <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
                             <div class="ratio ratio-4x3">
-                                <img src="https://i.pinimg.com/736x/75/5c/3d/755c3df8affb13b002219a25024139b7.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
+                                <img src="./assets/img/eventos/bodas/vestuarios/vestidos/vestido_sirena.webp" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
                             </div>
                             <div class="card-body">
                                 <h4 class="fw-semibold mb-1">Vestido sirena</h4>
@@ -78,7 +78,7 @@
                     <div class="col-12 col-md-6 producto" data-genero="femenino">
                         <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
                             <div class="ratio ratio-4x3">
-                                <img src="https://i.pinimg.com/736x/f1/35/46/f1354605db75c9ccdb680877f5cc857a.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
+                                <img src="./assets/img/eventos/bodas/vestuarios/vestidos/vestido_princesa.webp" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
                             </div>
                             <div class="card-body">
                                 <h4 class="fw-semibold mb-1">Vestido princesa</h4>
@@ -102,7 +102,7 @@
                     <div class="col-12 col-md-6 producto" data-genero="femenino">
                         <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
                             <div class="ratio ratio-4x3">
-                                <img src="https://i.pinimg.com/736x/58/38/b1/5838b1a9a8a6ef3306c226e52d3bac41.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
+                                <img src="./assets/img/eventos/bodas/vestuarios/vestidos/vestido_recto.webp" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
                             </div>
                             <div class="card-body">
                                 <h4 class="fw-semibold mb-1">Vestido recto</h4>
@@ -126,7 +126,7 @@
                     <div class="col-12 col-md-6 producto" data-genero="femenino">
                         <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
                             <div class="ratio ratio-4x3">
-                                <img src="https://i.pinimg.com/1200x/35/9a/65/359a6535d23c31d7d3cd52527c836717.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
+                                <img src="./assets/img/eventos/bodas/vestuarios/vestidos/vestido_a.webp" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
                             </div>
                             <div class="card-body">
                                 <h4 class="fw-semibold mb-1">Vestido en A</h4>
@@ -152,7 +152,7 @@
                     <div class="col-12 col-md-6 producto d-none" data-genero="masculino">
                         <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
                             <div class="ratio ratio-4x3">
-                                <img src="https://i.pinimg.com/736x/ef/b2/5e/efb25e0e8909c5004163439ea4144dc9.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
+                                <img src="./assets/img/eventos/bodas/vestuarios/trajes/traje_clasico.webp" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
                             </div>
                             <div class="card-body">
                                 <h4 class="fw-semibold mb-1">Traje clásico</h4>
@@ -177,7 +177,7 @@
                     <div class="col-12 col-md-6 producto d-none" data-genero="masculino">
                         <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
                             <div class="ratio ratio-4x3">
-                                <img src="https://i.pinimg.com/736x/4f/2b/cd/4f2bcd52ad2c2b56953a4a053182167c.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
+                                <img src="./assets/img/eventos/bodas/vestuarios/trajes/sim_flit.webp" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
                             </div>
                             <div class="card-body">
                                 <h4 class="fw-semibold mb-1">Traje slim fit</h4>
@@ -202,7 +202,7 @@
                     <div class="col-12 col-md-6 producto d-none" data-genero="masculino">
                         <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
                             <div class="ratio ratio-4x3">
-                                <img src="https://i.pinimg.com/1200x/f2/a1/ca/f2a1ca2bac18b0ff4e0e01724e56914b.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
+                                <img src="./assets/img/eventos/bodas/vestuarios/trajes/tres_piezas.webp" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
                             </div>
                             <div class="card-body">
                                 <h4 class="fw-semibold mb-1">Traje de Tres Piezas</h4>
@@ -227,7 +227,7 @@
                     <div class="col-12 col-md-6 producto d-none" data-genero="masculino">
                         <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
                             <div class="ratio ratio-4x3">
-                                <img src="https://i.pinimg.com/1200x/7d/06/a9/7d06a97a0e16ec7baa7c3d168f65e763.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
+                                <img src="./assets/img/eventos/bodas/vestuarios/trajes/smoking.webp" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
                             </div>
                             <div class="card-body">
                                 <h4 class="fw-semibold mb-1">Smoking</h4>

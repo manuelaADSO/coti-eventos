@@ -47,7 +47,7 @@
             <div class="col-12 col-md-6 producto" data-genero="femenino">
                 <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
                         <div class="ratio ratio-4x3">
-                            <img src="https://i.pinimg.com/1200x/22/45/cf/2245cf2a5e782e71a26a9462864ca6fb.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
+                            <img src="./assets/img/eventos/baby_showers/vestuarios/vestidos/vestido_comodo.webp" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
                         </div>
                         <div class="card-body">
                             <h4 class="fw-semibold mb-1">Vestido Cómodo y Holgado</h4>
@@ -70,7 +70,7 @@
             <div class="col-12 col-md-6 producto" data-genero="femenino">
                 <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
                         <div class="ratio ratio-4x3">
-                            <img src="https://i.pinimg.com/736x/c8/4b/b5/c84bb5340d159940663574f9cd6049d4.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
+                            <img src="./assets/img/eventos/baby_showers/vestuarios/vestidos/vestido_ajustado.webp" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
                         </div>
                         <div class="card-body">
                             <h4 class="fw-semibold mb-1">Vestido Midi Ajustado</h4>
@@ -93,7 +93,7 @@
             <div class="col-12 col-md-6 producto" data-genero="femenino">
                 <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
                         <div class="ratio ratio-4x3">
-                            <img src="https://i.pinimg.com/1200x/cd/fc/8c/cdfc8ccb5740893c3e5a5a3f000f5e77.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
+                            <img src="./assets/img/eventos/baby_showers/vestuarios/vestidos/vestido_encaje.webp" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
                         </div>
                         <div class="card-body">
                             <h4 class="fw-semibold mb-1">Vestido con Encaje o Bordado</h4>
@@ -116,7 +116,7 @@
             <div class="col-12 col-md-6 producto" data-genero="femenino">
                 <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
                         <div class="ratio ratio-4x3">
-                            <img src="https://i.pinimg.com/736x/6d/9c/95/6d9c959d9fe39cb234bc21651de658f4.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
+                            <img src="./assets/img/eventos/baby_showers/vestuarios/vestidos/vestido_floral.webp" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
                         </div>
                         <div class="card-body">
                             <h4 class="fw-semibold mb-1">Vestido Estampado o Floral</h4>
@@ -140,14 +140,14 @@
             <div class="col-12 col-md-6 producto d-none" data-genero="masculino">
                 <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
                         <div class="ratio ratio-4x3">
-                            <img src="https://i.pinimg.com/736x/ef/b2/5e/efb25e0e8909c5004163439ea4144dc9.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
+                            <img src="./assets/img/eventos/baby_showers/vestuarios/trajes/conjunto_casual.webp" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
                         </div>
                         <div class="card-body">
-                            <h4 class="fw-semibold mb-1">Traje clásico</h4>
+                            <h4 class="fw-semibold mb-1">Conjunto casual elegante</h4>
                             <p class="fw-bold mb-0"><h4>$650.000</h4></p>
                             <!-- Flecha -->
                             <div class="text-center mt-2">
-                                <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_clasico" class="text-decoration-none text-dark d-flex flex-column h-100">
+                                <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_casual" class="text-decoration-none text-dark d-flex flex-column h-100">
                                     <button class="btn btn-sm btn-outline-secondary"
                                         data-bs-toggle="collapse"
                                         data-bs-target="#infoSirena">
@@ -163,14 +163,14 @@
             <div class="col-12 col-md-6 producto d-none" data-genero="masculino">
                 <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
                         <div class="ratio ratio-4x3">
-                            <img src="https://i.pinimg.com/736x/4f/2b/cd/4f2bcd52ad2c2b56953a4a053182167c.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
+                            <img src="./assets/img/eventos/baby_showers/vestuarios/trajes/conjunto_familiar.webp" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
                         </div>
                         <div class="card-body">
-                            <h4 class="fw-semibold mb-1">Traje slim fit</h4>
+                            <h4 class="fw-semibold mb-1">Estilo familiar combinado</h4>
                             <p class="fw-bold mb-0"><h4>$700.000</h4></p>
                              <!-- Flecha -->
                             <div class="text-center mt-2">
-                                <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_slim_fit" class="text-decoration-none text-dark d-flex flex-column h-100">
+                                <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_familiar" class="text-decoration-none text-dark d-flex flex-column h-100">
                                     <button class="btn btn-sm btn-outline-secondary"
                                         data-bs-toggle="collapse"
                                         data-bs-target="#infoSirena">
@@ -186,14 +186,14 @@
             <div class="col-12 col-md-6 producto d-none" data-genero="masculino">
                 <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
                         <div class="ratio ratio-4x3">
-                            <img src="https://i.pinimg.com/1200x/f2/a1/ca/f2a1ca2bac18b0ff4e0e01724e56914b.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
+                            <img src="./assets/img/eventos/baby_showers/vestuarios/trajes/conjunto_jeans.webp" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
                         </div>
                         <div class="card-body">
-                            <h4 class="fw-semibold mb-1">Traje de Tres Piezas</h4>
+                            <h4 class="fw-semibold mb-1">Outfit casual con jeans</h4>
                             <p class="fw-bold mb-0"><h4>$650.000</h4></p>
                             <!-- Flecha -->
                             <div class="text-center mt-2">
-                                <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_tres_piezas" class="text-decoration-none text-dark d-flex flex-column h-100">
+                                <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_jeans" class="text-decoration-none text-dark d-flex flex-column h-100">
                                     <button class="btn btn-sm btn-outline-secondary"
                                         data-bs-toggle="collapse"
                                         data-bs-target="#infoSirena">
@@ -209,14 +209,14 @@
             <div class="col-12 col-md-6 producto d-none" data-genero="masculino">
                 <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
                         <div class="ratio ratio-4x3">
-                            <img src="https://i.pinimg.com/1200x/7d/06/a9/7d06a97a0e16ec7baa7c3d168f65e763.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
+                            <img src="./assets/img/eventos/baby_showers/vestuarios/trajes/conjunto_moderno.webp" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
                         </div>
                         <div class="card-body">
-                            <h4 class="fw-semibold mb-1">Smoking</h4>
+                            <h4 class="fw-semibold mb-1">Look semiformal moderno</h4>
                             <p class="fw-bold mb-0"><h4>$650.000</h4></p>
                             <!-- Flecha -->
                             <div class="text-center mt-2">
-                                <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_smoking" class="text-decoration-none text-dark d-flex flex-column h-100">
+                                <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_moderno" class="text-decoration-none text-dark d-flex flex-column h-100">
                                     <button class="btn btn-sm btn-outline-secondary"
                                         data-bs-toggle="collapse"
                                         data-bs-target="#infoSirena">
@@ -229,14 +229,6 @@
                 </div>
             </div>
 
-        </div>
-
-        <!-- BOTÓN ARRIBA A LA DERECHA -->
-        <div class="col-md-4 text-md-end mt-3 mt-md-0">
-            <a href="#"
-               class="btn bg-secondary-subtle text-dark fw-semibold fs-4 px-4 py-2 rounded-4">
-                Baby Showers
-            </a>
         </div>
 
     </div>

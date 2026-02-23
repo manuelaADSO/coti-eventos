@@ -10,7 +10,7 @@
              <!-- GALERÍA -->
              <div class="col-lg-6">
                  <div class="card border-0">
-                     <img id="imagen-principal" src="https://i.pinimg.com/1200x/d2/52/8f/d2528f3882848d8cbcff8fc8de47f381.jpg" class="img-fluid rounded-4 mb-3" alt="Vestido principal">
+                     <img id="imagen-principal" src="./assets/img/eventos/graduacion/vestuarios/vestidos/vestido_straple.webp" class="img-fluid rounded-4 mb-3" alt="Vestido principal">
                  </div>
              </div>
 
@@ -49,26 +49,26 @@
 
              <div class="carousel-item active">
                  <div class="d-flex justify-content-center gap-3">
-                     <img src="https://i.pinimg.com/736x/3d/41/41/3d4141d2f5541f7ec182b87013b71b41.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/graduacion/vestuarios/vestidos/miniaturas/straple/01_straple.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
-                     <img src="https://i.pinimg.com/736x/15/a4/c7/15a4c7b6e60e951982a43dde01ca6045.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/graduacion/vestuarios/vestidos/miniaturas/straple/02_straple.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
-                     <img src="assets/img/galeria/baby-showers/galeria_baby1.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/graduacion/vestuarios/vestidos/miniaturas/straple/03_straple.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
-                     <img src="assets/img/galeria/cumpleaños/galeria_cumple1.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/graduacion/vestuarios/vestidos/miniaturas/straple/04_straple.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
                  </div>
              </div>
 
              <div class="carousel-item">
                  <div class="d-flex justify-content-center gap-3">
-                     <img src="assets/img/galeria/bodas/galeria_boda2.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/graduacion/vestuarios/vestidos/miniaturas/straple/05_straple.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
-                     <img src="assets/img/galeria/bautizos/galeria_bautizos1.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/graduacion/vestuarios/vestidos/miniaturas/straple/06_straple.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
-                     <img src="assets/img/galeria/bautizos/galeria_bautizos2.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/graduacion/vestuarios/vestidos/miniaturas/straple/07_straple.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
-                     <img src="assets/img/galeria/cumpleaños/galeria_cumple2.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/graduacion/vestuarios/vestidos/miniaturas/straple/08_straple.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
                  </div>
              </div>

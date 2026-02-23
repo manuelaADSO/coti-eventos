@@ -9,22 +9,15 @@
              <!-- GALERÍA -->
             <div class="col-lg-6">
                 <div class="card border-0">
-                    <img id="imagen-principal" src="https://i.pinimg.com/1200x/f2/a1/ca/f2a1ca2bac18b0ff4e0e01724e56914b.jpg" class="img-fluid rounded-4 mb-3" alt="Vestido principal">
+                    <img id="imagen-principal" src="./assets/img/eventos/bodas/vestuarios/trajes/tres_piezas.webp" class="img-fluid rounded-4 mb-3" alt="Vestido principal">
                 </div>
             </div>
 
-<<<<<<< HEAD
-<!-- GALERÍA -->
-<div class="col-lg-6">
-<div class="card border-0">
-<img src="./assets/img/bodas/bodas/vestuarios/trajes/tres_piezas.webp" class="img-fluid rounded-4 mb-3" alt="traje principal">
-=======
              <!-- INFORMACIÓN -->
              <div class="col-lg-6">
                  <span class="badge bg-light text-dark px-4 py-2 rounded-pill mb-3 fs-1">
                      Bodas
                  </span>
->>>>>>> 685aa399b8615bc4bf1eafc38c7284378ea7aa98
 
                  <h1 class="display-4 display-md-3 fw-normal lh-1 mt-2">Traje de Tres Piezas</h1>
 
@@ -54,26 +47,26 @@
 
              <div class="carousel-item active">
                  <div class="d-flex justify-content-center gap-3">
-                     <img src="https://i.pinimg.com/1200x/6b/db/71/6bdb71ec274afa7fdc5ea439f3bff1ba.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/bodas/vestuarios/trajes/miniaturas/tres_piezas/01_tres_piezas.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
-                     <img src="https://i.pinimg.com/1200x/ab/b5/15/abb515e153147fd7ded0c1653bc91718.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/bodas/vestuarios/trajes/miniaturas/tres_piezas/02_tres_piezas.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
-                     <img src="assets/img/galeria/baby-showers/galeria_baby1.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/bodas/vestuarios/trajes/miniaturas/tres_piezas/03_tres_piezas.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
-                     <img src="assets/img/galeria/cumpleaños/galeria_cumple1.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/bodas/vestuarios/trajes/miniaturas/tres_piezas/04_tres_piezas.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
                  </div>
              </div>
 
              <div class="carousel-item">
                  <div class="d-flex justify-content-center gap-3">
-                     <img src="assets/img/galeria/bodas/galeria_boda2.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/bodas/vestuarios/trajes/miniaturas/tres_piezas/05_tres_piezas.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
-                     <img src="assets/img/galeria/bautizos/galeria_bautizos1.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/bodas/vestuarios/trajes/miniaturas/tres_piezas/06_tres_piezas.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
-                     <img src="assets/img/galeria/bautizos/galeria_bautizos2.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/bodas/vestuarios/trajes/miniaturas/tres_piezas/07_tres_piezas.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
-                     <img src="assets/img/galeria/cumpleaños/galeria_cumple2.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/bodas/vestuarios/trajes/miniaturas/tres_piezas/08_tres_piezas.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
                  </div>
              </div>
