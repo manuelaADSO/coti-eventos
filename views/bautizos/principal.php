@@ -2,7 +2,7 @@
 <div class="col-md-6 text-md-end mt-3 mt-md-3 px-2">
     <a href="#"
         class="btn bg-secondary-subtle text-dark fw-semibold fs-4 px-4 py-2 rounded-4">
-          Explora ideas y detalles especiales para un bautizo lleno de significado.
+         Un bautizo lleno de amor, fe y momentos inolvidables.
     </a>
 </div>
 

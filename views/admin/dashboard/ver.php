@@ -179,11 +179,8 @@
                     <div class="progress">
                         <div class="progress-bar bg-danger" style="width: 20%"></div>
                     </div>
-
                 </div>
             </div>
         </div>
-
     </div>
-
 </div>

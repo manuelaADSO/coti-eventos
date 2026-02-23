@@ -10,7 +10,7 @@
              <!-- GALERÍA -->
              <div class="col-lg-6">
                  <div class="card border-0">
-                     <img id="imagen-principal" src="https://i.pinimg.com/1200x/82/2f/fc/822ffce9c53161cfbcf6d591f171cee4.jpg" class="img-fluid rounded-4 mb-3" alt="Vestido principal">
+                     <img id="imagen-principal" src="./assets/img/eventos/xv/vestuarios/vestidos/vestido_asimetrico.webp" class="img-fluid rounded-4 mb-3" alt="Vestido principal">
                  </div>
              </div>
 
@@ -31,10 +31,10 @@
 
                  <!-- TALLAS -->
                  <div class="d-flex gap-2 mt-4">
-                     <button class="btn btn-outline-secondary rounded-circle px-3 py-2">0-3 m</button>
-                     <button class="btn btn-outline-secondary rounded-circle px-3 py-2">3-6 m</button>
-                     <button class="btn btn-outline-secondary rounded-circle px-3 py-2">6-9 m</button>
-                     <button class="btn btn-outline-secondary rounded-circle px-3 py-2">9-12 m</button>
+                     <button class="btn btn-outline-secondary rounded-circle px-3 py-2">S</button>
+                     <button class="btn btn-outline-secondary rounded-circle px-3 py-2">M</button>
+                     <button class="btn btn-outline-secondary rounded-circle px-3 py-2">L</button>
+                     <button class="btn btn-outline-secondary rounded-circle px-3 py-2">XL</button>
                  </div>
                  <div class="d-flex justify-content-start">
                      <a href="index.php?module=bodas&view=principal" class="btn btn-dark px-5 py-3 rounded-pill mt-4">
@@ -49,26 +49,26 @@
 
              <div class="carousel-item active">
                  <div class="d-flex justify-content-center gap-3">
-                     <img src="https://i.pinimg.com/1200x/c5/a8/99/c5a899811aabc222532b6c05d55b54f8.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/xv/vestuarios/vestidos/miniaturas/asimetrico/01_asimetrico.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
-                     <img src="https://i.pinimg.com/1200x/46/3f/1b/463f1ba8d779cafea7ca83250cc60ea7.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/xv/vestuarios/vestidos/miniaturas/asimetrico/02_asimetrico.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
-                     <img src="assets/img/galeria/baby-showers/galeria_baby1.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/xv/vestuarios/vestidos/miniaturas/asimetrico/03_asimetrico.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
-                     <img src="assets/img/galeria/cumpleaños/galeria_cumple1.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/xv/vestuarios/vestidos/miniaturas/asimetrico/04_asimetrico.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
                  </div>
              </div>
 
              <div class="carousel-item">
                  <div class="d-flex justify-content-center gap-3">
-                     <img src="assets/img/galeria/bodas/galeria_boda2.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/xv/vestuarios/vestidos/miniaturas/asimetrico/05_asimetrico.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
-                     <img src="assets/img/galeria/bautizos/galeria_bautizos1.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/xv/vestuarios/vestidos/miniaturas/asimetrico/06_asimetrico.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
-                     <img src="assets/img/galeria/bautizos/galeria_bautizos2.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/xv/vestuarios/vestidos/miniaturas/asimetrico/07_asimetrico.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
-                     <img src="assets/img/galeria/cumpleaños/galeria_cumple2.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/xv/vestuarios/vestidos/miniaturas/asimetrico/08_asimetrico.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
                  </div>
              </div>

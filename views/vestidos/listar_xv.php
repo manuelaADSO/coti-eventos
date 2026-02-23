@@ -158,13 +158,13 @@
                         <img src="./assets/img/eventos/xv/vestuarios/trajes/traje_azul.webp" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
                     </div>
                     <div class="card-body">
-                        <h4 class="fw-semibold mb-1">Traje clásico</h4>
+                        <h4 class="fw-semibold mb-1">Traje azul rey con corbatín</h4>
                         <p class="fw-bold mb-0">
                         <h4>$650.000</h4>
                         </p>
                         <!-- Flecha -->
                         <div class="text-center mt-2">
-                            <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_clasico" class="text-decoration-none text-dark d-flex flex-column h-100">
+                            <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_corbatin" class="text-decoration-none text-dark d-flex flex-column h-100">
                                 <button class="btn btn-sm btn-outline-secondary"
                                     data-bs-toggle="collapse"
                                     data-bs-target="#infoSirena">
@@ -179,18 +179,17 @@
 
             <div class="col-12 col-md-6 producto d-none" data-genero="masculino">
                 <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
-                    <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_satinado" class="text-decoration-none text-dark d-flex flex-column h-100">
                         <div class="ratio ratio-4x3">
                             <img src="./assets/img/eventos/xv/vestuarios/trajes/traje_satinado.webp" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
                         </div>
                         <div class="card-body">
-                            <h4 class="fw-semibold mb-1">Traje slim fit</h4>
+                            <h4 class="fw-semibold mb-1">Traje gris oscuro con detalles satinados</h4>
                             <p class="fw-bold mb-0">
                             <h4>$700.000</h4>
                             </p>
                             <!-- Flecha -->
                             <div class="text-center mt-2">
-                                <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_slim_fit" class="text-decoration-none text-dark d-flex flex-column h-100">
+                                <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_satinado" class="text-decoration-none text-dark d-flex flex-column h-100">
                                     <button class="btn btn-sm btn-outline-secondary"
                                         data-bs-toggle="collapse"
                                         data-bs-target="#infoSirena">
@@ -205,18 +204,17 @@
 
             <div class="col-12 col-md-6 producto d-none" data-genero="masculino">
                 <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
-                    <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_marfil" class="text-decoration-none text-dark d-flex flex-column h-100">
                         <div class="ratio ratio-4x3">
                             <img src="./assets/img/eventos/xv/vestuarios/trajes/conjunto_marfil.webp" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
                         </div>
                         <div class="card-body">
-                            <h4 class="fw-semibold mb-1">Traje de Tres Piezas</h4>
+                            <h4 class="fw-semibold mb-1">Conjunto blanco o marfil</h4>
                             <p class="fw-bold mb-0">
                             <h4>$650.000</h4>
                             </p>
                             <!-- Flecha -->
                             <div class="text-center mt-2">
-                                <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_tres_piezas" class="text-decoration-none text-dark d-flex flex-column h-100">
+                                <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_marfil" class="text-decoration-none text-dark d-flex flex-column h-100">
                                     <button class="btn btn-sm btn-outline-secondary"
                                         data-bs-toggle="collapse"
                                         data-bs-target="#infoSirena">
@@ -231,18 +229,17 @@
 
             <div class="col-12 col-md-6 producto d-none" data-genero="masculino">
                 <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
-                    <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_tirantes" class="text-decoration-none text-dark d-flex flex-column h-100">
                         <div class="ratio ratio-4x3">
                             <img src="./assets/img/eventos/xv/vestuarios/trajes/traje_tirantes.webp" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
                         </div>
                         <div class="card-body">
-                            <h4 class="fw-semibold mb-1">Smoking</h4>
+                            <h4 class="fw-semibold mb-1">Estilo moderno con tirantes</h4>
                             <p class="fw-bold mb-0">
                             <h4>$650.000</h4>
                             </p>
                             <!-- Flecha -->
                             <div class="text-center mt-2">
-                                <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_smoking" class="text-decoration-none text-dark d-flex flex-column h-100">
+                                <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_tirantes" class="text-decoration-none text-dark d-flex flex-column h-100">
                                     <button class="btn btn-sm btn-outline-secondary"
                                         data-bs-toggle="collapse"
                                         data-bs-target="#infoSirena">
