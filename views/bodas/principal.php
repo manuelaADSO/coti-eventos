@@ -2,7 +2,7 @@
 <div class="col-md-6 text-md-end mt-3 mt-md-3 px-2">
     <a href="#"
         class="btn bg-secondary-subtle text-dark fw-semibold fs-4 px-4 py-2 rounded-4">
-          Explora ideas y detalles especiales para una boda llena de amor.
+          La boda que siempre soñaron, hecha realidad.
     </a>
 </div>
 

@@ -9,14 +9,14 @@
              <!-- GALERÍA -->
              <div class="col-lg-6">
                  <div class="card border-0">
-                     <img id="imagen-principal" src="https://i.pinimg.com/736x/6d/9c/95/6d9c959d9fe39cb234bc21651de658f4.jpg" class="img-fluid rounded-4 mb-3" alt="Vestido principal">
+                     <img id="imagen-principal" src="./assets/img/eventos/baby_showers/vestuarios/vestidos/vestido_floral.webp" class="img-fluid rounded-4 mb-3" alt="Vestido principal">
                  </div>
              </div>
 
              <!-- INFORMACIÓN -->
              <div class="col-lg-6">
                  <span class="badge bg-light text-dark px-4 py-2 rounded-pill mb-3 fs-1 ">
-                     baby shawers
+                     baby showers
                  </span>
 
                  <h1 class="display-4 display-md-3 fw-normal lh-1 mt-2">Vestido Estampado o Floral</h1>
@@ -47,26 +47,26 @@
 
              <div class="carousel-item active">
                  <div class="d-flex justify-content-center gap-3">
-                     <img src="https://i.pinimg.com/1200x/3d/2b/75/3d2b751c5e0b76199d6384d16e72b372.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/baby_showers/vestuarios/vestidos/miniaturas/floral/01_floral.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
-                     <img src="https://i.pinimg.com/736x/29/19/8d/29198df1f5158b5ac5c804dd8b48cfe2.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/baby_showers/vestuarios/vestidos/miniaturas/floral/02_floral.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
-                     <img src="assets/img/galeria/baby-showers/galeria_baby1.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/baby_showers/vestuarios/vestidos/miniaturas/floral/03_floral.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
-                     <img src="assets/img/galeria/cumpleaños/galeria_cumple1.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/baby_showers/vestuarios/vestidos/miniaturas/floral/04_floral.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
                  </div>
              </div>
 
              <div class="carousel-item">
                  <div class="d-flex justify-content-center gap-3">
-                     <img src="assets/img/galeria/bodas/galeria_boda2.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/baby_showers/vestuarios/vestidos/miniaturas/floral/05_floral.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
-                     <img src="assets/img/galeria/bautizos/galeria_bautizos1.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/baby_showers/vestuarios/vestidos/miniaturas/floral/06_floral.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
-                     <img src="assets/img/galeria/bautizos/galeria_bautizos2.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/baby_showers/vestuarios/vestidos/miniaturas/floral/07_floral.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
-                     <img src="assets/img/galeria/cumpleaños/galeria_cumple2.jpg" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
+                     <img src="./assets/img/eventos/baby_showers/vestuarios/vestidos/miniaturas/floral/08_floral.webp" class="rounded-4" style="width:300px; height:420px; object-fit:cover; cursor:pointer;"
                          onclick="cambiarImagen(this)">
                  </div>
              </div>

@@ -47,7 +47,7 @@
             <div class="col-12 col-md-6 producto" data-genero="femenino">
                 <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
                         <div class="ratio ratio-4x3">
-                            <img src="https://i.pinimg.com/1200x/7c/aa/6d/7caa6df655b4e37f08a07ee325e1df8b.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
+                            <img src="./assets/img/eventos/graduacion/vestuarios/vestidos/vestido_largo.webp" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
                         </div>
                         <div class="card-body">
                             <h4 class="fw-semibold mb-1">Vestido Largo Elegante</h4>
@@ -70,7 +70,7 @@
             <div class="col-12 col-md-6 producto" data-genero="femenino">
                 <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
                         <div class="ratio ratio-4x3">
-                            <img src="https://i.pinimg.com/736x/06/fd/b0/06fdb074bb41711d1a44965b47d8cda6.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
+                            <img src="./assets/img/eventos/graduacion/vestuarios/vestidos/vestido_corto.webp" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
                         </div>
                         <div class="card-body">
                             <h4 class="fw-semibold mb-1">Vestido Corto o Coctel</h4>
@@ -93,7 +93,7 @@
             <div class="col-12 col-md-6 producto" data-genero="femenino">
                 <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
                         <div class="ratio ratio-4x3">
-                            <img src="https://i.pinimg.com/1200x/d2/52/8f/d2528f3882848d8cbcff8fc8de47f381.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
+                            <img src="./assets/img/eventos/graduacion/vestuarios/vestidos/vestido_straple.webp" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
                         </div>
                         <div class="card-body">
                             <h4 class="fw-semibold mb-1">Vestido Strapless o Sin Hombros</h4>
@@ -116,14 +116,14 @@
             <div class="col-12 col-md-6 producto" data-genero="femenino">
                 <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
                         <div class="ratio ratio-4x3">
-                            <img src="https://i.pinimg.com/736x/d2/c5/f9/d2c5f9b7bb5b8abc736f5fd229d4db44.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
+                            <img src="./assets/img/eventos/graduacion/vestuarios/vestidos/vestido_manga.webp" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
                         </div>
                         <div class="card-body">
                             <h4 class="fw-semibold mb-1">Vestido de Una Sola Manga</h4>
                             <p class="fw-bold mb-0"><h4>$500.000</h4></p>
                             <!-- Flecha -->
                             <div class="text-center mt-2">
-                                <a href="<?= BASE_URL ?>module=vestidos&view=detalle_tul" class="text-decoration-none text-dark d-flex flex-column h-100">
+                                <a href="<?= BASE_URL ?>module=vestidos&view=detalle_una_manga" class="text-decoration-none text-dark d-flex flex-column h-100">
                                     <button class="btn btn-sm btn-outline-secondary"
                                         data-bs-toggle="collapse"
                                         data-bs-target="#infoSirena">
@@ -140,14 +140,14 @@
             <div class="col-12 col-md-6 producto d-none" data-genero="masculino">
                 <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
                         <div class="ratio ratio-4x3">
-                            <img src="https://i.pinimg.com/736x/ef/b2/5e/efb25e0e8909c5004163439ea4144dc9.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
+                            <img src="./assets/img/eventos/graduacion/vestuarios/trajes/traje_azul.webp" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
                         </div>
                         <div class="card-body">
-                            <h4 class="fw-semibold mb-1">Traje clásico</h4>
+                            <h4 class="fw-semibold mb-1">Traje azul oscuro moderno</h4>
                             <p class="fw-bold mb-0"><h4>$650.000</h4></p>
                             <!-- Flecha -->
                             <div class="text-center mt-2">
-                                <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_clasico" class="text-decoration-none text-dark d-flex flex-column h-100">
+                                <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_azul_moderno" class="text-decoration-none text-dark d-flex flex-column h-100">
                                     <button class="btn btn-sm btn-outline-secondary"
                                         data-bs-toggle="collapse"
                                         data-bs-target="#infoSirena">
@@ -163,14 +163,14 @@
             <div class="col-12 col-md-6 producto d-none" data-genero="masculino">
                 <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
                         <div class="ratio ratio-4x3">
-                            <img src="https://i.pinimg.com/736x/4f/2b/cd/4f2bcd52ad2c2b56953a4a053182167c.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
+                            <img src="./assets/img/eventos/graduacion/vestuarios/trajes/traje_gris.webp" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
                         </div>
                         <div class="card-body">
-                            <h4 class="fw-semibold mb-1">Traje slim fit</h4>
+                            <h4 class="fw-semibold mb-1">Traje gris elegante</h4>
                             <p class="fw-bold mb-0"><h4>$700.000</h4></p>
                             <!-- Flecha -->
                             <div class="text-center mt-2">
-                                <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_slim_fit" class="text-decoration-none text-dark d-flex flex-column h-100">
+                                <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_gris_elegante" class="text-decoration-none text-dark d-flex flex-column h-100">
                                     <button class="btn btn-sm btn-outline-secondary"
                                         data-bs-toggle="collapse"
                                         data-bs-target="#infoSirena">
@@ -186,14 +186,14 @@
             <div class="col-12 col-md-6 producto d-none" data-genero="masculino">
                 <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
                         <div class="ratio ratio-4x3">
-                            <img src="https://i.pinimg.com/1200x/f2/a1/ca/f2a1ca2bac18b0ff4e0e01724e56914b.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
+                            <img src="./assets/img/eventos/graduacion/vestuarios/trajes/traje_negro.webp" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
                         </div>
                         <div class="card-body">
-                            <h4 class="fw-semibold mb-1">Traje de Tres Piezas</h4>
+                            <h4 class="fw-semibold mb-1">Traje clásico negro</h4>
                             <p class="fw-bold mb-0"><h4>$650.000</h4></p>
                             <!-- Flecha -->
                             <div class="text-center mt-2">
-                                <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_tres_piezas" class="text-decoration-none text-dark d-flex flex-column h-100">
+                                <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_negro_clasico" class="text-decoration-none text-dark d-flex flex-column h-100">
                                     <button class="btn btn-sm btn-outline-secondary"
                                         data-bs-toggle="collapse"
                                         data-bs-target="#infoSirena">
@@ -209,14 +209,14 @@
             <div class="col-12 col-md-6 producto d-none" data-genero="masculino">
                 <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
                         <div class="ratio ratio-4x3">
-                            <img src="https://i.pinimg.com/1200x/7d/06/a9/7d06a97a0e16ec7baa7c3d168f65e763.jpg" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
+                            <img src="./assets/img/eventos/graduacion/vestuarios/trajes/traje_semiformal.webp" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%;">
                         </div>
                         <div class="card-body">
-                            <h4 class="fw-semibold mb-1">Smoking</h4>
+                            <h4 class="fw-semibold mb-1">Estilo semiformal con blazer</h4>
                             <p class="fw-bold mb-0"><h4>$650.000</h4></p>
                             <!-- Flecha -->
                             <div class="text-center mt-2">
-                               <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_smoking" class="text-decoration-none text-dark d-flex flex-column h-100">
+                               <a href="<?= BASE_URL ?>module=vestidos&view=trajes/detalle_blazer_semiformal" class="text-decoration-none text-dark d-flex flex-column h-100">
                                     <button class="btn btn-sm btn-outline-secondary"
                                         data-bs-toggle="collapse"
                                         data-bs-target="#infoSirena">
